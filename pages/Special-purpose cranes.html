@@ -4,31 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SZMC</title>
+    <script src="../skript/language.js"></script>
 </head>
 <link rel="stylesheet" type="text/css" href="../css/style.css">
 <body>
     <header class="site-header">
         <div class="container header-container">
-
             <div class="logo-block">
                 <a class="logo-link">
                     <img src="../img/logo.png" alt="SZMC — Shandong Shenzhou Machinery" class="logo-img">
                 </a>
-
-                <span class="logo-title">SHANDONG SHENZHOU MACHINERY CO., LTD</span>
-
+                <span class="logo-title" data-i18n="title_company">Шаньдун Шэньчжоу Машинери</span>
                 <hr class="title-divider">
-
                 <div class="logo-sub">
-                    <span class="word">РАЗРАБОТКА</span>
+                    <span class="word" data-i18n="sub_develop">РАЗРАБОТКА</span>
                     <span class="dot"></span>
-                    <span class="word">ПРОЕКТИРОВАНИЕ</span>
+                    <span class="word" data-i18n="sub_design">ПРОЕКТИРОВАНИЕ</span>
                     <span class="dot"></span>
-                    <span class="word">ИЗГОТОВЛЕНИЕ</span>
+                    <span class="word" data-i18n="sub_manufacture">ИЗГОТОВЛЕНИЕ</span>
                     <span class="dot"></span>
-                    <span class="word">МОНТАЖ</span>
+                    <span class="word" data-i18n="sub_install">МОНТАЖ</span>
                     <span class="dot"></span>
-                    <span class="word">ОБСЛУЖИВАНИЕ</span>
+                    <span class="word" data-i18n="sub_service">ОБСЛУЖИВАНИЕ</span>
                 </div>
             </div>
         </div>
@@ -37,41 +34,59 @@
     <nav class="main-navigation">
         <div class="container nav-container">
             <ul class="nav-menu">
-                <li><a href="../index.html">Компания</a></li>                               
-                <li><a href="Production_equipment.html">Производственное и обрабатывающее оборудование</a></li>
-                <li><a href="Bridge_crane.html">Мостовые краны</a></li>
-                <li><a href="Gantry_crane.html">Козловые краны</a></li>
-                <li><a href="Special-purpose cranes.html">Краны специального назначения</a></li>
-                <li><a href="Load_lifting.html">Грузоподъемное оборудование</a></li>
+                <li><a href="../index.html" data-i18n="menu_company">Компания</a></li>                               
+                <li><a href="Production_equipment.html" data-i18n="menu_production">Производственное и обрабатывающее оборудование</a></li>
+                <li><a href="Bridge_crane.html" data-i18n="menu_bridge">Мостовые краны</a></li>
+                <li><a href="Gantry_crane.html" data-i18n="menu_gantry">Козловые краны</a></li>
+                <li><a href="Special-purpose cranes.html" data-i18n="menu_special">Краны специального назначения</a></li>
+                <li><a href="Load_lifting.html" data-i18n="menu_lifting">Грузоподъемное оборудование</a></li>
             </ul>
         </div>
     </nav>
-     <main class="main-content container">
+    <div class="lang-panel-center" id="langPanelCenter">
+        <div class="lang-panel-inner">
+            <button class="lang-btn-center active" data-lang="ru">
+                <span class="lang-code">RU</span>
+                <span class="status-dot"></span>
+            </button>
+            <span class="lang-divider-center"></span>
+            <button class="lang-btn-center" data-lang="en">
+                <span class="lang-code">EN</span>
+                <span class="status-dot"></span>
+            </button>
+            <span class="lang-divider-center"></span>
+            <button class="lang-btn-center" data-lang="zh">
+                <span class="lang-code">CN</span>
+                <span class="status-dot"></span>
+            </button>
+        </div>
+    </div>
+    <main class="main-content container">
         <div class="page-layout">
             <article class="text-article">
-                    <h1 class="section-title">Краны специального назначения</h1>
-            <div class="product-grid-4">
+                <h1 class="section-title" data-i18n="special_title">Краны специального назначения</h1>
+                <div class="product-grid-4">
                     <div class="product-card">
                         <img src="../img/spec.jpg" alt="Металлургический кран">
-                        <h3>Металлургический кран</h3>
+                        <h3 data-i18n="special_card1">Металлургический кран</h3>
                     </div>
                     <div class="product-card">
                         <img src="../img/spec4.jpg" alt="Портальный кран">
-                        <h3>Портальный кран</h3>
+                        <h3 data-i18n="special_card2">Портальный кран</h3>
                     </div>
                     <div class="product-card">
                         <img src="../img/spec5.jpg" alt="Контейнерный козловой кран">
-                        <h3>Контейнерный козловой кран</h3>
+                        <h3 data-i18n="special_card3">Контейнерный козловой кран</h3>
                     </div>  
                 </div>               
             </article>
         </div>
     </main>
-<footer class="site-footer">
-    <div class="container">
-        <p><h1>质量第一、诚信为本</h1></p>
-        <p><h1>Качество — прежде всего, честность — основа.</h1></p>
-    </div>
-</footer>
+    <div style="height: 153px;"></div>
+    <footer class="site-footer">
+        <div class="container">
+            <p><h1 data-i18n="footer_russian">Качество — прежде всего, честность — основа.</h1></p>
+        </div>
+    </footer>
 </body>
 </html>
