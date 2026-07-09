@@ -547,7 +547,7 @@
        ========================================================================== */
     .site-footer {
         background-color: #004b84;
-        padding: 50px 0;
+        padding: 10px 0 150px 10;
         border-top: 1px solid var(--border-color);
         font-size: 10px;
         color: white;
@@ -574,152 +574,85 @@
     /* ==========================================================================
        АДАПТИВНОСТЬ
        ========================================================================== */
-    @media (max-width: 1200px) {
-        .nav-menu {
-            flex-wrap: wrap;
-        }
-        .nav-menu li a {
-            padding: 14px 16px;
-            font-size: 13px;
-        }
+@media (max-width: 768px) {
+    .logo-title {
+        font-size: 20px;
+        letter-spacing: 1px;
     }
-
-    @media (max-width: 992px) {
-        .page-layout {
-            flex-direction: column;
-        }
-        .sidebar-catalog {
-            width: 100%;
-            flex: 1 1 auto;
-        }
-        .logo-title {
-            font-size: 24px;
-        }
-        .logo-sub {
-            font-size: 12px;
-            gap: 8px;
-        }
-        .logo-sub .dot {
-            width: 5px;
-            height: 5px;
-        }
-        .title-divider {
-            width: 50%;
-        }
-        .company-images {
-            grid-template-columns: repeat(2, 1fr);
-            gap: 18px;
-        }
-        .company-images .img-card img {
-            height: 220px;
-        }
+    .logo-img {
+        height: 50px;
     }
-
-    @media (max-width: 768px) {
-        .logo-title {
-            font-size: 20px;
-            letter-spacing: 1px;
-        }
-        .logo-img {
-            height: 50px;
-        }
-        .logo-sub {
-            font-size: 11px;
-            gap: 6px;
-            letter-spacing: 0.5px;
-        }
-        .logo-sub .dot {
-            width: 4px;
-            height: 4px;
-        }
-        .title-divider {
-            width: 40%;
-        }
-        .nav-menu {
-            flex-direction: column;
-            width: 100%;
-        }
-        .nav-menu li a {
-            text-align: center;
-            padding: 12px 16px;
-            border-bottom: 1px solid var(--dark-blue);
-        }
-        .nav-menu li a::after {
-            display: none;
-        }
-        .page-title {
-            font-size: 26px;
-        }
-        .company-images {
-            grid-template-columns: 1fr;
-            gap: 18px;
-        }
-        .company-images .img-card img {
-            height: 200px;
-        }
+    .logo-sub {
+        font-size: 11px;
+        gap: 6px;
+        letter-spacing: 0.5px;
     }
-
-    @media (max-width: 480px) {
-        .logo-title {
-            font-size: 16px;
-            letter-spacing: 0.5px;
-        }
-        .logo-img {
-            height: 40px;
-        }
-        .logo-sub {
-            font-size: 9px;
-            gap: 4px;
-        }
-        .logo-sub .dot {
-            width: 3px;
-            height: 3px;
-        }
-        .title-divider {
-            width: 30%;
-            height: 2px;
-        }
-        .company-images .img-card img {
-            height: 170px;
-        }
+    .logo-sub .dot {
+        width: 4px;
+        height: 4px;
     }
-    .double-image {
-    display: flex;
-    flex-direction: column; 
-    gap: 8px;
-    margin-bottom: 10px;
+    .title-divider {
+        width: 40%;
     }
-
-    .double-image img {
-    width: 100%; 
-    height: 180px;
-    object-fit: cover;
-    border-radius: 6px;
-    transition: transform 0.3s ease;
+    
+    /* ===== ИСПРАВЛЕННОЕ МЕНЮ ===== */
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0;
     }
-
-    .double-image img:hover {
-    transform: scale(1.05);
+    
+    .nav-menu li {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     }
-    @media (max-width: 768px) {
-    .product-grid-2 {
+    
+    .nav-menu li:last-child {
+        border-bottom: none;
+    }
+    
+    .nav-menu li a {
+        text-align: center;
+        padding: 14px 20px;
+        width: 100%;
+        white-space: normal;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        border-left: 3px solid transparent;
+    }
+    
+    .nav-menu li a::after {
+        display: none;
+    }
+    
+    .nav-menu li.active a {
+        background-color: var(--dark-blue);
+        border-left-color: #ffffff;
+    }
+    
+    .nav-menu li a:hover {
+        background-color: var(--dark-blue);
+    }
+    
+    .nav-container {
+        padding: 0;
+        width: 100%;
+    }
+    /* ===== КОНЕЦ ИСПРАВЛЕННОГО МЕНЮ ===== */
+    
+    .page-title {
+        font-size: 26px;
+    }
+    .company-images {
         grid-template-columns: 1fr;
-        justify-items: center;
+        gap: 18px;
+    }
+    .company-images .img-card img {
+        height: 200px;
     }
 
-    .product-grid-2 .product-card,
-    .product-grid-center .product-card {
-        max-width: 100%;
-    }
-
-    .product-grid-2 .double-image img {
-        height: 130px;
-    }
-
-    .product-grid-2 .product-card img,
-    .product-grid-center .product-card img {
-        height: 170px;
-    }
 }
 /* ===== СЕТКА ДЛЯ 2 КАРТОЧЕК (ВЕРХНЯЯ СТРОКА) ===== */
 .product-grid-2 {
