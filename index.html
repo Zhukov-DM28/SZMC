@@ -4,54 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SZMC</title>
+    <script src="skript/language.js"></script>
 </head>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <body>
-    <header class="site-header">
-        <div class="container header-container">
-
-            <div class="logo-block">
-                <a class="logo-link">
-                    <img src="img/logo.png" alt="SZMC — Shandong Shenzhou Machinery" class="logo-img">
-                </a>
-
-                <span class="logo-title">SHANDONG SHENZHOU MACHINERY CO., LTD</span>
-
-                <hr class="title-divider">
-
-                <div class="logo-sub">
-                    <span class="word">РАЗРАБОТКА</span>
-                    <span class="dot"></span>
-                    <span class="word">ПРОЕКТИРОВАНИЕ</span>
-                    <span class="dot"></span>
-                    <span class="word">ИЗГОТОВЛЕНИЕ</span>
-                    <span class="dot"></span>
-                    <span class="word">МОНТАЖ</span>
-                    <span class="dot"></span>
-                    <span class="word">ОБСЛУЖИВАНИЕ</span>
+    <div class="site-header-wrapper" id="headerWrapper">
+        <header class="site-header">
+            <div class="container header-container">
+                <div class="logo-block">
+                    <a class="logo-link">
+                        <img src="img/logo.png" alt="SZMC — Shandong Shenzhou Machinery" class="logo-img">
+                    </a>
+                    <span class="logo-title" data-i18n="title_company">Шаньдун Шэньчжоу Машинери</span>
+                    <hr class="title-divider">
+                    <div class="logo-sub">
+                        <span class="word" data-i18n="sub_develop">РАЗРАБОТКА</span>
+                        <span class="dot"></span>
+                        <span class="word" data-i18n="sub_design">ПРОЕКТИРОВАНИЕ</span>
+                        <span class="dot"></span>
+                        <span class="word" data-i18n="sub_manufacture">ИЗГОТОВЛЕНИЕ</span>
+                        <span class="dot"></span>
+                        <span class="word" data-i18n="sub_install">МОНТАЖ</span>
+                        <span class="dot"></span>
+                        <span class="word" data-i18n="sub_service">ОБСЛУЖИВАНИЕ</span>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <nav class="main-navigation">
-        <div class="container nav-container">
-            <ul class="nav-menu">
-                <li><a href="index.html">Компания</a></li>                
-                <li><a href="pages/Production_equipment.html">Производственное и обрабатывающее оборудование</a></li>
-                <li><a href="pages/Bridge_crane.html">Мостовые краны</a></li>
-                <li><a href="pages/Gantry_crane.html">Козловые краны</a></li>
-                <li><a href="pages/Special-purpose cranes.html">Краны специального назначения</a></li>
-                <li><a href="pages/Load_lifting.html">Грузоподъемное оборудование</a></li>
-            </ul>
-        </div>
-    </nav>
-
+        <nav class="main-navigation">
+            <div class="container nav-container">
+                <ul class="nav-menu">
+                    <li><a href="index.html" data-i18n="menu_company">Компания</a></li>
+                    <li><a href="pages/Production_equipment.html" data-i18n="menu_production">Производственное и обрабатывающее оборудование</a></li>
+                    <li><a href="pages/Bridge_crane.html" data-i18n="menu_bridge">Мостовые краны</a></li>
+                    <li><a href="pages/Gantry_crane.html" data-i18n="menu_gantry">Козловые краны</a></li>
+                    <li><a href="pages/Special-purpose cranes.html" data-i18n="menu_special">Краны специального назначения</a></li>
+                    <li><a href="pages/Load_lifting.html" data-i18n="menu_lifting">Грузоподъемное оборудование</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+<div class="lang-panel-center" id="langPanelCenter">
+    <div class="lang-panel-inner">
+        <button class="lang-btn-center active" data-lang="ru">
+            <span class="lang-code">RU</span>
+            <span class="status-dot"></span>
+        </button>
+        <span class="lang-divider-center"></span>
+        <button class="lang-btn-center" data-lang="en">
+            <span class="lang-code">EN</span>
+            <span class="status-dot"></span>
+        </button>
+        <span class="lang-divider-center"></span>
+        <button class="lang-btn-center" data-lang="zh">
+            <span class="lang-code">CN</span>
+            <span class="status-dot"></span>
+        </button>
+    </div>
+</div>
     <main class="main-content container">
         <div class="page-layout">
             <article class="text-article">
-                <h1 class="section-title">О компании</h1>
-                <p class="lead-text">
+                <h1 class="section-title" data-i18n="about_title">О компании</h1>
+                <p class="lead-text" data-i18n="about_text">
                     <strong>ООО «Шаньдун Шэньчжоу Машинери»</strong>, основанное в <strong>1989 году</strong>, является современным профессиональным производителем и поставщиком <strong>кранового оборудования</strong>. Компания объединяет в себе <strong>научные исследования, проектирование, изготовление, монтаж и сервисное обслуживание</strong>, предоставляя клиентам <strong>индивидуальные решения</strong> по крановому оборудованию благодаря постоянному стремлению к совершенству качества продукции. Мы также предлагаем профессиональные схемы управления, снимая с клиентов все последующие заботы.
                     Ассортимент продукции компании включает: <strong>легкие энергосберегающие краны</strong>, <strong>однобалочные и двухбалочные мостовые краны</strong>, <strong>козловые краны</strong>, <strong>судостроительные краны</strong>, <strong>электрические тали</strong>, а также краны <strong>изолированные</strong>, <strong>электромагнитные</strong>, <strong>с частотным регулированием</strong>, <strong>с дистанционным управлением</strong>, <strong>поворотные (консольные) краны</strong>, <strong>взрывозащищенное</strong>, <strong>металлургическое</strong>, <strong>чистовое (беспыльное)</strong> крановое оборудование и различные виды <strong>специальных кранов</strong>.
                     Компания имеет сертификаты <strong>EAC</strong>, <strong>CE</strong>, <strong>ATEX</strong>, <strong>WIKI</strong>, а также <strong>лицензию класса «А»</strong> на производство специального кранового оборудования, выданную Государственным управлением по регулированию рынка КНР. Предприятие сертифицировано по системе менеджмента качества <strong>ISO 9001</strong> и обладает собственной интеллектуальной и промышленной собственностью.
@@ -66,62 +82,60 @@
                     </div>
                 </div>
 
-                <h2 class="section-title">Каталог поставляемых систем</h2>
+                <h2 class="section-title" data-i18n="catalog_title">Каталог поставляемых систем</h2>
 
                 <div class="product-grid">
                     <div class="product-card">
-                        <h3>Грузоподъемные компоненты</h3>
-                        <p>Электрические тали-тележки, лебедочные тележки, ручные и электрические козловые порталы для локальных рабочих зон.</p>
+                        <h3 data-i18n="card1_title">Грузоподъемные компоненты</h3>
+                        <p data-i18n="card1_text">Электрические тали-тележки, лебедочные тележки, ручные и электрические козловые порталы для локальных рабочих зон.</p>
                     </div>
                     <div class="product-card">
-                        <h3>Мостовые краны (Кран-балки)</h3>
-                        <p>Конструкции общего назначения и двухбалочные краны повышенной надежности для непрерывных циклов эксплуатации.</p>
+                        <h3 data-i18n="card2_title">Мостовые краны (Кран-балки)</h3>
+                        <p data-i18n="card2_text">Конструкции общего назначения и двухбалочные краны повышенной надежности для непрерывных циклов эксплуатации.</p>
                     </div>
                     <div class="product-card">
-                        <h3>Козловые и полукозловые краны</h3>
-                        <p>Краны с электрическими талями, двухбалочные козловые краны для открытых складских площадок и контейнерных терминалов.</p>
+                        <h3 data-i18n="card3_title">Козловые и полукозловые краны</h3>
+                        <p data-i18n="card3_text">Краны с электрическими талями, двухбалочные козловые краны для открытых складских площадок и контейнерных терминалов.</p>
                     </div>
                     <div class="product-card">
-                        <h3>Краны специального назначения</h3>
-                        <p>Металлургические краны для работы в условиях экстремальных температур, а также мощные портовые и портальные крановые системы.</p>
+                        <h3 data-i18n="card4_title">Краны специального назначения</h3>
+                        <p data-i18n="card4_text">Металлургические краны для работы в условиях экстремальных температур, а также мощные портовые и портальные крановые системы.</p>
                     </div>
                 </div>
 
-               <article class="text-article">
-            <h1 class="section-title">Сертификаты</h1>
-            <div class="product-grid-4">
-                <div class="product-card">
-                    <a href="img/certificate.png" target="_blank">
-                        <img src="img/certificate.png" alt="Сертификат">
-                    </a>
-                </div>
-                <div class="product-card">
-                    <a href="img/certificate2.png" target="_blank">
-                        <img src="img/certificate2.png" alt="Сертификат">
-                    </a>
-                </div>
-                <div class="product-card">
-                    <a href="img/certificate3.png" target="_blank">
-                        <img src="img/certificate3.png" alt="Сертификат">
-                    </a>
-                </div>
-                <div class="product-card">
-                    <a href="img/certificate4.png" target="_blank">
-                        <img src="img/certificate4.png" alt="Сертификат">
-                    </a>
-                </div>
-            </div>
-        </article>
-
+                <article class="text-article">
+                    <h1 class="section-title" data-i18n="certificates_title">Сертификаты</h1>
+                    <div class="product-grid-4">
+                        <div class="product-card">
+                            <a href="img/certificate.png" target="_blank">
+                                <img src="img/certificate.png" alt="Сертификат">
+                            </a>
+                        </div>
+                        <div class="product-card">
+                            <a href="img/certificate2.png" target="_blank">
+                                <img src="img/certificate2.png" alt="Сертификат">
+                            </a>
+                        </div>
+                        <div class="product-card">
+                            <a href="img/certificate3.png" target="_blank">
+                                <img src="img/certificate3.png" alt="Сертификат">
+                            </a>
+                        </div>
+                        <div class="product-card">
+                            <a href="img/certificate4.png" target="_blank">
+                                <img src="img/certificate4.png" alt="Сертификат">
+                            </a>
+                        </div>
+                    </div>
+                </article>
             </article>
         </div>
     </main>
 
     <footer class="site-footer">
-    <div class="container">
-        <p><h1>质量第一、诚信为本</h1></p>
-        <p><h1>Качество — прежде всего, честность — основа.</h1></p>
-    </div>
+        <div class="container">
+            <p><h1 data-i18n="footer_russian">Качество — прежде всего, честность — основа.</h1></p>
+        </div>
     </footer>
 </body>
 </html>
