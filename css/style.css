@@ -549,12 +549,11 @@
         background-color: #004b84;
         padding: 10px 0 150px 10;
         border-top: 1px solid var(--border-color);
-        font-size: 10px;
+        font-size: 8px;
         color: white;
         text-align: center;
     }
   
-
     .footer-copy:hover {
     color: #cbd5e1;
     }
@@ -1127,5 +1126,214 @@ h1, h2, h3, h4, h5, h6,
         word-break: break-all;
         padding: 10px 6px;
         line-height: 1.2;
+    }
+}
+
+/* ==========================================================================
+   ПАНЕЛЬ ПЕРЕВОДА — ПОД МЕНЮ ПО ЦЕНТРУ (БЕЛАЯ)
+   ========================================================================== */
+
+.lang-panel-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0 10px 0;
+    background: #ffffff; /* Белый фон */
+    width: 100%;
+    border-top: 1px solid #e8e8e8; /* Светло-серая граница */
+}
+
+/* Внутренний контейнер с кнопками */
+.lang-panel-inner {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: #f5f7fa; /* Светло-серый фон для кнопок */
+    padding: 4px 8px;
+    border-radius: 12px;
+    border: 1px solid #e8e8e8;
+}
+
+/* Каждая кнопка */
+.lang-btn-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border: none;
+    background: transparent;
+    color: #999;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    font-family: inherit;
+    letter-spacing: 0.5px;
+    min-width: 56px;
+}
+
+/* Код языка */
+.lang-btn-center .lang-code {
+    font-size: 13px;
+    font-weight: 700;
+    color: #999;
+    transition: all 0.3s ease;
+}
+
+/* Точка-индикатор */
+.lang-btn-center .status-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+    transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    background: #ddd;
+}
+
+/* ===== СОСТОЯНИЯ (БЕЛАЯ ТЕМА) ===== */
+
+/* Активная кнопка — синяя с белым текстом */
+.lang-btn-center.active {
+    background: #005fa9;
+    color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 95, 169, 0.3);
+    transform: scale(1.05);
+}
+
+.lang-btn-center.active .lang-code {
+    color: #ffffff;
+}
+
+.lang-btn-center.active .status-dot {
+    background: #00c853;
+    box-shadow: 0 0 12px rgba(0, 200, 83, 0.5);
+    animation: pulse-dot-center 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse-dot-center {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+}
+
+/* Неактивная кнопка */
+.lang-btn-center:not(.active) {
+    background: transparent;
+    color: #999;
+}
+
+.lang-btn-center:not(.active):hover {
+    background: #e8ecf1;
+    color: #005fa9;
+    transform: scale(1.05);
+}
+
+.lang-btn-center:not(.active):hover .lang-code {
+    color: #005fa9;
+}
+
+.lang-btn-center:not(.active):hover .status-dot {
+    background: #ff1744;
+    box-shadow: 0 0 12px rgba(255, 23, 68, 0.3);
+}
+
+/* Состояние загрузки */
+.lang-btn-center.pending {
+    background: #fff8e1;
+    color: #856404;
+    cursor: wait;
+    animation: pulse-pending-center 1.2s ease-in-out infinite;
+}
+
+@keyframes pulse-pending-center {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.6; transform: scale(0.96); }
+}
+
+.lang-btn-center.pending .status-dot {
+    background: #ffc107;
+    box-shadow: 0 0 16px rgba(255, 193, 7, 0.6);
+    animation: pulse-dot-pending-center 0.8s ease-in-out infinite;
+}
+
+@keyframes pulse-dot-pending-center {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.6); }
+}
+
+/* Разделитель между кнопками */
+.lang-divider-center {
+    width: 1px;
+    height: 20px;
+    background: #e0e0e0;
+    flex-shrink: 0;
+}
+
+/* ===== АДАПТИВНОСТЬ ===== */
+
+@media (max-width: 768px) {
+    .lang-panel-center {
+        padding: 6px 0 8px 0;
+    }
+    
+    .lang-panel-inner {
+        padding: 3px 6px;
+        border-radius: 10px;
+        gap: 2px;
+    }
+    
+    .lang-btn-center {
+        padding: 4px 10px;
+        font-size: 11px;
+        min-width: 44px;
+        border-radius: 6px;
+    }
+    
+    .lang-btn-center .lang-code {
+        font-size: 11px;
+    }
+    
+    .lang-btn-center .status-dot {
+        width: 5px;
+        height: 5px;
+    }
+    
+    .lang-divider-center {
+        height: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .lang-panel-center {
+        padding: 4px 0 6px 0;
+    }
+    
+    .lang-panel-inner {
+        padding: 2px 4px;
+        border-radius: 8px;
+        gap: 1px;
+    }
+    
+    .lang-btn-center {
+        padding: 3px 8px;
+        font-size: 9px;
+        min-width: 36px;
+        border-radius: 5px;
+        gap: 4px;
+    }
+    
+    .lang-btn-center .lang-code {
+        font-size: 9px;
+    }
+    
+    .lang-btn-center .status-dot {
+        width: 4px;
+        height: 4px;
+    }
+    
+    .lang-divider-center {
+        height: 12px;
     }
 }
