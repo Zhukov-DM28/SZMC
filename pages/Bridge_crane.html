@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SZMC</title>
     <script src="../skript/language.js"></script>
+    <script src="../skript/bridge_crane_inf.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css?v=1">
 </head>
-<link rel="stylesheet" type="text/css" href="../css/style.css">
 <body>
     <header class="site-header">
         <div class="container header-container">
@@ -43,54 +44,67 @@
             </ul>
         </div>
     </nav>
+
     <div class="lang-panel-center" id="langPanelCenter">
-    <div class="lang-panel-inner">
-        <button class="lang-btn-center active" data-lang="ru">
-            <span class="lang-code">RU</span>
-            <span class="status-dot"></span>
-        </button>
-        <span class="lang-divider-center"></span>
-        <button class="lang-btn-center" data-lang="en">
-            <span class="lang-code">EN</span>
-            <span class="status-dot"></span>
-        </button>
-        <span class="lang-divider-center"></span>
-        <button class="lang-btn-center" data-lang="zh">
-            <span class="lang-code">CN</span>
-            <span class="status-dot"></span>
-        </button>
+        <div class="lang-panel-inner">
+            <button class="lang-btn-center active" data-lang="ru">
+                <span class="lang-code">RU</span>
+                <span class="status-dot"></span>
+            </button>
+            <span class="lang-divider-center"></span>
+            <button class="lang-btn-center" data-lang="en">
+                <span class="lang-code">EN</span>
+                <span class="status-dot"></span>
+            </button>
+            <span class="lang-divider-center"></span>
+            <button class="lang-btn-center" data-lang="zh">
+                <span class="lang-code">CN</span>
+                <span class="status-dot"></span>
+            </button>
+        </div>
     </div>
-    </div>
+
     <main class="main-content container">
         <div class="page-layout">
             <article class="text-article">
                 <h1 class="section-title" data-i18n="bridge_title">Мостовой кран</h1>
+                
+                <!-- ============= КАРТОЧКИ ============= -->
                 <div class="product-grid-4">
-                    <div class="product-card">
-                        <img src="../img/Bridge_cranes.png" alt="Электрический однобалочный мостовой кран">
-                        <h3 data-i18n="bridge_card1">Электрический однобалочный мостовой кран</h3>
+                    <!-- Карточка 1 -->
+                    <div class="product-card" data-target="1">
+                        <img src="../img/Bridge_cranes.png" alt="Мостовой кран типа QD на 5–450 т. с крюком">
+                        <h3 data-i18n="info1_title">Мостовой кран типа QD на 5–450 т. с крюком</h3>
                     </div>
-                    <div class="product-card">
+                    <!-- Карточка 2 -->
+                    <div class="product-card" data-target="2">
                         <img src="../img/Bridge_cranes2.jpg" alt="Электрический однобалочный подвесной мостовой кран">
                         <h3 data-i18n="bridge_card2">Электрический однобалочный подвесной мостовой кран</h3>
                     </div>
-                    <div class="product-card">
+                    <!-- Карточка 3 -->
+                    <div class="product-card" data-target="3">
                         <img src="../img/Bridge_cranes3.jpg" alt="Двухбалочный мостовой кран с электрической талью">
                         <h3 data-i18n="bridge_card3">Двухбалочный мостовой кран с электрической талью</h3>
                     </div>
-                    <div class="product-card">
+                    <!-- Карточка 4 -->
+                    <div class="product-card" data-target="4">
                         <img src="../img/Bridge_cranes4.JPG" alt="Электрический двухбалочный мостовой кран">
                         <h3 data-i18n="bridge_card4">Электрический двухбалочный мостовой кран</h3>
                     </div>
                 </div>               
+
+                <div id="unique-info-panel" class="info-panel"></div>
+
             </article>
         </div>
     </main>
+
     <div style="height: 140px;"></div>
     <footer class="site-footer">
         <div class="container">
             <p><h1 data-i18n="footer_russian">Качество — прежде всего, честность — основа.</h1></p>
         </div>
     </footer>
+
 </body>
 </html>
