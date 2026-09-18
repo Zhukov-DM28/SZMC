@@ -1,6 +1,3 @@
-// ============================================================
-// ПОЛНЫЙ СКРИПТ: ПЕРЕВОД + СКРЫТИЕ ШАПКИ И ПАНЕЛИ
-// ============================================================
 const translations = {
     ru: {
         'menu_company': 'Компания',
@@ -65,7 +62,47 @@ const translations = {
         'lifting_card12': 'Электрическая лебедочная тележка',
         'lifting_card13': 'Ручной козловой портал',
         'lifting_card14': 'Электрический козловой портал',
-        'footer_russian': 'Качество — прежде всего, честность — основа.'
+        'footer_russian': 'Качество — прежде всего, честность — основа.',
+
+        'info1_title': 'Мостовой кран типа QD на 5–450 т. с крюком',
+        'info1_gray_title': 'Кран мостовой типа QD грузоподъемностью 10 т. с крюком',
+        'info1_subtitle': 'Краткое описание продукции',
+        'info1_specs': 'Технические характеристики',
+        'info1_p1': 'Мостовой кран с крюком типа QD в основном используется в закрытых цехах. В зависимости от класса использования и условий нагружения он подразделяется на два класса режимов работы: A5 и A6.',
+        'info1_p2': 'Существует три способа входа на площадку кабины управления: сбоку, с торца и сверху. На рисунке показан боковой вход.',
+        'info1_p3': 'Кабина управления может быть установлена как с левого, так и с правого конца крана. На рисунке показана установка с левого конца.',
+        'info1_p4': 'Для токоподвода к мосту крана могут использоваться как безопасные троллеи (шинопроводы), так и угловая сталь. Они могут располагаться как напротив кабины управления, так и на одной стороне с кабиной.',
+
+        // ===== МЕНЮ ЧЕРТЕЖЕЙ =====
+        'dwg_menu_title': 'Чертежи по моделям:',
+        'dwg_1': 'QD 5 т.',
+        'dwg_2': 'QD 10 т.',
+        'dwg_3': 'QD 16/3.2 т.',
+        'dwg_4': 'QD 20/5 т.',
+        'dwg_5': 'QD 32/5 т.',
+        'dwg_6': 'QD 50/10 т.',
+        'dwg_7': 'QD 75/20 т.',
+        'dwg_8': 'QD 100/20 т.',
+        'dwg_9': 'QD 125/32 т.',
+        'dwg_10': 'QD 150/32 ~ 160/32 т.',
+        'dwg_11': 'QD 200/50 ~ 250/50 т.',
+        'dwg_12': 'QD 300/75 ~ 350/80 т.',
+        'dwg_13': 'QD 400/80 ~ 450/100 т.',
+
+        // ===== ЗАГОЛОВКИ НАД ЧЕРТЕЖАМИ =====
+        'dwg_title_1': 'Мостовой кран типа QD на 5 т. с крюком',
+        'dwg_title_2': 'Мостовой кран типа QD на 10 т. с крюком',
+        'dwg_title_3': 'Мостовой кран типа QD на 16/3.2 т. с крюком',
+        'dwg_title_4': 'Мостовой кран типа QD на 20/5 т. с крюком',
+        'dwg_title_5': 'Мостовой кран типа QD на 32/5 т. с крюком',
+        'dwg_title_6': 'Мостовой кран типа QD на 50/10 т. с крюком',
+        'dwg_title_7': 'Мостовой кран типа QD на 75/20 т. с крюком',
+        'dwg_title_8': 'Мостовой кран типа QD на 100/20 т. с крюком',
+        'dwg_title_9': 'Мостовой кран типа QD на 125/32 т. с крюком',
+        'dwg_title_10': 'Мостовой кран типа QD на 150/32 ~ 160/32 т. с крюком',
+        'dwg_title_11': 'Мостовой кран типа QD на 200/50 ~ 250/50 т. с крюком',
+        'dwg_title_12': 'Мостовой кран типа QD на 300/75 ~ 350/80 т. с крюком',
+        'dwg_title_13': 'Мостовой кран типа QD на 400/80 ~ 450/100 т. с крюком',
     },
     en: {
         'menu_company': 'Company',
@@ -131,7 +168,47 @@ const translations = {
         'lifting_card12': 'Electric Winch Trolley',
         'lifting_card13': 'Manual Gantry Portal',
         'lifting_card14': 'Electric Gantry Portal',
-        'footer_russian': 'Quality first, honesty first.'
+        'footer_russian': 'Quality first, honesty first.',
+
+        'info1_title': 'QD type 5-450t crane with hook',
+        'info1_gray_title': '10tons QD type overhead crane with hook',
+        'info1_subtitle': 'Products summary',
+        'info1_specs': 'Technical Specifications',
+        'info1_p1': 'QD mode overhead crane with hook is mainly used in inside workshop it is divided into two working classes:A5 and A6 according to the use grade and load-up condition.',
+        'info1_p2': 'There are three kinds of method for entering the platform of cab from the side, from the end and from the top. The figure is the side entrance.',
+        'info1_p3': 'The cab can be either fixed at the left end or at the right end; the figure shows that the cab is fixed at left end.',
+        'info1_p4': '4. Safe slide wire or angle iron can be used for electric conduction of the crane; it can be either at the opposite side of the cab or at the same-side of the cab.',
+
+        // ===== МЕНЮ ЧЕРТЕЖЕЙ =====
+        'dwg_menu_title': 'Drawings by Model:',
+        'dwg_1': 'QD 5 t.',
+        'dwg_2': 'QD 10 t.',
+        'dwg_3': 'QD 16/3.2 t.',
+        'dwg_4': 'QD 20/5 t.',
+        'dwg_5': 'QD 32/5 t.',
+        'dwg_6': 'QD 50/10 t.',
+        'dwg_7': 'QD 75/20 t.',
+        'dwg_8': 'QD 100/20 t.',
+        'dwg_9': 'QD 125/32 t.',
+        'dwg_10': 'QD 150/32 ~ 160/32 t.',
+        'dwg_11': 'QD 200/50 ~ 250/50 t.',
+        'dwg_12': 'QD 300/75 ~ 350/80 t.',
+        'dwg_13': 'QD 400/80 ~ 450/100 t.',
+
+        // ===== ЗАГОЛОВКИ НАД ЧЕРТЕЖАМИ =====
+        'dwg_title_1': 'QD type 5t overhead crane with hook',
+        'dwg_title_2': 'QD type 10t overhead crane with hook',
+        'dwg_title_3': 'QD type 16/3.2t overhead crane with hook',
+        'dwg_title_4': 'QD type 20/5t overhead crane with hook',
+        'dwg_title_5': 'QD type 32/5t overhead crane with hook',
+        'dwg_title_6': 'QD type 50/10t overhead crane with hook',
+        'dwg_title_7': 'QD type 75/20t overhead crane with hook',
+        'dwg_title_8': 'QD type 100/20t overhead crane with hook',
+        'dwg_title_9': 'QD type 125/32t overhead crane with hook',
+        'dwg_title_10': 'QD type 150/32 ~ 160/32t overhead crane with hook',
+        'dwg_title_11': 'QD type 200/50 ~ 250/50t overhead crane with hook',
+        'dwg_title_12': 'QD type 300/75 ~ 350/80t overhead crane with hook',
+        'dwg_title_13': 'QD type 400/80 ~ 450/100t overhead crane with hook',
     },
     zh: {
         'menu_company': '公司',
@@ -197,7 +274,47 @@ const translations = {
         'lifting_card12': '电动绞盘小车',
         'lifting_card13': '手动龙门架',
         'lifting_card14': '电动龙门架',
-        'footer_russian': '质量第一，诚信为本'
+        'footer_russian': '质量第一，诚信为本',
+
+        'info1_title': 'QD型5-450吨吊钩桥式起重机',
+        'info1_gray_title': '10吨QD型吊钩桥式起重机',
+        'info1_subtitle': '产品概述',
+        'info1_specs': '技术规格',
+        'info1_p1': 'QD型吊钩桥式起重机，主要应用于各种室内车间。根据利用等级和载荷状态不同，分为A5、A6二种工作级别。',
+        'info1_p2': '司机室平台入口方向分为侧面入口、端面入口和顶面入口三种，图示为侧面入口。',
+        'info1_p3': '司机室可以左端安装也可以右端安装，图示为左端安装。',
+        'info1_p4': '大车导电可以用安全滑触线也可以用角钢，既可以在司机室对侧（如图），也可以在司机室同侧。',
+
+        // ===== МЕНЮ ЧЕРТЕЖЕЙ =====
+        'dwg_menu_title': '按型号分类的图纸：',
+        'dwg_1': 'QD 5吨',
+        'dwg_2': 'QD 10吨',
+        'dwg_3': 'QD 16/3.2吨',
+        'dwg_4': 'QD 20/5吨',
+        'dwg_5': 'QD 32/5吨',
+        'dwg_6': 'QD 50/10吨',
+        'dwg_7': 'QD 75/20吨',
+        'dwg_8': 'QD 100/20吨',
+        'dwg_9': 'QD 125/32吨',
+        'dwg_10': 'QD 150/32 ~ 160/32吨',
+        'dwg_11': 'QD 200/50 ~ 250/50吨',
+        'dwg_12': 'QD 300/75 ~ 350/80吨',
+        'dwg_13': 'QD 400/80 ~ 450/100吨',
+
+        // ===== ЗАГОЛОВКИ НАД ЧЕРТЕЖАМИ =====
+        'dwg_title_1': 'QD型5吨吊钩桥式起重机',
+        'dwg_title_2': 'QD型10吨吊钩桥式起重机',
+        'dwg_title_3': 'QD型16/3.2吨吊钩桥式起重机',
+        'dwg_title_4': 'QD型20/5吨吊钩桥式起重机',
+        'dwg_title_5': 'QD型32/5吨吊钩桥式起重机',
+        'dwg_title_6': 'QD型50/10吨吊钩桥式起重机',
+        'dwg_title_7': 'QD型75/20吨吊钩桥式起重机',
+        'dwg_title_8': 'QD型100/20吨吊钩桥式起重机',
+        'dwg_title_9': 'QD型125/32吨吊钩桥式起重机',
+        'dwg_title_10': 'QD型150/32 ~ 160/32吨吊钩桥式起重机',
+        'dwg_title_11': 'QD型200/50 ~ 250/50吨吊钩桥式起重机',
+        'dwg_title_12': 'QD型300/75 ~ 350/80吨吊钩桥式起重机',
+        'dwg_title_13': 'QD型400/80 ~ 450/100吨吊钩桥式起重机',
     }
 };
 
@@ -229,11 +346,7 @@ function translatePage(lang) {
     });
     
     setTimeout(() => {
-        if (lang === 'ru') {
-            localStorage.setItem('preferred_language', 'ru');
-            location.reload();
-            return;
-        }
+        localStorage.setItem('preferred_language', lang);
         
         document.querySelectorAll('[data-i18n]').forEach(element => {
             const key = element.getAttribute('data-i18n');
@@ -242,8 +355,17 @@ function translatePage(lang) {
             }
         });
         
+        const activePanel = document.querySelector('.info-panel.active');
+        if (activePanel) {
+            activePanel.querySelectorAll('[data-i18n]').forEach(element => {
+                const key = element.getAttribute('data-i18n');
+                if (translations[lang] && translations[lang][key] !== undefined) {
+                    element.innerHTML = translations[lang][key];
+                }
+            });
+        }
+        
         updateButtonStates(lang);
-        localStorage.setItem('preferred_language', lang);
         document.documentElement.lang = lang;
         
     }, 800);
@@ -257,7 +379,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelectorAll('[data-i18n]').forEach(element => {
             const key = element.getAttribute('data-i18n');
             if (translations[savedLang] && translations[savedLang][key] !== undefined) {
-                element.innerHTML = translations[savedLang][key]; // ← ИЗМЕНЕНО
+                element.innerHTML = translations[savedLang][key];
             }
         });
         document.documentElement.lang = savedLang;
@@ -274,10 +396,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-
-// ============================================================
-// ПАНЕЛЬ ПЕРЕВОДА — ПОД МЕНЮ ПО ЦЕНТРУ
-// ============================================================
 
 document.addEventListener('DOMContentLoaded', function() {
     const centerPanel = document.getElementById('langPanelCenter');
