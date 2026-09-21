@@ -66,14 +66,43 @@ const translations = {
 
         'info1_title': 'Мостовой кран типа QD на 5–450 т. с крюком',
         'info1_gray_title': 'Кран мостовой типа QD грузоподъемностью 10 т. с крюком',
-        'info1_subtitle': 'Краткое описание продукции',
+        'info1_subtitle': 'Краткое описание продукции:',
         'info1_specs': 'Технические характеристики',
         'info1_p1': 'Мостовой кран с крюком типа QD в основном используется в закрытых цехах. В зависимости от класса использования и условий нагружения он подразделяется на два класса режимов работы: A5 и A6.',
         'info1_p2': 'Существует три способа входа на площадку кабины управления: сбоку, с торца и сверху. На рисунке показан боковой вход.',
         'info1_p3': 'Кабина управления может быть установлена как с левого, так и с правого конца крана. На рисунке показана установка с левого конца.',
         'info1_p4': 'Для токоподвода к мосту крана могут использоваться как безопасные троллеи (шинопроводы), так и угловая сталь. Они могут располагаться как напротив кабины управления, так и на одной стороне с кабиной.',
 
-        // ===== МЕНЮ ЧЕРТЕЖЕЙ =====
+        'info_new_type_bridge': 'Мостовой кран нового типа',
+        'info2_specs': 'Технические параметры (A5)',
+        'info3_specs': 'Технические параметры (A6)',
+        'info2_p1': 'Мостовой кран общего назначения — это результат нашей компании в рамках обширного сотрудничества с известными европейскими производителями кранов. Мы полностью усвоили и внедрили их передовые концепции проектирования, опираясь на отечественную поддержку, исследования и разработки, а также на собственную интеллектуальную собственность при создании импортозамещающей продукции.',
+        'info2_p2': 'Изделие обладает характеристиками компактной конструкции, малого веса, низкого давления на колеса, низкой высоты, стабильной работы, передовых эксплуатационных качеств, а также безопасности и надежности.',
+        'info2_p3': 'По сравнению с традиционными изделиями, он не только снижает стоимость производства самого продукта, но и уменьшает высоту строительного цеха и здания завода. Строительный фундамент становится легким, а стоимость завода снижается, поэтому он пользуется популярностью у пользователей.',
+
+        'info2_specs_title': 'Основные характеристики продукции:',
+    'info2_sp1':  'Вес всего крана снижен на 20–30%;',
+'info2_sp2':  'Высота всего крана снижена на 15–40%;',
+'info2_sp3':  'Снижение давления на колесо на 10–20%;',
+'info2_sp4':  'Подъем оснащен редуктором с твердой поверхностью зубьев: высокая несущая способность, высокая точность, износостойкость и длительный срок службы.',
+'info2_sp5':  'Механизм передвижения крана использует редуктор с твердой поверхностью зубьев «три в одном», что значительно снижает количество передаточных компонентов, делает конструкцию компактной и обеспечивает высокую эффективность передачи.',
+'info2_sp6':  'Механизм работы крана использует бесступенчатое регулирование частоты вращения, работает плавно и надежно, без ударов, соответствует стандартной конфигурации.',
+'info2_sp7':  'Главная балка использует конструкцию с полным отклонением рельса. Уменьшены внутренние перегородки, используется материал Q345B (16 мм), прочность значительно улучшена, размер поперечного сечения уменьшен, а собственный вес снижен.',
+'info2_sp8':  'Кран перемещается по рельсу из квадратной стали. Материал — Q345B (16 мм), который приварен к главной балке, что повышает прочность главной балки и снижает ее собственный вес.',
+'info2_sp9':  'Кран проводит электричество с противоположной стороны. Это значительно снижает вес токопроводящей опоры и вес шкива.',
+'info2_sp10': 'Малая часть крана меняет традиционное расположение и способ намотки каната, что делает конструкцию более компактной и значительно снижает ее высоту и вес.',
+'info2_sp11': 'Рама крана принимает процесс обработки всей рамы, колесная группа устанавливается непосредственно на тележке, не требует регулировки, замена удобна.',
+'info2_sp12': 'Концевая балка принимает модульную конструкцию и специализированное производство. Применяется специальный процесс расточки отверстий на станке, не требует регулировки, удобен в установке, повышает производительность труда.',
+'info2_sp13': 'Главная и концевые балки соединяются тремя способами. Он соединяется с нижней и верхней половиной в соответствии с требованиями высоты цеха.',
+'info2_sp14': 'Основной механический процесс обработки использует метод улучшения материала, снижая вес и гарантируя его рабочие характеристики.',
+'info2_sp15': 'Малые колеса изготовлены из 65Mn вместо ZG55;',
+'info2_sp16': 'Ось колеса использует 40Cr или 42CrMo вместо 45;',
+'info2_sp17': 'Шкив использует стальной прокатный ролик Q345 (16 мм) для замены литого HT150;',
+'info2_sp18': 'Барабан изготовлен из стального проката, а не литого HT200;',
+'info2_sp19': 'Интенсивность нагрузки P была использована для замены уровня M;',
+'info2_sp20': 'Стальной канат использует предел прочности на растяжение 1870 МПа вместо 1670 МПа.',
+
+        // ===== ЧЕРТЕЖИ =====
         'dwg_menu_title': 'Чертежи по моделям:',
         'dwg_1': 'QD 5 т.',
         'dwg_2': 'QD 10 т.',
@@ -88,8 +117,21 @@ const translations = {
         'dwg_11': 'QD 200/50 ~ 250/50 т.',
         'dwg_12': 'QD 300/75 ~ 350/80 т.',
         'dwg_13': 'QD 400/80 ~ 450/100 т.',
+   
+        'new_dwg_menu_title': 'Чертежи по моделям:',
+        'new_dwg_title_1':  '5 т. новый тип мостового крана',
+        'new_dwg_title_2':  '10 т. новый тип мостового крана',
+        'new_dwg_title_3':  '16/3.2 т. новый тип мостового крана',
+        'new_dwg_title_4':  '20/5 т. новый тип мостового крана',
+        'new_dwg_title_5':  '32/5 т. новый тип мостового крана',
+        'new_dwg_title_6':  '50/10 т. новый тип мостового крана',
+        'new_dwg_title_7':  '80/20 т. новый тип мостового крана',
+        'new_dwg_title_8':  '100/20 т. новый тип мостового крана',
+        'new_dwg_title_9':  '160/50 т. новый тип мостового крана',
+        'new_dwg_title_10': '200/50 т. новый тип мостового крана',
+        'new_dwg_title_11': '250/50 т. новый тип мостового крана',
+        'new_dwg_title_12': '350/100 т. новый тип мостового крана',
 
-        // ===== ЗАГОЛОВКИ НАД ЧЕРТЕЖАМИ =====
         'dwg_title_1': 'Мостовой кран типа QD на 5 т. с крюком',
         'dwg_title_2': 'Мостовой кран типа QD на 10 т. с крюком',
         'dwg_title_3': 'Мостовой кран типа QD на 16/3.2 т. с крюком',
@@ -103,6 +145,9 @@ const translations = {
         'dwg_title_11': 'Мостовой кран типа QD на 200/50 ~ 250/50 т. с крюком',
         'dwg_title_12': 'Мостовой кран типа QD на 300/75 ~ 350/80 т. с крюком',
         'dwg_title_13': 'Мостовой кран типа QD на 400/80 ~ 450/100 т. с крюком',
+
+
+
     },
     en: {
         'menu_company': 'Company',
@@ -172,14 +217,44 @@ const translations = {
 
         'info1_title': 'QD type 5-450t crane with hook',
         'info1_gray_title': '10tons QD type overhead crane with hook',
-        'info1_subtitle': 'Products summary',
+        'info1_subtitle': 'Products summary:',
         'info1_specs': 'Technical Specifications',
         'info1_p1': 'QD mode overhead crane with hook is mainly used in inside workshop it is divided into two working classes:A5 and A6 according to the use grade and load-up condition.',
         'info1_p2': 'There are three kinds of method for entering the platform of cab from the side, from the end and from the top. The figure is the side entrance.',
         'info1_p3': 'The cab can be either fixed at the left end or at the right end; the figure shows that the cab is fixed at left end.',
         'info1_p4': '4. Safe slide wire or angle iron can be used for electric conduction of the crane; it can be either at the opposite side of the cab or at the same-side of the cab.',
 
-        // ===== МЕНЮ ЧЕРТЕЖЕЙ =====
+        'info_new_type_bridge': 'New Type Bridge Crane',
+        'info2_specs': 'Technical parameters (A5)',
+        'info3_specs': 'Technical parameters (A6)',
+        'info2_p1': 'General bridge crane is our company\'s extensive cooperation with Europe\'s famous crane manufacturers, fully digesting and absorbing its advanced design concept, based on domestic supporting, research and development of the independent intellectual property of the replacement products.',
+        'info2_p2': 'The product has the characteristics of compact structure, light weight, low wheel pressure, low height, stable operation, advanced performance, safe and reliable.',
+        'info2_p3': 'Compared with traditional products, it not only reduces the manufacturing cost of the product itself, but also reduces the height of the building workshop and the factory building. The construction foundation is lightweight, and the cost of the factory is reduced, so it is popular with users.',
+
+        'info2_specs_title': 'Main Product Features:',
+        'info2_sp1':  'The whole machine has been reduced by 20-30%;',
+        'info2_sp2':  'The height of the whole machine is reduced by 15-40%;',
+'info2_sp3':  'Reduction of wheel pressure by 10-20%;',
+'info2_sp4':  'The hoist adopts the hard tooth surface reducer, with strong bearing capacity, high precision, wear-resistant and long life.',
+'info2_sp5':  'The big car runs with the "three in one" hard tooth surface reducer, greatly reducing the transmission components, compact structure and high transmission efficiency.',
+'info2_sp6':  'The operation mechanism of large car adopts variable frequency stepless speed regulation, running smoothly and reliably, without impact, and is standard configuration.',
+'info2_sp7':  'The main beam adopts the full deviation rail structure. Reduce the internal partitions, adopt Q345B (16mm) material, the strength is greatly improved, the section size decreases, and the self-weight decreases.',
+'info2_sp8':  'The car runs on track with square steel. The material is Q345B (16mm), which is welded with the main beam, which improves the strength of the main beam and reduces the self-weight.',
+'info2_sp9':  'The car conducts electricity with the opposite sex. It greatly reduces the weight of the conductive support and the weight of the pulley.',
+'info2_sp10': 'The small part of the car changes the traditional arrangement type and the rope winding mode, makes the structure more compact, greatly reduces its height and weight.',
+'info2_sp11': 'The car frame adopts the whole boring process, the wheel group is installed directly on the trolley, no need to adjust, the replacement is convenient.',
+'info2_sp12': 'The end beam adopts modularization and specialized production. Adopt special machine tool boring process, need not adjust, convenient installation, raise labor productivity greatly.',
+'info2_sp13': 'The main and end beams are connected in three forms. It is connected to the lower and half flap to meet the height requirement of the factory.',
+'info2_sp14': 'The main mechanical processing adopts the method of improving the material, reducing the dimension weight and guaranteeing its performance.',
+'info2_sp15': 'The small wheels are made of 65Mn instead of ZG55;',
+'info2_sp16': 'The axle uses 40Cr or 42CrMo instead of 45;',
+'info2_sp17': 'The pulley adopts Q345 (16mm) steel rolling pulley to replace the casting HT150;',
+'info2_sp18': 'The drum is made of steel drum, instead of casting HT200;',
+'info2_sp19': 'The P pole intensity level was used to replace the M level;',
+'info2_sp20': 'The steel wire rope adopts the tensile strength of 1870MPa instead of 1670MPa.',
+
+
+
         'dwg_menu_title': 'Drawings by Model:',
         'dwg_1': 'QD 5 t.',
         'dwg_2': 'QD 10 t.',
@@ -195,7 +270,22 @@ const translations = {
         'dwg_12': 'QD 300/75 ~ 350/80 t.',
         'dwg_13': 'QD 400/80 ~ 450/100 t.',
 
-        // ===== ЗАГОЛОВКИ НАД ЧЕРТЕЖАМИ =====
+        'new_dwg_menu_title': 'Drawings by Model:',
+        'new_dwg_title_1':  '5t new type bridge crane',
+        'new_dwg_title_2':  '10t new type bridge crane',
+        'new_dwg_title_3':  '16/3.2t new type bridge crane',
+        'new_dwg_title_4':  '20/5t new type bridge crane',
+        'new_dwg_title_5':  '32/5t new type bridge crane',
+        'new_dwg_title_6':  '50/10t new type bridge crane',
+        'new_dwg_title_7':  '80/20t new type bridge crane',
+        'new_dwg_title_8':  '100/20t new type bridge crane',
+        'new_dwg_title_9':  '160/50t new type bridge crane',
+        'new_dwg_title_10': '200/50t new type bridge crane',
+        'new_dwg_title_11': '250/50t new type bridge crane',
+        'new_dwg_title_12': '350/100t new type bridge crane',
+
+
+
         'dwg_title_1': 'QD type 5t overhead crane with hook',
         'dwg_title_2': 'QD type 10t overhead crane with hook',
         'dwg_title_3': 'QD type 16/3.2t overhead crane with hook',
@@ -278,14 +368,43 @@ const translations = {
 
         'info1_title': 'QD型5-450吨吊钩桥式起重机',
         'info1_gray_title': '10吨QD型吊钩桥式起重机',
-        'info1_subtitle': '产品概述',
+        'info1_subtitle': '产品概述:',
         'info1_specs': '技术规格',
         'info1_p1': 'QD型吊钩桥式起重机，主要应用于各种室内车间。根据利用等级和载荷状态不同，分为A5、A6二种工作级别。',
         'info1_p2': '司机室平台入口方向分为侧面入口、端面入口和顶面入口三种，图示为侧面入口。',
         'info1_p3': '司机室可以左端安装也可以右端安装，图示为左端安装。',
         'info1_p4': '大车导电可以用安全滑触线也可以用角钢，既可以在司机室对侧（如图），也可以在司机室同侧。',
 
-        // ===== МЕНЮ ЧЕРТЕЖЕЙ =====
+        'info_new_type_bridge': '新型桥式起重机',
+        'info2_specs': '技术参数(A5)',
+        'info3_specs': '技术参数(A6)',
+        'info2_p1': '通用桥式起重机是我公司与欧洲著名起重机制造商广泛合作，充分消化吸收其先进设计理念，立足国内配套，研发具有自主知识产权的替代产品。',
+        'info2_p2': '该产品具有结构紧凑、自重轻、轮压小、高度低、运行平稳、性能先进、安全可靠等特点。',
+        'info2_p3': '与传统产品相比，不仅降低了产品本身的制造成本，还降低了建筑车间和厂房的高度。建筑基础轻量化，降低了厂房造价，因此深受用户欢迎。',
+
+'info2_specs_title': '产品主要特点：',
+'info2_sp1':  '整机自重下降20~30%;',
+'info2_sp2':  '整机高度下降15~40%;',
+'info2_sp3':  '轮压减少10~20%;',
+'info2_sp4':  '起升采用硬齿面减速机，承载能力强，精度高，耐磨损，寿命长;',
+'info2_sp5':  '大小车运行采用“三合一”硬齿面减速机，大幅减少传动组件，结构紧凑，传动效率高。',
+'info2_sp6':  '大小车运行机构采用变频无级调速，运行平稳可靠，无冲击，为标准配置。',
+'info2_sp7':  '主梁采用全偏轨结构型式。减少内部隔板，采用Q345B（16mm）材料，强度大大提高，截面尺寸减小，自重下降。',
+'info2_sp8':  '小车运行轨道采用方钢。材质为Q345B（16mm），且与主梁焊接在一起，提高了主梁强度，减轻了自重。',
+'info2_sp9':  '小车导电采用异性钢导电。大幅减少了导电支撑部分重量及滑车自重。',
+'info2_sp10': '小车部分，改变传统布置型式和绕绳方式，使结构更加紧凑，大幅降低了自身高度和重量。',
+'info2_sp11': '小车架采用整体镗孔工艺，车轮组直接安装到小车架上，无需调整，更换方便。',
+'info2_sp12': '端梁采用模块化，专业化生产。采取专用机床镗孔工艺，无需调整，方便安装，大大提高劳动生产率。',
+'info2_sp13': '主、端梁采用三种连接形式。分别为塔接、半搭接和平接，以适应用户厂房高度要求。',
+'info2_sp14': '主要机械加工采取提高材质，减小尺寸重量的方式，保证其性能。',
+'info2_sp15': '小车轮材质采用65Mn,代替ZG55；',
+'info2_sp16': '车轮轴采用40Cr或42CrMo代替45#；',
+'info2_sp17': '滑轮采用Q345（16mm）钢板轧制滑轮代替铸造HT150；',
+'info2_sp18': '卷筒采用钢板卷制卷筒，代替铸造HT200；',
+'info2_sp19': '吊古采用P级强度等级代替M级；',
+'info2_sp20': '钢丝绳采用抗拉强度1870MPa代替1670MPa；',
+
+
         'dwg_menu_title': '按型号分类的图纸：',
         'dwg_1': 'QD 5吨',
         'dwg_2': 'QD 10吨',
@@ -301,7 +420,22 @@ const translations = {
         'dwg_12': 'QD 300/75 ~ 350/80吨',
         'dwg_13': 'QD 400/80 ~ 450/100吨',
 
-        // ===== ЗАГОЛОВКИ НАД ЧЕРТЕЖАМИ =====
+        'new_dwg_menu_title': '按型号分类的图纸：',
+        'new_dwg_title_1':  '5吨新型桥式起重机',
+        'new_dwg_title_2':  '10吨新型桥式起重机',
+        'new_dwg_title_3':  '16/3.2吨新型桥式起重机',
+        'new_dwg_title_4':  '20/5吨新型桥式起重机',
+        'new_dwg_title_5':  '32/5吨新型桥式起重机',
+        'new_dwg_title_6':  '50/10吨新型桥式起重机',
+        'new_dwg_title_7':  '80/20吨新型桥式起重机',
+        'new_dwg_title_8':  '100/20吨新型桥式起重机',
+        'new_dwg_title_9':  '160/50吨新型桥式起重机',
+        'new_dwg_title_10': '200/50吨新型桥式起重机',
+        'new_dwg_title_11': '250/50吨新型桥式起重机',
+        'new_dwg_title_12': '350/100吨新型桥式起重机',
+
+
+
         'dwg_title_1': 'QD型5吨吊钩桥式起重机',
         'dwg_title_2': 'QD型10吨吊钩桥式起重机',
         'dwg_title_3': 'QD型16/3.2吨吊钩桥式起重机',
@@ -344,17 +478,17 @@ function translatePage(lang) {
             btn.classList.add('inactive');
         }
     });
-    
+
     setTimeout(() => {
         localStorage.setItem('preferred_language', lang);
-        
+
         document.querySelectorAll('[data-i18n]').forEach(element => {
             const key = element.getAttribute('data-i18n');
             if (translations[lang] && translations[lang][key] !== undefined) {
-                element.innerHTML = translations[lang][key]; 
+                element.innerHTML = translations[lang][key];
             }
         });
-        
+
         const activePanel = document.querySelector('.info-panel.active');
         if (activePanel) {
             activePanel.querySelectorAll('[data-i18n]').forEach(element => {
@@ -364,17 +498,16 @@ function translatePage(lang) {
                 }
             });
         }
-        
+
         updateButtonStates(lang);
         document.documentElement.lang = lang;
-        
-    }, 800);
+    }, 100); // уменьшил задержку с 800 до 100 мс
 }
 
 document.addEventListener('DOMContentLoaded', function() {
     const savedLang = localStorage.getItem('preferred_language') || 'ru';
     updateButtonStates(savedLang);
-    
+
     if (savedLang !== 'ru' && translations[savedLang]) {
         document.querySelectorAll('[data-i18n]').forEach(element => {
             const key = element.getAttribute('data-i18n');
@@ -400,36 +533,27 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     const centerPanel = document.getElementById('langPanelCenter');
     if (!centerPanel) return;
-    
+
     const centerBtns = centerPanel.querySelectorAll('.lang-btn-center');
     const currentLang = localStorage.getItem('preferred_language') || 'ru';
-    
+
     centerBtns.forEach(btn => {
         btn.classList.remove('active');
         if (btn.dataset.lang === currentLang) {
             btn.classList.add('active');
         }
     });
-    
+
     centerBtns.forEach(btn => {
         btn.addEventListener('click', function() {
             const lang = this.dataset.lang;
             const currentLang = localStorage.getItem('preferred_language') || 'ru';
             if (lang === currentLang) return;
-            
+
             centerBtns.forEach(b => b.classList.remove('active'));
             this.classList.add('active');
-            
+
             translatePage(lang);
-            
-            document.querySelectorAll('.lang-btn, .lang-float-btn').forEach(b => {
-                b.classList.remove('active', 'inactive', 'pending');
-                if (b.dataset.lang === lang) {
-                    b.classList.add('active');
-                } else {
-                    b.classList.add('inactive');
-                }
-            });
         });
     });
 });
