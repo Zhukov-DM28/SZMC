@@ -120,7 +120,7 @@ const productData = {
         ]
         
     },
-           4:     {
+        4: {
         title: 'info_QDY_type',
         subtitle: 'info_QDY_subtitle',
         paragraphs: [
@@ -139,20 +139,57 @@ const productData = {
 
         newMenuTitle: 'new_dwg_menu_title',
         newTitles: ['new_dwg_QDY_title_1', 'new_dwg_QDY_title_2'],
-        newModels: [
+                newModels: [
             {
                 imgs: [
-                    '../img_DWG/QDY_type_overhead_crane/QDY_type_overhead_crane.png',
-                    '../img_DWG/QDY_type_overhead_crane/QDY_type_overhead_crane2.png'
+                    '../img_DWG/QDY_type_overhead_crane/QDY_type_overhead_crane.png'
                 ],
                 tables: [
                     '../img_DWG/QDY_type_overhead_crane/table_QDY.png',
                     '../img_DWG/QDY_type_overhead_crane/table_QDY2.png',
-                    '../img_DWG/QDY_type_overhead_crane/table_QDY3.png',                  
-                    '../img_DWG/QDY_type_overhead_crane/table_QDY4.png'
+                    '../img_DWG/QDY_type_overhead_crane/table_QDY3.png'
                 ]
             },
-        ]     
+            {
+
+                imgs: [
+                    '../img_DWG/QDY_type_overhead_crane/QDY_type_overhead_crane2.png'
+                ],
+                tables: [
+                    '../img_DWG/QDY_type_overhead_crane/table_QDY4.png'
+                ]
+            }
+        ]
+    },
+        5: {
+        title: 'info_YZ_type',
+        subtitle: 'info_YZ_subtitle',
+        paragraphs: [
+            'info_YZ_p1', 'info_YZ_p2', 'info_YZ_p3', 'info_YZ_p4', 'info_YZ_p5',
+            'info_YZ_p6', 'info_YZ_p7', 'info_YZ_p8', 'info_YZ_p9', 'info_YZ_p10'
+        ],
+        newMenuTitle: 'new_dwg_menu_title',
+        newTitles: [
+            'new_dwg_YZ_title_1', 'new_dwg_YZ_title_2', 'new_dwg_YZ_title_3',
+            'new_dwg_YZ_title_4', 'new_dwg_YZ_title_5', 'new_dwg_YZ_title_6',
+            'new_dwg_YZ_title_7', 'new_dwg_YZ_title_8', 'new_dwg_YZ_title_9'
+        ],
+        newMenuTitles: [
+            'new_dwg_YZ_menu_1', 'new_dwg_YZ_menu_2', 'new_dwg_YZ_menu_3',
+            'new_dwg_YZ_menu_4', 'new_dwg_YZ_menu_5', 'new_dwg_YZ_menu_6',
+            'new_dwg_YZ_menu_7', 'new_dwg_YZ_menu_8', 'new_dwg_YZ_menu_9'
+        ],
+        newModels: [
+            { imgs: ['../img_DWG/YZ type _tons casting_crane/YZ_type_crane.png'],  tables: ['../img_DWG/YZ type _tons casting_crane/table_YZ.png'] },
+            { imgs: ['../img_DWG/YZ type _tons casting_crane/YZ_type_crane2.png'], tables: ['../img_DWG/YZ type _tons casting_crane/table_YZ2.png'] },
+            { imgs: ['../img_DWG/YZ type _tons casting_crane/YZ_type_crane3.png'], tables: ['../img_DWG/YZ type _tons casting_crane/table_YZ3.png'] },
+            { imgs: ['../img_DWG/YZ type _tons casting_crane/YZ_type_crane4.png'], tables: ['../img_DWG/YZ type _tons casting_crane/table_YZ4.png'] },
+            { imgs: ['../img_DWG/YZ type _tons casting_crane/YZ_type_crane5.png'], tables: ['../img_DWG/YZ type _tons casting_crane/table_YZ5.png'] },
+            { imgs: ['../img_DWG/YZ type _tons casting_crane/YZ_type_crane6.png'], tables: ['../img_DWG/YZ type _tons casting_crane/table_YZ6.png'] },
+            { imgs: ['../img_DWG/YZ type _tons casting_crane/YZ_type_crane7.png'], tables: ['../img_DWG/YZ type _tons casting_crane/table_YZ7.png'] },
+            { imgs: ['../img_DWG/YZ type _tons casting_crane/YZ_type_crane8.png'], tables: ['../img_DWG/YZ type _tons casting_crane/table_YZ8.png'] },
+            { imgs: ['../img_DWG/YZ type _tons casting_crane/YZ_type_crane9.png'], tables: ['../img_DWG/YZ type _tons casting_crane/table_YZ9.png'] }
+        ]
     },
 };
 
@@ -481,16 +518,89 @@ document.addEventListener('DOMContentLoaded', function() {
                     html += `<p data-i18n="${data.paragraphAfterOrder}" style="margin-bottom: 15px; line-height: 1.7; text-align: justify;">${data.paragraphAfterOrder}</p>`;
                 }
 
-                if (data.newModels && data.newModels.length > 0) {
+                                if (data.newModels && data.newModels.length > 0) {
                     const totalTitles = (data.newTitles && data.newTitles.length) ? data.newTitles.length : data.newModels.length;
                     const limitedModels = data.newModels.slice(0, totalTitles);
-                   
-                    
 
                     limitedModels.forEach((model, idx) => {
                         const titleKey = data.newTitles[idx];
 
                         html += `<div id="new-dwg-${idx + 1}-${targetId}" class="dwg-block">`;
+
+            
+                        if (model.imgs && model.imgs.length > 0) {
+                            model.imgs.forEach(imgSrc => {
+                                html += `<div style="text-align: center; margin: 15px 0;">
+                                            <a href="${imgSrc}" target="_blank">
+                                                <img src="${imgSrc}" alt="Drawing" class="table-image">
+                                            </a>
+                                         </div>`;
+                            });
+                        }
+
+                       
+                        if (model.tables && model.tables.length > 0) {
+                            html += `<h3 class="section-title" style="font-size:22px; margin-top: 25px;" data-i18n="info1_specs">Технические характеристики</h3>`;
+
+                       
+                            model.tables.forEach(tableSrc => {
+                                html += `<div style="text-align: center; margin: 20px 0;">
+                                            <a href="${tableSrc}" target="_blank">
+                                                <img src="${tableSrc}" alt="Table" class="table-image">
+                                            </a>
+                                         </div>`;
+                            });
+                        }
+                        html += `</div>`;
+                    });
+                }
+            }
+            else if (targetId === '5') {
+                html += `<div style="text-align: center; margin-bottom: 10px;">
+                            <div class="header-top-bar">
+                                <h2 class="section-title" data-i18n="${data.title}">Литейный кран типа YZ</h2>
+                            </div>
+                        </div>`;
+
+                html += `<h4 class="section-title" style="font-size: 22px; margin-top: 10px; margin-bottom: 15px;" data-i18n="${data.subtitle}">Описание продукции:</h4>`;
+
+                if (data.paragraphs && data.paragraphs.length > 0) {
+                    data.paragraphs.forEach(key => {
+                        html += `<p data-i18n="${key}" style="margin-bottom: 15px; line-height: 1.7; text-align: justify;">${key}</p>`;
+                    });
+                }
+
+                if (data.newModels && data.newModels.length > 0) {
+                    const totalTitles = (data.newTitles && data.newTitles.length) ? data.newTitles.length : data.newModels.length;
+                    const limitedModels = data.newModels.slice(0, totalTitles);
+
+                    html += `
+                    <div class="dwg-accordion">
+                        <button class="dwg-accordion-toggle" onclick="toggleAccordion(this)">
+                            <span data-i18n="${data.newMenuTitle}">Чертежи по моделям</span>
+                            <span class="dwg-arrow">▼</span>
+                        </button>
+                        <div class="dwg-accordion-content">
+                            <ul class="dwg-accordion-list">
+                    `;
+                    limitedModels.forEach((model, idx) => {
+                        const menuKey = (data.newMenuTitles && data.newMenuTitles[idx])
+                            ? data.newMenuTitles[idx]
+                            : data.newTitles[idx];
+                        html += `<li><a href="#new-dwg-${idx + 1}-${targetId}" data-i18n="${menuKey}">${menuKey}</a></li>`;
+                    });
+                    html += `
+                            </ul>
+                        </div>
+                    </div>
+                    `;
+
+                    limitedModels.forEach((model, idx) => {
+                        html += `<div id="new-dwg-${idx + 1}-${targetId}" class="dwg-block">`;
+
+                        if (data.newTitles && data.newTitles[idx]) {
+                            html += `<div class="gray-bar-title" data-i18n="${data.newTitles[idx]}">${data.newTitles[idx]}</div>`;
+                        }
 
                         if (model.imgs && model.imgs.length > 0) {
                             model.imgs.forEach(imgSrc => {
@@ -503,7 +613,6 @@ document.addEventListener('DOMContentLoaded', function() {
                         }
 
                         if (model.tables && model.tables.length > 0) {
-                            html += `<h3 class="section-title" style="font-size:22px; margin-top: 25px;" data-i18n="info1_specs">Технические характеристики</h3>`;
                             model.tables.forEach(tableSrc => {
                                 html += `<div style="text-align: center; margin: 20px 0;">
                                             <a href="${tableSrc}" target="_blank">
@@ -520,13 +629,10 @@ document.addEventListener('DOMContentLoaded', function() {
             else {
                 return;
             }
-
             targetContainer.innerHTML = html;
-
             if (typeof translatePage === 'function') {
                 translatePage(localStorage.getItem('preferred_language') || 'ru');
             }
-
             const activePanel = targetContainer.closest('.info-panel');
             if (activePanel) {
                 activePanel.classList.add('active');
