@@ -1604,100 +1604,162 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /* ==========================================================================
-   АДАПТИВНОСТЬ ДЛЯ МОБИЛЬНЫХ — УМЕНЬШАЕМ ШРИФТ ЗАГОЛОВКОВ МОДЕЛЕЙ
+   МОБИЛЬНАЯ АДАПТАЦИЯ — БЛОКИ С ЧЕРТЕЖАМИ, ТАБЛИЦАМИ И ПОДЗАГОЛОВКАМИ
    ========================================================================== */
 
 @media (max-width: 768px) {
-    /* Заголовки моделей (синие плашки) */
-    .gray-bar-title {
-        font-size: 14px !important;      /* Было 20px — стало 14px */
-        padding: 8px 10px !important;    /* Меньше отступы */
-        line-height: 1.3 !important;
-        margin: 8px 0 10px 0 !important;
-    }
 
-    /* Заголовок над чертежом (верхняя синяя плашка) */
+    /* ===== ВЕРХНЯЯ СИНЯЯ ПЛАШКА С НАЗВАНИЕМ КРАНА ===== */
     .header-top-bar h2,
-    .section-title[data-i18n="info1_title"] {
-        font-size: 16px !important;      /* Было 26px — стало 16px */
+    .header-top-bar .section-title,
+    .info-panel .header-top-bar h2,
+    .dwg-block .header-top-bar h2 {
+        font-size: 19px !important;
+        line-height: 1.25 !important;
         padding: 8px 10px !important;
+        word-break: break-word !important;
+        hyphens: auto !important;
+    }
+
+    /* ===== СИНЯЯ ПЛАШКА МОДЕЛИ ===== */
+    .gray-bar-title {
+        font-size: 16px !important;
+        padding: 8px 10px !important;
+        line-height: 1.25 !important;
+        margin: 8px 0 12px 0 !important;
+        word-break: break-word !important;
+    }
+
+    /* ===== ПОДЗАГОЛОВКИ  ===== */
+    .info-panel h4.section-title,
+    .dwg-block h4.section-title {
+        font-size: 17px !important;
+        margin-top: 12px !important;
+        margin-bottom: 14px !important;
         line-height: 1.3 !important;
+        padding: 0 8px !important;
     }
 
-    /* Подпись «Технические характеристики» */
-    .section-title[data-i18n="info1_specs"] {
-        font-size: 15px !important;
-        margin: 10px 0 8px 0 !important;
+    /* ===== ЗАГОЛОВОК «Технические характеристики / параметры» ===== */
+    .specs-title {
+        font-size: 17px !important;
+        margin-top: 15px !important;
+        margin-bottom: 10px !important;
     }
 
+    /* ===== КНОПКА «Чертежи по моделям» ===== */
     .dwg-accordion-toggle {
         font-size: 13px !important;
         padding: 10px 14px !important;
     }
-}
 
-@media (max-width: 480px) {
-    .gray-bar-title {
-        font-size: 12px !important;      
-        padding: 6px 8px !important;
+    /* ===== СПИСОК характеристик ===== */
+    .info-panel .features-list li,
+    .dwg-block .features-list li {
+        font-size: 15px !important;
+        line-height: 1.5 !important;
+        margin-bottom: 8px !important;
+        padding-left: 22px !important;
     }
 
-    .header-top-bar h2,
-    .section-title[data-i18n="info1_title"] {
-        font-size: 14px !important;
-        padding: 6px 8px !important;
+    /* ===== АБЗАЦЫ текста ===== */
+    .info-panel p,
+    .dwg-block p {
+        font-size: 15px !important;
+        line-height: 1.5 !important;
+        margin-bottom: 12px !important;
     }
 
-    .section-title[data-i18n="info1_specs"] {
-        font-size: 13px !important;
-    }
-
-    .dwg-accordion-toggle {
-        font-size: 12px !important;
-        padding: 8px 12px !important;
-    }
-}
-/* ==========================================================================
-   МОБИЛЬНАЯ АДАПТАЦИЯ ДЛЯ БЛОКОВ С ДВУМЯ ЧЕРТЕЖАМИ И ТАБЛИЦАМИ
-   ========================================================================== */
-
-@media (max-width: 768px) {
-
-    .dwg-block > div[style*="display: flex"] {
+    .dwg-block div[style*="display: flex"],
+    .dwg-block div[style*="display:flex"],
+    .dwg-block div[style*="display: flex;"],
+    .dwg-block div[style*="display:flex;"] {
+        display: block !important;
+        flex-direction: column !important;
         flex-wrap: wrap !important;
         gap: 15px !important;
-        justify-content: center !important;
-    }
-
-    .dwg-block > div[style*="display: flex"] > div {
-        flex: 0 0 100% !important;
-        max-width: 100% !important;
         width: 100% !important;
     }
 
-    .dwg-block > div[style*="display: flex"] img {
+    .dwg-block div[style*="display: flex"] > div,
+    .dwg-block div[style*="display:flex"] > div,
+    .dwg-block div[style*="display: flex;"] > div,
+    .dwg-block div[style*="display:flex;"] > div {
+        display: block !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        width: 100% !important;
+        margin: 0 0 20px 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    .dwg-block div[style*="display: flex"] img,
+    .dwg-block div[style*="display:flex"] img {
         width: 100% !important;
         max-width: 100% !important;
         height: auto !important;
         margin: 0 auto !important;
-    }
-
-    .dwg-block > div[style*="display: flex"] h3 {
-        font-size: 15px !important;
-        margin: 15px 0 10px 0 !important;
-        text-align: center !important;
-        line-height: 1.3 !important;
-        word-break: break-word !important;
+        display: block !important;
     }
 }
 
 @media (max-width: 480px) {
-    .dwg-block > div[style*="display: flex"] h3 {
-        font-size: 14px !important;
+
+    /* ===== ВЕРХНЯЯ СИНЯЯ ПЛАШКА С НАЗВАНИЕМ КРАНА ===== */
+    .header-top-bar h2,
+    .header-top-bar .section-title,
+    .info-panel .header-top-bar h2,
+    .dwg-block .header-top-bar h2 {
+        font-size: 13px !important;
+        line-height: 1.2 !important;
+        padding: 6px 8px !important;
     }
 
-    .dwg-block > div[style*="display: flex"] {
-        gap: 10px !important;
+    /* ===== СИНЯЯ ПЛАШКА МОДЕЛИ ===== */
+    .gray-bar-title {
+        font-size: 12px !important;
+        padding: 6px 8px !important;
+        line-height: 1.2 !important;
+        margin: 6px 0 10px 0 !important;
+    }
+
+    /* ===== ПОДЗАГОЛОВКИ ===== */
+    .info-panel h4.section-title,
+    .dwg-block h4.section-title {
+        font-size: 12px !important;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+        padding: 0 6px !important;
+    }
+
+    /* ===== ЗАГОЛОВОК «Технические характеристики» ===== */
+    .specs-title {
+        font-size: 13px !important;
+        margin-top: 12px !important;
+        margin-bottom: 8px !important;
+    }
+
+    /* ===== КНОПКА «Чертежи по моделям» ===== */
+    .dwg-accordion-toggle {
+        font-size: 12px !important;
+        padding: 8px 12px !important;
+    }
+
+    /* ===== СПИСОК ===== */
+    .info-panel .features-list li,
+    .dwg-block .features-list li {
+        font-size: 12px !important;
+        line-height: 1.45 !important;
+        margin-bottom: 6px !important;
+        padding-left: 20px !important;
+    }
+
+    /* ===== АБЗАЦЫ ===== */
+    .info-panel p,
+    .dwg-block p {
+        font-size: 12px !important;
+        line-height: 1.45 !important;
+        margin-bottom: 10px !important;
     }
 }
-
