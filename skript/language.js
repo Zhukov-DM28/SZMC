@@ -14,7 +14,8 @@ const translations = {
         'about_title': 'О компании',
         'catalog_title': 'Каталог поставляемых систем',
         'certificates_title': 'Сертификаты',
-        'about_text': 'ООО «Шаньдун Шэньчжоу Машинери», основанное в 1989 году, является современным профессиональным производителем и поставщиком кранового оборудования. Компания объединяет в себе научные исследования, проектирование, изготовление, монтаж и сервисное обслуживание, предоставляя клиентам индивидуальные решения по крановому оборудованию благодаря постоянному стремлению к совершенству качества продукции. Мы также предлагаем профессиональные схемы управления, снимая с клиентов все последующие заботы. Ассортимент продукции компании включает: легкие энергосберегающие краны, однобалочные и двухбалочные мостовые краны, козловые краны, судостроительные краны, электрические тали, а также краны изолированные, электромагнитные, с частотным регулированием, с дистанционным управлением, поворотные (консольные) краны, взрывозащищенное, металлургическое, чистовое (беспыльное) крановое оборудование и различные виды специальных кранов. Компания имеет сертификаты EAC, CE, ATEX, WIKI, а также лицензию класса «А» на производство специального кранового оборудования, выданную Государственным управлением по регулированию рынка КНР. Предприятие сертифицировано по системе менеджмента качества ISO 9001 и обладает собственной интеллектуальной и промышленной собственностью. Мы неизменно придерживаемся принципа «Качество превыше всего, честность — основа», идем в ногу со временем, внедряем инновации. Концепция стабильной работы, безупречного качества и приоритета клиента позволяет нам обеспечивать долгосрочную надежную и безопасную продукцию, облегчать труд наших заказчиков и их долгосрочную ценность.',
+        'title_company': 'SHANDONG SHENZHOU MACHINERY CO., LTD.',
+        'about_text': '<strong>ООО «Шаньдун Шэньчжоу Машинери»</strong>, основанное в <strong>1989 году</strong>, является современным профессиональным производителем и поставщиком <strong>кранового оборудования</strong>. Компания объединяет в себе <strong>научные исследования, проектирование, изготовление, монтаж и сервисное обслуживание</strong>, предоставляя клиентам <strong>индивидуальные решения</strong> по крановому оборудованию благодаря постоянному стремлению к совершенству качества продукции. Мы также предлагаем профессиональные схемы управления, снимая с клиентов все последующие заботы. Ассортимент продукции компании включает: <strong>легкие энергосберегающие краны</strong>, <strong>однобалочные и двухбалочные мостовые краны</strong>, <strong>козловые краны</strong>, <strong>судостроительные краны</strong>, <strong>электрические тали</strong>, а также краны <strong>изолированные</strong>, <strong>электромагнитные</strong>, <strong>с частотным регулированием</strong>, <strong>с дистанционным управлением</strong>, <strong>поворотные (консольные) краны</strong>, <strong>взрывозащищенное</strong>, <strong>металлургическое</strong>, <strong>чистовое (беспыльное)</strong> крановое оборудование и различные виды <strong>специальных кранов</strong>. Компания имеет сертификаты <strong>EAC</strong>, <strong>CE</strong>, <strong>ATEX</strong>, <strong>WIKI</strong>, а также <strong>лицензию класса «А»</strong> на производство специального кранового оборудования, выданную Государственным управлением по регулированию рынка КНР. Предприятие сертифицировано по системе менеджмента качества <strong>ISO 9001</strong> и обладает собственной интеллектуальной и промышленной собственностью. Мы неизменно придерживаемся принципа <strong>«Качество превыше всего, честность — основа»</strong>, идем в ногу со временем, внедряем инновации. Концепция <strong>стабильной работы</strong>, <strong>безупречного качества</strong> и <strong>приоритета клиента</strong> позволяет нам обеспечивать долгосрочную надежную и безопасную продукцию, облегчать труд наших заказчиков и их долгосрочную ценность.',
         'card1_title': 'Грузоподъемные компоненты',
         'card1_text': 'Электрические тали-тележки, лебедочные тележки, ручные и электрические козловые порталы для локальных рабочих зон.',
         'card2_title': 'Мостовые краны (Кран-балки)',
@@ -63,16 +64,18 @@ const translations = {
         'lifting_card14': 'Электрический козловой портал',
         'footer_russian': 'Качество — прежде всего, честность — основа.',
 
-
         // ===== ОБЩИЕ (для всех карточек) =====
         'info_subtitle': 'Краткое описание продукции:',
         'info2_subtitle': 'Описание продукции:',      
         'info_specs': 'Технические характеристики',
+        'info2_specs': 'Технические параметры',
         'info_specs_title': 'Основные характеристики продукции:',
         'info_A5_specs': 'Технические параметры (A5)',
         'info_A6_specs': 'Технические параметры (A6)',
+        'info_OC_label_1': 'Грузовая балка параллельна главной балке',
+        'info_OC_label_2': 'Грузовая балка перпендикулярна главной балке',
 
-         // ===== ЧЕРТЕЖИ =====
+         // ===== ЧЕРТЕЖИ (Краткие названия для меню) =====
         'menu_title': 'Чертежи по моделям:',
 
         'dwg_1': 'QD 5 т.',
@@ -122,7 +125,33 @@ const translations = {
         'new_dwg_YZ_title_8': 'Технические параметры крана 225/63 т. (A7)',
         'new_dwg_YZ_title_9': 'Технические параметры крана 240/63 т. (A7)',
 
-        // ===== (карточка 1) =====
+        'new_dwg_QB_menu_1': 'QB 5~10 т.',
+        'new_dwg_QB_menu_2': 'QB 16/3.2~20/5 т.',
+        'new_dwg_QB_menu_3': 'QB 32/5~50/10 т.',
+        'new_dwg_QB_menu_4': 'QB 75/20 т.',
+
+        'new_dwg_QC_menu_1': 'QC 5~10 т.',
+        'new_dwg_QC_menu_2': 'QC 16/3.2~20/5 т.',
+        'new_dwg_QC_menu_3': 'QC 32/5~50/10 т.',
+
+        'new_dwg_OC_menu_1': '(7.5+7.5) ~ (10+10) т.',
+        'new_dwg_OC_menu_2': '(16+16) ~ (20+20) т.',
+        'new_dwg_OC_menu_3': '15 т. (электромагнитный)',
+        'new_dwg_OC_menu_4': '20 т. (электромагнитный)',
+        'new_dwg_OC_menu_5': '32 т. (электромагнитный)',
+        'new_dwg_OC_menu_6': '40 т. (электромагнитный)',
+        'new_dwg_OC_menu_7': '20 т. (верхний поворот)',
+        'new_dwg_OC_menu_8': '32 т. (верхний поворот)',
+        'new_dwg_OC_menu_9': '40 т. (верхний поворот)',
+        'new_dwg_OC_menu_10': '20 т. (нижний поворот)',
+        'new_dwg_OC_menu_11': '25 т. (нижний поворот)',
+        'new_dwg_OC_menu_12': '32 т. (нижний поворот)',
+        'new_dwg_OC_menu_13': '40 т. (нижний поворот)',
+        'new_dwg_OC_menu_14': 'Телескопический электромагнитный',
+        /* ==========================================================================
+                                    Мостовой кран
+        ========================================================================== */
+        // ===== (Карточка 1) =====
         'info1_title': 'Мостовой кран типа QD с крюковой лебедкой грузоподъемностью 5~450 т.',
 
         'info1_gray_title': 'Кран мостовой типа QD грузоподъемностью 10 т. с крюком',
@@ -144,7 +173,7 @@ const translations = {
         'dwg_title_11': 'Мостовой кран типа QD на 200/50 ~ 250/50 т. с крюком',
         'dwg_title_12': 'Мостовой кран типа QD на 300/75 ~ 350/80 т. с крюком',
         'dwg_title_13': 'Мостовой кран типа QD на 400/80 ~ 450/100 т. с крюком',
-        // ===== (карточка 2) =====
+        // ===== (Карточка 2) =====
         'info_new_type_bridge': 'Мостовой кран нового типа',
 
         'info2_p1': 'Мостовой кран общего назначения — это результат нашей компании в рамках обширного сотрудничества с известными европейскими производителями кранов. Мы полностью усвоили и внедрили их передовые концепции проектирования, опираясь на отечественную поддержку, исследования и разработки, а также на собственную интеллектуальную собственность при создании импортозамещающей продукции.',
@@ -171,7 +200,7 @@ const translations = {
         'info2_sp18': 'Барабан изготовлен из стального проката, а не литого HT200;',
         'info2_sp19': 'Интенсивность нагрузки P была использована для замены уровня M;',
         'info2_sp20': 'Стальной канат использует предел прочности на растяжение 1870 МПа вместо 1670 МПа.',
-        // ===== (карточка 3) =====
+        // ===== (Карточка 3) =====
         'info_QZ_type': 'Мостовой грейферный кран типа QZ грузоподъемностью 5~20 т.',
 
         'info_QZ_p1': 'QZ грейферный мостовой кран широко применяется на электростанциях, складах, в цехах, на причалах и т.д. для погрузки и разгрузки сыпучих материалов.',
@@ -182,7 +211,7 @@ const translations = {
         'info_QZ_p6': 'Грузозахватное устройство представляет собой четырехканатный грейфер с двойным барабаном, простая конструкция, надежная работа. Грейфер может открываться и закрываться на любой высоте.',
         'info_QZ_p7': 'Грейфер подходит только для сыпучих материалов в естественном состоянии. При захвате подводных или специальных материалов необходимо указать это при заказе.',
         'info_QZ_p8': 'Кран может использоваться как в помещении, так и на открытом воздухе. При использовании на открытом воздухе необходимо добавить устройство для защиты от дождя.',
-        // ===== (карточка 4) =====
+        // ===== (Карточка 4) =====
         'info_QDY_type': 'Мостовой литейный кран типа QDY с крюком грузоподъемностью 5~74 т.',
 
         'info_QDY_p1': 'Литейный мостовой кран QDY с крюком в основном используется на участках подъёма расплавленного металла. Рабочий класс всего крана — A7, на нижней части главной балки установлено теплоизоляционное покрытие.',
@@ -194,9 +223,8 @@ const translations = {
         'info_QDY_env_3': 'Если требования выше указанных, условия выполняются в соответствии с договором поставки по запросу пользователя.',
         'info_QDY_order_title': 'Инструкция по заказу:',
         'info_QDY_order_text': 'При заказе крана или подписании договора заказчик должен чётко указать основные параметры (номинальная грузоподъёмность, высота подъёма, пролёт и т. д.), чтобы поставленное изделие соответствовало условиям эксплуатации.',
-        // ===== (карточка 5) =====
-        'info_YZ_type': 'Литейный кран типа YZ грузоподъемностью 100~320 т.',
-
+        // ===== (Карточка 5) =====
+        'info_YZ_type': 'Мостовой литейный кран типа YZ грузоподъемностью 100~320 т.',
         'info_YZ_p1': 'Литейный кран является одним из основных видов производственного оборудования в плавильном цехе. С помощью этого крана чугун, доставленный из доменной печи, заливается в миксер, а чугун из миксера или непосредственно из доменной печи подаётся в конвертер. В литейном или прокатном цехе кран используется для разливки стали из ковша в процессе непрерывного литья или литья стальных слитков, принимая непосредственное участие в операциях перемещения, разливки и заливки жидкого металла.',
         'info_YZ_p2': 'Кран оснащён независимыми механизмами передвижения главной и вспомогательной тележек. На главной тележке установлены крюки с фиксированным расстоянием (траверса), предназначенные для подъёма стальных (чугунных) ковшей. Вспомогательная тележка может использоваться для кантовки ковша или выполнения других вспомогательных подъёмных операций. Работа литейного крана интенсивная, а поднимаемый груз — расплавленный металл, поэтому кран должен быть безопасным и надёжным.',
         'info_YZ_p3': 'Вся машина состоит из четырёх частей: мостовой рамы, главной и вспомогательной тележек, механизма передвижения крана и электрооборудования.',
@@ -207,14 +235,51 @@ const translations = {
         'info_YZ_p8': 'Все механизмы используют изоляцию класса H и энергосберегающие двигатели типа YZR, подходящие для работы в среде с максимальной температурой 60 °C.',
         'info_YZ_p9': 'Грузоподъёмные траверсы соответствуют отраслевому стандарту JB/T3261-1999 для ковшей серии LG и основным параметрам стандарта JB3260-1983 для чугуновозных ковшей серии LTG.',
         'info_YZ_p10': 'Все механизмы управляются закрытыми кабинами с полным обзором. Управление делится на два типа: напольный контроллер и комбинированная консоль — по выбору заказчика. При особых требованиях возможна комплектация электрическим вентилятором, кондиционером, охлаждающим вентилятором, интеркомом, большим дисплеем, электронным взвешивающим устройством и импортными подшипниками.',
-
-        // ===== (карточка 6) =====
+        // ===== (Карточка 6) =====
         'info_QY_type': 'Мостовой изолирующий кран типа QY с крюком грузоподъемностью 5~50/10 т.',
         'info_QY_p1': 'Мостовой изолирующий кран типа QY с крюком грузоподъемностью 5~50/10 т применяется в цехах, где производится плавка электролитических цветных металлов, например, электролитического магния.',
         'info_QY_p2': 'Кран состоит из коробчатого моста, механизма передвижения крана, тележки и электрооборудования.',
         'info_QY_p3': 'В соответствующих частях крана установлены изоляционные устройства, предотвращающие передачу электрического тока от находящегося под напряжением оборудования на кран через грузовой крюк во время работы, что могло бы угрожать жизни машиниста и безопасности оборудования.',
         'info_QY_p4': 'Кран относится к тяжелому режиму работы. Для безопасного подъема главный механизм оснащен двойным приводом (двойным тормозом).',
         'info_QY_p5': 'Все механизмы управляются из кабины.',
+        // ===== (Карточка 7) =====
+        'info_QB_type': 'Мостовой взрывозащищённый кран типа QB с крюком грузоподъёмностью 5~75/20 т.',
+        'info_QB_subtitle': 'Краткое описание продукции:',
+        'info_QB_p1': 'Взрывозащищённые характеристики всех электрических машин и аппаратов мостового крана типа QB с крюком соответствуют требованиям GB3836.2-2000 «Электроаппаратура взрывозащищённая для взрывоопасной атмосферы. Часть 2: Взрывонепроницаемая оболочка». Характеристики всего крана соответствуют требованиям JB/T5897-2006 «Взрывозащищённый мостовой кран».',
+        'info_QB_p2': 'Кран прошёл приёмочные испытания в уполномоченном государственном органе по взрывозащищённой продукции. Кран имеет «Сертификат соответствия средств для взрывоопасной атмосферы». Знаки взрывозащиты: Exd II BT4 и Exd II CT4 соответственно.',
+        'info_QB_p3': 'Изделие применимо в цехах, где способность к передаче взрыва не выше класса IIB или IIC, а также там, где присутствует смесь детонирующего газа, состоящего из горючего газа или пара с температурой воспламенения T1~T4, и воздуха.',
+        'info_QB_p4': 'Применимая опасная зона — зона 1 или зона 2 (см. GB3836.1-2000). Класс работы — средний.',
+        'new_dwg_QB_title_1': 'Мостовой взрывозащищённый кран типа QB на 5~10 т. с крюком',
+        'new_dwg_QB_title_2': 'Мостовой взрывозащищённый кран типа QB на 16/3.2~20/5 т. с крюком',
+        'new_dwg_QB_title_3': 'Мостовой взрывозащищённый кран типа QB на 32/5~50/10 т. с крюком',
+        'new_dwg_QB_title_4': 'Мостовой взрывозащищённый кран типа QB на 75/20 т. с крюком',
+        // ===== (Карточка 8) =====
+        'info_QC_type': 'Мостовой кран типа QC с электромагнитным захватом грузоподъёмностью 5~50/10 т.',
+        'info_QC_p1': 'Существует три способа входа на площадку кабины управления: сбоку, с торца и сверху. На рисунке показан боковой вход.',
+        'info_QC_p2': 'Кабина управления может быть установлена как с левого, так и с правого конца крана. На рисунке показана установка с левого конца.',
+        'info_QC_p3': 'Грузоподъёмность включает собственный вес электромагнитного диска.',
+        'info_QC_p4': 'Общий вес крана не включает собственный вес электромагнитного диска и его вспомогательного оборудования.',
+        'new_dwg_QC_title_1': 'Мостовой кран типа QC с электромагнитным захватом грузоподъёмностью на 5~10 т.',
+        'new_dwg_QC_title_2': 'Мостовой кран типа QC с электромагнитным захватом грузоподъёмностью на 16/3.2~20/5 т.',
+        'new_dwg_QC_title_3': 'Мостовой кран типа QC с электромагнитным захватом грузоподъёмностью на 32/5~50/10 т.',
+        // ===== (Карточка 9)  =====
+        'info_OC_type': 'Мостовой кран с грузовой балкой',
+        'info_OC_p1': 'Кран оснащён съёмным электромагнитным диском. Он особенно подходит для транспортировки чёрных металлов и материалов с магнитной проводимостью, таких как стальные слитки, профильный прокат, чугунные чушки и т. п. Кран широко применяется на прокатных линиях металлургических заводов, складах, судостроительных заводах и в цехах.',
+        'info_OC_p2': 'Грузоподъёмность включает вес грузовой балки. Но общий вес крана не включает вес грузовой балки.',
+        'new_dwg_OC_title_1': 'Мостовой кран с несущей балкой на (7.5+7.5) ~ (10+10) т.',
+        'new_dwg_OC_title_2': 'Мостовой кран с несущей балкой на (16+16) ~ (20+20) т.',
+        'new_dwg_OC_title_3': 'Электромагнитный мостовой кран с несущей балкой на 15 т.',
+        'new_dwg_OC_title_4': 'Электромагнитный мостовой кран с несущей балкой на 20 т.',
+        'new_dwg_OC_title_5': 'Электромагнитный мостовой кран с несущей балкой на 32 т.',
+        'new_dwg_OC_title_6': 'Электромагнитный мостовой кран с несущей балкой на 40 т.',
+        'new_dwg_OC_title_7': 'Высокоуровневый поворотный мостовой кран с несущей балкой на 20 т.',
+        'new_dwg_OC_title_8': 'Высокоуровневый поворотный мостовой кран с несущей балкой на 32 т.',
+        'new_dwg_OC_title_9': 'Высокоуровневый поворотный мостовой кран с несущей балкой на 40 т.',
+        'new_dwg_OC_title_10': 'Поворотный мостовой кран с несущей балкой на 20 т.',
+        'new_dwg_OC_title_11': 'Поворотный мостовой кран с несущей балкой на 25 т.',
+        'new_dwg_OC_title_12': 'Поворотный мостовой кран с несущей балкой на 32 т.',
+        'new_dwg_OC_title_13': 'Поворотный мостовой кран с несущей балкой на 40 т.',
+        'new_dwg_OC_title_14': 'Низкоуровневый поворотный телескопический электромагнитный мостовой кран с несущей балкой',
     },
     en: {
         'menu_company': 'Company',
@@ -286,9 +351,12 @@ const translations = {
         'info_subtitle':    'Products summary:',
         'info2_subtitle':   'Product description:',
         'info_specs':       'Technical Specifications',
+        'info2_specs': 'Technological parameter',
         'info_specs_title': 'Main Product Features:',
         'info_A5_specs':    'Technical parameters (A5)',
         'info_A6_specs':    'Technical parameters (A6)',
+        'info_OC_label_1': 'Carrier-beam parallel to the main girder',
+        'info_OC_label_2': 'Carrier-beam perpendicular to the main girder',
 
         // ===== МЕНЮ ЧЕРТЕЖЕЙ =====
         'menu_title': 'Drawings by Model:',
@@ -350,17 +418,39 @@ const translations = {
         'new_dwg_YZ_menu_8': '225/63 t.',
         'new_dwg_YZ_menu_9': '240/63 t.',
 
-        'new_dwg_QY_title': 'Technological parameter',
+        'new_dwg_QB_menu_1': 'QB 5~10 t.',
+        'new_dwg_QB_menu_2': 'QB 16/3.2~20/5 t.',
+        'new_dwg_QB_menu_3': 'QB 32/5~50/10 t.',
+        'new_dwg_QB_menu_4': 'QB 75/20 t.',
 
-        // ===== КАРТОЧКА 1 (QD) =====
+        'new_dwg_QC_menu_1': 'QC 5~10 t.',
+        'new_dwg_QC_menu_2': 'QC 16/3.2~20/5 t.',
+        'new_dwg_QC_menu_3': 'QC 32/5~50/10 t.',
+
+        'new_dwg_OC_menu_1': '(7.5+7.5) ~ (10+10) t.',
+        'new_dwg_OC_menu_2': '(16+16) ~ (20+20) t.',
+        'new_dwg_OC_menu_3': '15 t. (electromagnetic)',
+        'new_dwg_OC_menu_4': '20 t. (electromagnetic)',
+        'new_dwg_OC_menu_5': '32 t. (electromagnetic)',
+        'new_dwg_OC_menu_6': '40 t. (electromagnetic)',
+        'new_dwg_OC_menu_7': '20 t. (high level slewing)',
+        'new_dwg_OC_menu_8': '32 t. (high level slewing)',
+        'new_dwg_OC_menu_9': '40 t. (high level slewing)',
+        'new_dwg_OC_menu_10': '20 t. (low level slewing)',
+        'new_dwg_OC_menu_11': '25 t. (low level slewing)',
+        'new_dwg_OC_menu_12': '32 t. (low level slewing)',
+        'new_dwg_OC_menu_13': '40 t. (low level slewing)',
+        'new_dwg_OC_menu_14': 'Telescopic electromagnetic',
+        /* ==========================================================================
+                                    Мостовой кран
+        ========================================================================== */
+        // ===== (Карточка 1) =====
         'info1_title':      'QD type 5~450t ton hoist bridge crane',
         'info1_gray_title': '10tons QD type overhead crane with hook',
-
         'info1_p1': 'QD mode overhead crane with hook is mainly used in inside workshop it is divided into two working classes:A5 and A6 according to the use grade and load-up condition.',
         'info1_p2': 'There are three kinds of method for entering the platform of cab from the side, from the end and from the top. The figure is the side entrance.',
         'info1_p3': 'The cab can be either fixed at the left end or at the right end; the figure shows that the cab is fixed at left end.',
         'info1_p4': 'Safe slide wire or angle iron can be used for electric conduction of the crane; it can be either at the opposite side of the cab or at the same-side of the cab.',
-
         'dwg_title_1':  'QD type 5t overhead crane with hook',
         'dwg_title_2':  'QD type 10t overhead crane with hook',
         'dwg_title_3':  'QD type 16/3.2t overhead crane with hook',
@@ -374,13 +464,11 @@ const translations = {
         'dwg_title_11': 'QD type 200/50 ~ 250/50t overhead crane with hook',
         'dwg_title_12': 'QD type 300/75 ~ 350/80t overhead crane with hook',
         'dwg_title_13': 'QD type 400/80 ~ 450/100t overhead crane with hook',
-
-        // ===== КАРТОЧКА 2 (НОВЫЙ ТИП) =====
+        // ===== (Карточка 2) =====
         'info_new_type_bridge': 'New type of bridge crane',
         'info2_p1': 'General bridge crane is our company\'s extensive cooperation with Europe\'s famous crane manufacturers, fully digesting and absorbing its advanced design concept, based on domestic supporting, research and development of the independent intellectual property of the replacement products.',
         'info2_p2': 'The product has the characteristics of compact structure, light weight, low wheel pressure, low height, stable operation, advanced performance, safe and reliable.',
         'info2_p3': 'Compared with traditional products, it not only reduces the manufacturing cost of the product itself, but also reduces the height of the building workshop and the factory building. The construction foundation is lightweight, and the cost of the factory is reduced, so it is popular with users.',
-
         'info2_sp1':  'The whole machine has been reduced by 20-30%;',
         'info2_sp2':  'The height of the whole machine is reduced by 15-40%;',
         'info2_sp3':  'Reduction of wheel pressure by 10-20%;',
@@ -401,8 +489,7 @@ const translations = {
         'info2_sp18': 'The drum is made of steel drum, instead of casting HT200;',
         'info2_sp19': 'The P pole intensity level was used to replace the M level;',
         'info2_sp20': 'The steel wire rope adopts the tensile strength of 1870MPa instead of 1670MPa.',
-
-        // ===== КАРТОЧКА 3 (QZ) =====
+        // ===== (Карточка 3) =====
         'info_QZ_type': 'QZ type 5~20t. grab bridge crane',
         'info_QZ_p1': 'QZ Overhead crane with grab is widely used in loading goods in port, factory, workshop and power plant.',
         'info_QZ_p2': 'The work classification is heavy. The group classification of the crane is A6.',
@@ -412,8 +499,7 @@ const translations = {
         'info_QZ_p6': 'The lifting device is a double-drum four-rope grab, simple structure, reliable operation. The grab can be opened and closed at any height.',
         'info_QZ_p7': 'The grab is only suitable for bulk materials in natural stacking state. When grabbing underwater materials or special materials, it must be specified at the time of order.',
         'info_QZ_p8': 'This crane can be used indoors or outdoors. When used outdoors, add a rain cover device.',
-
-        // ===== КАРТОЧКА 4 (QDY) =====
+        // ===== (Карточка 4) =====
         'info_QDY_type': 'QDY type 5~74t. Hook Bridge Cast Crane',
         'info_QDY_p1': 'QDY bridge foundry crane with hook is mainly used at the place where the molten metal is lifted. The working class of the complete machine is A7, and thermal-protective coating is added at the bottom of the main girder.',
         'info_QDY_p2': 'The assembling and test of the crane conform to the document No. ZJBT[2007]375 which was issued by General Administration of Quality Supervision, Inspection and Quarantine of the People\'s Republic of China.',
@@ -424,8 +510,7 @@ const translations = {
         'info_QDY_env_3': 'If the requirements are more than above-mentioned, it shall carry out the requirements in the purchase contract as the user asks.',
         'info_QDY_order_title': 'Ordering instructions:',
         'info_QDY_order_text': 'The basic parameters (rated lifting weight, lifting height and span, etc.) of the crane shall be described clearly when the user orders goods or signs a contract, so that the product which may satisfy the working condition can be supplied.',
-
-        // ===== КАРТОЧКА 5 (YZ) =====
+        // ===== (Карточка 5) =====
         'info_YZ_type': 'YZ type 100~320 t. casting crane',
         'info_YZ_p1': 'Casting crane is one of the main production equipment in the smelting workshop. The crane will be poured from the blast furnace to the mixer; the iron water from the mixer or the iron water from the blast furnace is poured directly into the converter. The crane will make steel in a converter or flat. The pouring of molten steel in the furnace for continuous casting or casting of steel ingots in the process of direct involvement in the transfer, pouring and pouring of liquid metal in the process of smelting.',
         'info_YZ_p2': 'The crane is equipped with independent driving main and auxiliary car. The main trolley is set with fixed spacing of the gantry hook, and the hoisting steel (iron) bag. Small pair car can be used to dump steel drums or do other auxiliary lifting operations. The foundry crane\'s work is frequent, and it is the molten metal that is hoisted. Therefore, the casting crane must be safe and reliable.',
@@ -437,14 +522,50 @@ const translations = {
         'info_YZ_p8': 'All the institutions adopt H-grade insulation and YZR type energy saving motors, which are suitable for the maximum environment 60 °C.',
         'info_YZ_p9': 'Lifting beams conform to the JB/T3261-1999 LG series shenggang bucket type and basic parameters industry standard, and JB3260-1983 LTG series iron water tank type basic parameter standard.',
         'info_YZ_p10': 'All the institutions are controlled by the closed drivers in full view, which can be divided into two types: floor controller and linkage console, optional. Special needs can be equipped with electric fan, air conditioner, cooling fan, interphone, large screen display, electronic weighing device and foreign import bearing.',
-
-        // ===== КАРТОЧКА 6 (QY) =====
+        // ===== (Карточка 6) =====
         'info_QY_type': '5~50/10t. QY type overhead isolation crane with hook',
         'info_QY_p1': 'QY model 5~50/10t insulating overhead crane with hook is applicable to workshop where smelting electrolytic nonferrous metal material, such as electrolytic magnesium.',
         'info_QY_p2': 'The crane is composed of box bridge, running gear of crane, trolley and electrical device.',
         'info_QY_p3': 'Several insulating apparatus are mounted at proper parts of the crane to prevent the electric current of the energized equipment transmitting to the crane through the lifting hook during operation, which will endanger the driver\'s life and the safety of equipments.',
         'info_QY_p4': 'The crane is heavy-duty. Dual actuator is equipped with the main mechanism for the purpose of safe hoisting.',
         'info_QY_p5': 'All mechanisms shall be operated in the cab.',
+        // ===== (Карточка 7) =====
+        'info_QB_type': '5~75/20t. QB type overhead explosion-proof crane with hook',
+        'info_QB_p1': 'The explosion-proof performance of all electrical machines and electric appliances of QB model explosion-proof overhead crane with hook conforms to the prescriptions of GB3836.2-2000 Explosion-proof Electrical Apparatus for Explosive Atmosphere Part Two: Flameproof Type; the performance of the complete machine conforms to the prescriptions of JB/T5897-2006 Explosion-proof Bridge Crane.',
+        'info_QB_p2': 'The crane is qualified and inspected by the inspection unit of blast-proof product which is appointed by the state. The crane has got Certification of Conformity of An Instrument for Explosive Atmosphere. The signs of explosion-proof are Exd II BT4 and Exd II CT4 respectively.',
+        'info_QB_p3': 'The product is applicable to the place in the factory where the capability of transmitting-explosive is no higher than grade IIB or IIC, and where there is a mixture of detonating gas which is composed of flammable gas or steam whose ignition temperature team belongs to T1~T4 team, and air.',
+        'info_QB_p4': 'The applicable danger area is Area 1 or Area 2 (see GB3836.1-2000). The working class is middle.',
+        'new_dwg_QB_title_1': 'QB type 5~10t. overhead explosion-proof crane with hook',
+        'new_dwg_QB_title_2': 'QB type 16/3.2~20/5t. overhead explosion-proof crane with hook',
+        'new_dwg_QB_title_3': 'QB type 32/5~50/10t. overhead explosion-proof crane with hook',
+        'new_dwg_QB_title_4': 'QB type 75/20t. overhead explosion-proof crane with hook',
+        // ===== (Карточка 8) =====
+        'info_QC_type': '5~50/10t. QC type crane with magnet',
+        'info_QC_p1': 'There are three kinds of method for entering the platform of cab from the side, from the end and from the top. The figure is the side entrance.',
+        'info_QC_p2': 'The cab can be either fixed at the left end or at the right end; the figure shows that the cab is fixed at left end.',
+        'info_QC_p3': 'The lifting capacity includes the dead weight of electromagnetic Disk.',
+        'info_QC_p4': 'The crane total weight not includes the dead weight of electromagnetic disk and its auxiliary facilities.',
+        'new_dwg_QC_title_1': '5~10t. QC type crane with magnet',
+        'new_dwg_QC_title_2': '16/3.2~20/5t. QC type crane with magnet',
+        'new_dwg_QC_title_3': '32/5~50/10t. QC type crane with magnet',
+         // ===== (Карточка 9)  =====
+        'info_OC_type': 'Overhead Crane with Carrier-beam',
+        'info_OC_p1': 'The crane has the knock-down electromagnetic disk. It is especially applicable to transmit black-metallic products and materials of magnetoconductivity, such as steel ingot, profiled bar and pig iron block, etc. The crane is widely used in steel rolling lines of steel company, storage, shipyard and workshop, etc.',
+        'info_OC_p2': 'The lifting capacity includes the weight of the carrier-beam. But the total weight does not include the weight of the carrier-beam.',
+        'new_dwg_OC_title_1': 'Overhead Crane with Carrier-beam (7.5+7.5) ~ (10+10) t.',
+        'new_dwg_OC_title_2': 'Overhead Crane with Carrier-beam (16+16) ~ (20+20) t.',
+        'new_dwg_OC_title_3': '15t. Electromagnetic Overhead crane with carrier-beam',
+        'new_dwg_OC_title_4': '20t. Electromagnetic Overhead crane with carrier-beam',
+        'new_dwg_OC_title_5': '32t. Electromagnetic Overhead crane with carrier-beam',
+        'new_dwg_OC_title_6': '40t. Electromagnetic Overhead crane with carrier-beam',
+        'new_dwg_OC_title_7': '20t. High level slewing Overhead Crane with Carrier-beam',
+        'new_dwg_OC_title_8': '32t. High level slewing Overhead Crane with Carrier-beam',
+        'new_dwg_OC_title_9': '40t. High level slewing Overhead Crane with Carrier-beam',
+        'new_dwg_OC_title_10': '20t. Overhead turning Crane with Carrier-beam',
+        'new_dwg_OC_title_11': '25t. Overhead turning Crane with Carrier-beam',
+        'new_dwg_OC_title_12': '32t. Overhead turning Crane with Carrier-beam',
+        'new_dwg_OC_title_13': '40t. Overhead turning Crane with Carrier-beam',
+        'new_dwg_OC_title_14': 'Low level slewing telescopic electromagnetic Overhead Crane with Carrier-beam',
     },
     zh: {
         'menu_company': '公司',
@@ -516,9 +637,12 @@ const translations = {
         'info_subtitle':    '产品概述：',
         'info2_subtitle':   '产品说明：',
         'info_specs':       '技术规格',
+        'info2_specs': '技术参数',
         'info_specs_title': '产品主要特点：',
         'info_A5_specs':    '技术参数 (A5)',
         'info_A6_specs':    '技术参数 (A6)',
+        'info_OC_label_1': '挂梁平行于主梁',
+        'info_OC_label_2': '挂梁垂直于主梁',
 
         // ===== МЕНЮ ЧЕРТЕЖЕЙ =====
         'menu_title': '按型号分类的图纸：',
@@ -581,17 +705,39 @@ const translations = {
         'new_dwg_YZ_menu_8': '225/63吨.',
         'new_dwg_YZ_menu_9': '240/63吨.',
 
-        'new_dwg_QY_title': '技术参数',
+        'new_dwg_QB_menu_1': 'QB 5~10吨',
+        'new_dwg_QB_menu_2': 'QB 16/3.2~20/5吨',
+        'new_dwg_QB_menu_3': 'QB 32/5~50/10吨',
+        'new_dwg_QB_menu_4': 'QB 75/20吨',
 
-         // ===== КАРТОЧКА 1 (QD) =====
+        'new_dwg_QC_menu_1': 'QC 5~10吨',
+        'new_dwg_QC_menu_2': 'QC 16/3.2~20/5吨',
+        'new_dwg_QC_menu_3': 'QC 32/5~50/10吨',
+
+        'new_dwg_OC_menu_1': '(7.5+7.5) ~ (10+10)吨',
+        'new_dwg_OC_menu_2': '(16+16) ~ (20+20)吨',
+        'new_dwg_OC_menu_3': '15吨（电磁）',
+        'new_dwg_OC_menu_4': '20吨（电磁）',
+        'new_dwg_OC_menu_5': '32吨（电磁）',
+        'new_dwg_OC_menu_6': '40吨（电磁）',
+        'new_dwg_OC_menu_7': '20吨（上旋）',
+        'new_dwg_OC_menu_8': '32吨（上旋）',
+        'new_dwg_OC_menu_9': '40吨（上旋）',
+        'new_dwg_OC_menu_10': '20吨（下旋）',
+        'new_dwg_OC_menu_11': '25吨（下旋）',
+        'new_dwg_OC_menu_12': '32吨（下旋）',
+        'new_dwg_OC_menu_13': '40吨（下旋）',
+        'new_dwg_OC_menu_14': '下旋伸缩电磁',
+        /* ==========================================================================
+                                    Мостовой кран
+        ========================================================================== */
+         // ===== (Карточка 1) =====
         'info1_title':      'QD型5~450吨吊钩桥式起重机',
         'info1_gray_title': '10吨QD型吊钩桥式起重机',
-
         'info1_p1': 'QD型吊钩桥式起重机，主要应用于各种室内车间。根据利用等级和载荷状态不同，分为A5、A6二种工作级别。',
         'info1_p2': '司机室平台入口方向分为侧面入口、端面入口和顶面入口三种，图示为侧面入口。',
         'info1_p3': '司机室可以左端安装也可以右端安装，图示为左端安装。',
         'info1_p4': '大车导电可以用安全滑触线也可以用角钢，既可以在司机室对侧（如图），也可以在司机室同侧。',
-
         'dwg_title_1':  'QD型5吨吊钩桥式起重机',
         'dwg_title_2':  'QD型10吨吊钩桥式起重机',
         'dwg_title_3':  'QD型16/3.2吨吊钩桥式起重机',
@@ -605,13 +751,11 @@ const translations = {
         'dwg_title_11': 'QD型200/50 ~ 250/50吨吊钩桥式起重机',
         'dwg_title_12': 'QD型300/75 ~ 350/80吨吊钩桥式起重机',
         'dwg_title_13': 'QD型400/80 ~ 450/100吨吊钩桥式起重机',
-
-         // ===== КАРТОЧКА 2 (НОВЫЙ ТИП) =====
+         // ===== (Карточка 2) =====
         'info_new_type_bridge': '新型桥式起重机',
         'info2_p1': '通用桥式起重机是我公司与欧洲著名起重机制造商广泛合作，充分消化吸收其先进设计理念，立足国内配套，研发具有自主知识产权的替代产品。',
         'info2_p2': '该产品具有结构紧凑、自重轻、轮压小、高度低、运行平稳、性能先进、安全可靠等特点。',
         'info2_p3': '与传统产品相比，不仅降低了产品本身的制造成本，还降低了建筑车间和厂房的高度。建筑基础轻量化，降低了厂房造价，因此深受用户欢迎。',
-
         'info2_sp1':  '整机自重下降20~30%;',
         'info2_sp2':  '整机高度下降15~40%;',
         'info2_sp3':  '轮压减少10~20%;',
@@ -632,8 +776,7 @@ const translations = {
         'info2_sp18': '卷筒采用钢板卷制卷筒，代替铸造HT200；',
         'info2_sp19': '吊古采用P级强度等级代替M级；',
         'info2_sp20': '钢丝绳采用抗拉强度1870MPa代替1670MPa；',
-
-        // ===== (карточка 3) =====
+        // ===== (Карточка 3) =====
         'info_QZ_type': 'QZ型5~20吨抓斗桥式起重机',
         'info_QZ_p1': 'QZ型抓斗桥式起重机广泛适用于电厂、货场、车间、码头等，进行散料的装卸运输。',
         'info_QZ_p2': '本起重机均为重级工作制，工作级别为A6。',
@@ -643,8 +786,7 @@ const translations = {
         'info_QZ_p6': '取物装置为双卷筒的四绳抓斗，结构简单，工作可靠。抓斗可在任意高度张开和闭合。',
         'info_QZ_p7': '抓斗只适用于自然堆积状态下的散粒物料，当抓取水下物料或特殊物料时须在订货时特别提出。',
         'info_QZ_p8': '本起重机可在室内也可在室外使用，室外使用时增加防雨罩装置。',
-
-        // ===== КАРТОЧКА 4 (QDY) =====
+        // ===== (Карточка 4) =====
         'info_QDY_type': 'QDY型5~74吨吊钩桥式铸造起重机',
         'info_QDY_p1': 'QDY吊钩桥式铸造起重机主要用于吊运熔融金属的冶金、铸造等场所。整机工作级别为A7，在主梁底部加设隔热层装置。',
         'info_QDY_p2': '起重机装配与试验符合国家质量监督检验检疫总局所发的质检办特[2007]375号文件。',
@@ -655,8 +797,7 @@ const translations = {
         'info_QDY_env_3': '如超过上述要求，根据用户需要按订货合同条款执行。',
         'info_QDY_order_title': '订货须知：',
         'info_QDY_order_text': '用户在订货或签订合同时，必须将本机的基本参数（额定起重量、起升高度、跨度等）描述清楚，以便提供满足工况要求和工作条件的产品。',
-
-        // ===== КАРТОЧКА 5 (YZ) =====
+        // ===== (Карточка 5) =====
         'info_YZ_type': 'YZ型100~320吨铸造起重机',
         'info_YZ_p1': '铸造起重机是冶炼车间的主要生产设备之一。用该起重机将从高炉车间运来的铁水倒入混铁炉，及将混铁炉内的铁水或从高炉车间运来的铁水直接倒入转炉。在转炉或平炉车间，该起重机将炼钢炉中倾出的钢水在跨间进行连续铸造或浇铸钢锭之用，直接参与冶炼过程中液态金属的转运、浇注、兑铁水等作业。',
         'info_YZ_p2': '该起重机设有独立驱动的主、副小车，主小车设置固定间距的龙门钩，吊运钢（铁）包。副小车可用来倾翻盛钢桶或做其他辅助性的吊运作业。铸造起重机的工作频繁，吊运的又是熔融金属，因而要求铸造起重机必须安全可靠。',
@@ -668,15 +809,51 @@ const translations = {
         'info_YZ_p8': '各机构均采用H级绝缘、YZR型节能电动机，适用于最高环境60℃。',
         'info_YZ_p9': '起重横梁符合JB/T3261-1999 LG系列盛钢桶型式和基本参数行业标准及JB3260-1983 LTG系列铁水罐型式基本参数标准。',
         'info_YZ_p10': '全部机构均在全视野的闭式司机室内操纵，操纵形式分为落地式控制器和联动控制台两种供客户任选。特殊需要可配备电风扇、空调机、冷风机、对讲机、大屏幕显示、电子称量装置及国外进口轴承。',
-
-        // ===== КАРТОЧКА 6 (QY) =====
+        // ===== (Карточка 6) =====
         'info_QY_type': 'QY型5~50/10吨绝缘吊钩桥式起重机',
         'info_QY_p1': 'QY型5~50/10吨绝缘吊钩桥式起重机适用于冶炼电解有色金属材料（如电解镁）的车间。',
         'info_QY_p2': '该起重机由箱形桥架、大车运行机构、小车和电气设备组成。',
         'info_QY_p3': '在起重机的相应部位安装有多重绝缘装置，以防止在作业过程中带电设备的电流通过吊钩传导至起重机，从而危及司机生命安全及设备安全。',
         'info_QY_p4': '该起重机为重级工作制。主起升机构配备双制动器（双驱动装置），以确保安全吊运。',
         'info_QY_p5': '所有机构均在司机室内操作。',
-        }    
+         // ===== (Карточка 7) =====
+        'info_QB_type': 'QB型5~75/20吨防爆吊钩桥式起重机',
+        'info_QB_p1': 'QB型防爆吊钩桥式起重机的所有电气机械和电器的防爆性能符合 GB3836.2-2000《爆炸性环境用防爆电气设备 第2部分：隔爆型》的规定；整机性能符合 JB/T5897-2006《防爆桥式起重机》的规定。',
+        'info_QB_p2': '该起重机经国家指定的防爆产品检验单位检验合格，并取得了《防爆仪器仪表合格证》。防爆标志分别为 Exd II BT4 和 Exd II CT4。',
+        'info_QB_p3': '该产品适用于工厂中传爆能力不高于 IIB 或 IIC 级，且存在由易燃气体或蒸汽（其引燃温度组别为 T1~T4）与空气组成的爆炸性气体混合物的场所。',
+        'info_QB_p4': '适用危险区域为 1 区或 2 区（见 GB3836.1-2000）。工作级别为中级。',
+        'new_dwg_QB_title_1': 'QB型5~10吨防爆吊钩桥式起重机',
+        'new_dwg_QB_title_2': 'QB型16/3.2~20/5吨防爆吊钩桥式起重机',
+        'new_dwg_QB_title_3': 'QB型32/5~50/10吨防爆吊钩桥式起重机',
+        'new_dwg_QB_title_4': 'QB型75/20吨防爆吊钩桥式起重机',
+         // ===== (Карточка 8) =====
+        'info_QC_type': 'QC型5~50/10吨电磁吊钩桥式起重机',
+        'info_QC_p1': '司机室平台入口分为侧面入口、端面入口和顶面入口三种，图示为侧面入口。',
+        'info_QC_p2': '司机室可以左端安装也可以右端安装，图示为左端安装。',
+        'info_QC_p3': '起重量包括电磁盘自重。',
+        'info_QC_p4': '起重机总重不包括电磁盘及其附件重量。',
+        'new_dwg_QC_title_1': 'QC型5~10吨电磁吊钩桥式起重机',
+        'new_dwg_QC_title_2': 'QC型16/3.2~20/5吨电磁吊钩桥式起重机',
+        'new_dwg_QC_title_3': 'QC型32/5~50/10吨电磁吊钩桥式起重机',
+        // ===== (Карточка 9) =====
+        'info_OC_type': '挂梁桥式起重机',
+        'info_OC_p1': '本起重机带有可拆卸电磁盘，特别适用于搬运具有导磁性的黑色金属制品与材料，如钢锭、型钢、生铁块等。主要用于钢铁企业轧线、成品库、船厂、钢厂料堆场、下料车间等。',
+        'info_OC_p2': '本起重机起重量包括挂梁自重。起重机总重不包含挂梁自重。',
+        'new_dwg_OC_title_1': '(7.5+7.5) ~ (10+10)吨电磁挂梁桥式起重机',
+        'new_dwg_OC_title_2': '(16+16) ~ (20+20)吨电磁挂梁桥式起重机',
+        'new_dwg_OC_title_3': '15吨电磁挂梁桥式起重机',
+        'new_dwg_OC_title_4': '20吨电磁挂梁桥式起重机',
+        'new_dwg_OC_title_5': '32吨电磁挂梁桥式起重机',
+        'new_dwg_OC_title_6': '40吨电磁挂梁桥式起重机',
+        'new_dwg_OC_title_7': '20吨上旋挂梁桥式起重机',
+        'new_dwg_OC_title_8': '32吨上旋挂梁桥式起重机',
+        'new_dwg_OC_title_9': '40吨上旋挂梁桥式起重机',
+        'new_dwg_OC_title_10': '20吨下旋挂梁桥式起重机',
+        'new_dwg_OC_title_11': '25吨下旋挂梁桥式起重机',
+        'new_dwg_OC_title_12': '32吨下旋挂梁桥式起重机',
+        'new_dwg_OC_title_13': '40吨下旋挂梁桥式起重机',
+        'new_dwg_OC_title_14': '下旋转伸缩挂梁电磁桥式起重机',
+    }    
 };
 
 function updateButtonStates(activeLang) {
