@@ -599,8 +599,7 @@ const translations = {
         'info_Tongs_p3': 'The followings can be supplied according to the user\'s requirements: speed governing (1:10 or larger) of the mechanisms, overload & warning, remote control, PLC control, failure detection and display system, etc.',
         // ===== (Карточка 12) =====
         'info_Garbage_type': 'Garbage Grab Bridge Crane',
-        'info_Garbage_p1': 'Garbage grab crane is the key device used in the garbage feed system of different kinds of Garbage-Cremation Power Plant in modern city. It is located at the top of garbage storing pit, and is mainly used for operation of feeding, conveying, mixing, fetching and weighing of the garbage.',
-        'info_Garbage_p2': 'The garbage grab crane manufactured by our company can implement lifting and conveying strictly to ensure normal work of Garbage-Cremation Power plant. This crane can be controlled by hand, semi-automatically or automatically.',
+        'info_Garbage_p': 'Garbage grab crane is the key device used in the garbage feed system of different kinds of Garbage-Cremation Power Plant in modern city. It is located at the top of garbage storing pit, and is mainly used for operation of feeding, conveying, mixing, fetching and weighing of the garbage. The garbage grab crane manufactured by our company can implement lifting and conveying strictly to ensure normal work of Garbage-Cremation Power plant. This crane can be controlled by hand, semi-automatically or automatically.',
     },
     zh: {
         'menu_company': '公司',
@@ -904,8 +903,7 @@ const translations = {
         'info_Tongs_p3': '根据客户要求可提供：各机构的调速（1:10或更大）、超载及报警、遥控、PLC控制及故障检测、显示系统等。',
          // ===== (Карточка 12) =====
         'info_Garbage_type': '垃圾抓斗起重机',
-        'info_Garbage_p1': '垃圾抓斗起重机是现代城市各种垃圾焚烧发电厂垃圾供料系统的核心设备，位于垃圾储存坑的上方，主要承担对垃圾的投料、搬运、搅拌、取物和称重的作业。',
-        'info_Garbage_p2': '我公司生产的垃圾抓斗起重机能执行严格的提升机输送作业，确保垃圾焚烧发电厂的正常作业，本起重机能实现手动、半自动、全自动控制。',
+        'info_Garbage_p': '垃圾抓斗起重机是现代城市各种垃圾焚烧发电厂垃圾供料系统的核心设备，位于垃圾储存坑的上方，主要承担对垃圾的投料、搬运、搅拌、取物和称重的作业。我公司生产的垃圾抓斗起重机能执行严格的提升机输送作业，确保垃圾焚烧发电厂的正常作业，本起重机能实现手动、半自动、全自动控制。',
     }    
 };
 
