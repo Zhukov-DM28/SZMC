@@ -173,12 +173,12 @@ const productData = {
             {
                 paragraphs: ['info_OL_p1', 'info_OL_p2', 'info_OL_p3'],
                 img: '../img_DWG/Over_length_electr_omagnetic_overhead_crane_with_carrier-beam/Over_length_electr_omagnetic_overhead_crane.png',
-                table: '../img_DWG/Over_length_electr_omagnetic_overhead_crane_with_carrier-beam/OL_table.png'
+                table: '../img_DWG/Over_length_electr_omagnetic_overhead_crane_with_carrier-beam/Ol_table.png'
             },
             {
                 paragraphs: ['info_OL_p4', 'info_OL_p5', 'info_OL_p6'],
                 img: '../img_DWG/Over_length_electr_omagnetic_overhead_crane_with_carrier-beam/Over_length_electr_omagnetic_overhead_crane2.png',
-                table: '../img_DWG/Over_length_electr_omagnetic_overhead_crane_with_carrier-beam/OL_table2.png'
+                table: '../img_DWG/Over_length_electr_omagnetic_overhead_crane_with_carrier-beam/Ol_table2.png'
             }
         ]
     },
