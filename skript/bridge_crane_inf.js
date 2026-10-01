@@ -3,19 +3,19 @@ const productData = {
         title: 'info1_title',
         // Пары: [чертежи], [таблицы]
         images: [
-            ['../img_DWG/bridge_crane_drawing/bridge_crane_drawing.png',  '../img_DWG/bridge_crane_drawing/table.png'],
-            ['../img_DWG/bridge_crane_drawing/bridge_crane_drawing2.png', '../img_DWG/bridge_crane_drawing/table2.png'],
-            ['../img_DWG/bridge_crane_drawing/bridge_crane_drawing3.png', '../img_DWG/bridge_crane_drawing/table3.png'],
-            ['../img_DWG/bridge_crane_drawing/bridge_crane_drawing4.png', '../img_DWG/bridge_crane_drawing/table4.png'],
-            ['../img_DWG/bridge_crane_drawing/bridge_crane_drawing5.png', '../img_DWG/bridge_crane_drawing/table5.png'],
-            ['../img_DWG/bridge_crane_drawing/bridge_crane_drawing6.png', '../img_DWG/bridge_crane_drawing/table6.png'],
-            ['../img_DWG/bridge_crane_drawing/bridge_crane_drawing7.png', '../img_DWG/bridge_crane_drawing/table7.png'],
-            ['../img_DWG/bridge_crane_drawing/bridge_crane_drawing8.png', '../img_DWG/bridge_crane_drawing/table8.png'],
-            ['../img_DWG/bridge_crane_drawing/bridge_crane_drawing9.png', '../img_DWG/bridge_crane_drawing/table9.png'],
-            ['../img_DWG/bridge_crane_drawing/bridge_crane_drawing10.png', '../img_DWG/bridge_crane_drawing/table10.png'],
-            ['../img_DWG/bridge_crane_drawing/bridge_crane_drawing11.png', '../img_DWG/bridge_crane_drawing/table11.png'],
-            ['../img_DWG/bridge_crane_drawing/bridge_crane_drawing12.png', '../img_DWG/bridge_crane_drawing/table12.png'],
-            ['../img_DWG/bridge_crane_drawing/bridge_crane_drawing13.png', '../img_DWG/bridge_crane_drawing/table13.png']
+            ['../img_DWG/Bridge_crane_drawing/bridge_crane_drawing.png',  '../img_DWG/Bridge_crane_drawing/table.png'],
+            ['../img_DWG/Bridge_crane_drawing/bridge_crane_drawing2.png', '../img_DWG/Bridge_crane_drawing/table2.png'],
+            ['../img_DWG/Bridge_crane_drawing/bridge_crane_drawing3.png', '../img_DWG/Bridge_crane_drawing/table3.png'],
+            ['../img_DWG/Bridge_crane_drawing/bridge_crane_drawing4.png', '../img_DWG/Bridge_crane_drawing/table4.png'],
+            ['../img_DWG/Bridge_crane_drawing/bridge_crane_drawing5.png', '../img_DWG/Bridge_crane_drawing/table5.png'],
+            ['../img_DWG/Bridge_crane_drawing/bridge_crane_drawing6.png', '../img_DWG/Bridge_crane_drawing/table6.png'],
+            ['../img_DWG/Bridge_crane_drawing/bridge_crane_drawing7.png', '../img_DWG/Bridge_crane_drawing/table7.png'],
+            ['../img_DWG/Bridge_crane_drawing/bridge_crane_drawing8.png', '../img_DWG/Bridge_crane_drawing/table8.png'],
+            ['../img_DWG/Bridge_crane_drawing/bridge_crane_drawing9.png', '../img_DWG/Bridge_crane_drawing/table9.png'],
+            ['../img_DWG/Bridge_crane_drawing/bridge_crane_drawing10.png', '../img_DWG/Bridge_crane_drawing/table10.png'],
+            ['../img_DWG/Bridge_crane_drawing/bridge_crane_drawing11.png', '../img_DWG/Bridge_crane_drawing/table11.png'],
+            ['../img_DWG/Bridge_crane_drawing/bridge_crane_drawing12.png', '../img_DWG/Bridge_crane_drawing/table12.png'],
+            ['../img_DWG/Bridge_crane_drawing/bridge_crane_drawing13.png', '../img_DWG/Bridge_crane_drawing/table13.png']
         ],
         list: ['info1_p1', 'info1_p2', 'info1_p3', 'info1_p4'],
         specs: 'info_specs'
@@ -30,18 +30,18 @@ const productData = {
         newTitles: [  'new_dwg_title_1',  'new_dwg_title_2',  'new_dwg_title_3',  'new_dwg_title_4',  'new_dwg_title_5',  'new_dwg_title_6',  'new_dwg_title_7',  'new_dwg_title_8',  'new_dwg_title_9',  'new_dwg_title_10', 'new_dwg_title_11', 'new_dwg_title_12' ],
         specsList: [ 'info2_sp1',  'info2_sp2',  'info2_sp3',  'info2_sp4',  'info2_sp5',  'info2_sp6',  'info2_sp7',  'info2_sp8',  'info2_sp9',  'info2_sp10',   'info2_sp11', 'info2_sp12', 'info2_sp13', 'info2_sp14', 'info2_sp15',  'info2_sp16', 'info2_sp17', 'info2_sp18', 'info2_sp19', 'info2_sp20' ],
         newModels: [
-            { imgs: ['../img_DWG/bridge_crane_new/bridge_crane_new.png',   '../img_DWG/bridge_crane_new/bridge_crane_new2.png'],  tables: ['../img_DWG/bridge_crane_new/table_new_crane.png',   '../img_DWG/bridge_crane_new/table_new_crane2.png'] },
-            { imgs: ['../img_DWG/bridge_crane_new/bridge_crane_new3.png',  '../img_DWG/bridge_crane_new/bridge_crane_new4.png'],  tables: ['../img_DWG/bridge_crane_new/table_new_crane3.png',  '../img_DWG/bridge_crane_new/table_new_crane4.png'] },
-            { imgs: ['../img_DWG/bridge_crane_new/bridge_crane_new5.png',  '../img_DWG/bridge_crane_new/bridge_crane_new6.png'],  tables: ['../img_DWG/bridge_crane_new/table_new_crane5.png',  '../img_DWG/bridge_crane_new/table_new_crane6.png'] },
-            { imgs: ['../img_DWG/bridge_crane_new/bridge_crane_new7.png',  '../img_DWG/bridge_crane_new/bridge_crane_new8.png'],  tables: ['../img_DWG/bridge_crane_new/table_new_crane7.png',  '../img_DWG/bridge_crane_new/table_new_crane8.png'] },
-            { imgs: ['../img_DWG/bridge_crane_new/bridge_crane_new9.png',  '../img_DWG/bridge_crane_new/bridge_crane_new10.png'], tables: ['../img_DWG/bridge_crane_new/table_new_crane9.png',  '../img_DWG/bridge_crane_new/table_new_crane10.png'] },
-            { imgs: ['../img_DWG/bridge_crane_new/bridge_crane_new11.png', '../img_DWG/bridge_crane_new/bridge_crane_new12.png'], tables: ['../img_DWG/bridge_crane_new/table_new_crane11.png', '../img_DWG/bridge_crane_new/table_new_crane12.png'] },
-            { imgs: ['../img_DWG/bridge_crane_new/bridge_crane_new13.png', '../img_DWG/bridge_crane_new/bridge_crane_new14.png'], tables: ['../img_DWG/bridge_crane_new/table_new_crane13.png', '../img_DWG/bridge_crane_new/table_new_crane14.png'] },
-            { imgs: ['../img_DWG/bridge_crane_new/bridge_crane_new15.png', '../img_DWG/bridge_crane_new/bridge_crane_new16.png'], tables: ['../img_DWG/bridge_crane_new/table_new_crane15.png', '../img_DWG/bridge_crane_new/table_new_crane16.png'] },
-            { imgs: ['../img_DWG/bridge_crane_new/bridge_crane_new17.png', '../img_DWG/bridge_crane_new/bridge_crane_new17.2.png'], tables: ['../img_DWG/bridge_crane_new/table_new_crane17.png'] },
-            { imgs: ['../img_DWG/bridge_crane_new/bridge_crane_new18.png', '../img_DWG/bridge_crane_new/bridge_crane_new18.2.png'], tables: ['../img_DWG/bridge_crane_new/table_new_crane18.png'] },
-            { imgs: ['../img_DWG/bridge_crane_new/bridge_crane_new19.png', '../img_DWG/bridge_crane_new/bridge_crane_new19.2.png'], tables: ['../img_DWG/bridge_crane_new/table_new_crane19.png'] },
-            { imgs: ['../img_DWG/bridge_crane_new/bridge_crane_new20.png', '../img_DWG/bridge_crane_new/bridge_crane_new20.2.png'], tables: ['../img_DWG/bridge_crane_new/table_new_crane20.png'] }
+            { imgs: ['../img_DWG/Bridge_crane_new/bridge_crane_new.png',   '../img_DWG/Bridge_crane_new/bridge_crane_new2.png'],  tables: ['../img_DWG/Bridge_crane_new/table_new_crane.png',   '../img_DWG/Bridge_crane_new/table_new_crane2.png'] },
+            { imgs: ['../img_DWG/Bridge_crane_new/bridge_crane_new3.png',  '../img_DWG/Bridge_crane_new/bridge_crane_new4.png'],  tables: ['../img_DWG/Bridge_crane_new/table_new_crane3.png',  '../img_DWG/Bridge_crane_new/table_new_crane4.png'] },
+            { imgs: ['../img_DWG/Bridge_crane_new/bridge_crane_new5.png',  '../img_DWG/Bridge_crane_new/bridge_crane_new6.png'],  tables: ['../img_DWG/Bridge_crane_new/table_new_crane5.png',  '../img_DWG/Bridge_crane_new/table_new_crane6.png'] },
+            { imgs: ['../img_DWG/Bridge_crane_new/bridge_crane_new7.png',  '../img_DWG/Bridge_crane_new/bridge_crane_new8.png'],  tables: ['../img_DWG/Bridge_crane_new/table_new_crane7.png',  '../img_DWG/Bridge_crane_new/table_new_crane8.png'] },
+            { imgs: ['../img_DWG/Bridge_crane_new/bridge_crane_new9.png',  '../img_DWG/Bridge_crane_new/bridge_crane_new10.png'], tables: ['../img_DWG/Bridge_crane_new/table_new_crane9.png',  '../img_DWG/Bridge_crane_new/table_new_crane10.png'] },
+            { imgs: ['../img_DWG/Bridge_crane_new/bridge_crane_new11.png', '../img_DWG/Bridge_crane_new/bridge_crane_new12.png'], tables: ['../img_DWG/Bridge_crane_new/table_new_crane11.png', '../img_DWG/Bridge_crane_new/table_new_crane12.png'] },
+            { imgs: ['../img_DWG/Bridge_crane_new/bridge_crane_new13.png', '../img_DWG/Bridge_crane_new/bridge_crane_new14.png'], tables: ['../img_DWG/Bridge_crane_new/table_new_crane13.png', '../img_DWG/Bridge_crane_new/table_new_crane14.png'] },
+            { imgs: ['../img_DWG/Bridge_crane_new/bridge_crane_new15.png', '../img_DWG/Bridge_crane_new/bridge_crane_new16.png'], tables: ['../img_DWG/Bridge_crane_new/table_new_crane15.png', '../img_DWG/Bridge_crane_new/table_new_crane16.png'] },
+            { imgs: ['../img_DWG/Bridge_crane_new/bridge_crane_new17.png', '../img_DWG/Bridge_crane_new/bridge_crane_new17.2.png'], tables: ['../img_DWG/Bridge_crane_new/table_new_crane17.png'] },
+            { imgs: ['../img_DWG/Bridge_crane_new/bridge_crane_new18.png', '../img_DWG/Bridge_crane_new/bridge_crane_new18.2.png'], tables: ['../img_DWG/Bridge_crane_new/table_new_crane18.png'] },
+            { imgs: ['../img_DWG/Bridge_crane_new/bridge_crane_new19.png', '../img_DWG/Bridge_crane_new/bridge_crane_new19.2.png'], tables: ['../img_DWG/Bridge_crane_new/table_new_crane19.png'] },
+            { imgs: ['../img_DWG/Bridge_crane_new/bridge_crane_new20.png', '../img_DWG/Bridge_crane_new/bridge_crane_new20.2.png'], tables: ['../img_DWG/Bridge_crane_new/table_new_crane20.png'] }
         ]
     },
         3: {
@@ -142,25 +142,12 @@ const productData = {
     },
         9: {
         title: 'info_OC_type',
-        img: [
-        '../img_DWG/Overhead_Crane with_Carrier-beam/Overhead_Crane with_Carrier-beam.png',
-        '../img_DWG/Overhead_Crane with_Carrier-beam/Overhead_Crane with_Carrier-beam2.png'
-        ],
+        img: [ '../img_DWG/Overhead_Crane with_Carrier-beam/Overhead_Crane with_Carrier-beam.png','../img_DWG/Overhead_Crane with_Carrier-beam/Overhead_Crane with_Carrier-beam2.png' ],
         list: ['info_OC_p1', 'info_OC_p2'],
         specs: 'new_dwg_OC_specs_title',
         menuTitle: 'menu_title',
-        menuTitles: [
-            'new_dwg_OC_menu_1',  'new_dwg_OC_menu_2',  'new_dwg_OC_menu_3',  'new_dwg_OC_menu_4',
-            'new_dwg_OC_menu_5',  'new_dwg_OC_menu_6',  'new_dwg_OC_menu_7',  'new_dwg_OC_menu_8',
-            'new_dwg_OC_menu_9',  'new_dwg_OC_menu_10', 'new_dwg_OC_menu_11', 'new_dwg_OC_menu_12',
-            'new_dwg_OC_menu_13', 'new_dwg_OC_menu_14'
-        ],
-        newTitles: [
-            'new_dwg_OC_title_1',  'new_dwg_OC_title_2',  'new_dwg_OC_title_3',  'new_dwg_OC_title_4',
-            'new_dwg_OC_title_5',  'new_dwg_OC_title_6',  'new_dwg_OC_title_7',  'new_dwg_OC_title_8',
-            'new_dwg_OC_title_9',  'new_dwg_OC_title_10', 'new_dwg_OC_title_11', 'new_dwg_OC_title_12',
-            'new_dwg_OC_title_13', 'new_dwg_OC_title_14'
-        ],
+        menuTitles: ['new_dwg_OC_menu_1',  'new_dwg_OC_menu_2',  'new_dwg_OC_menu_3',  'new_dwg_OC_menu_4','new_dwg_OC_menu_5',  'new_dwg_OC_menu_6',  'new_dwg_OC_menu_7',  'new_dwg_OC_menu_8','new_dwg_OC_menu_9',  'new_dwg_OC_menu_10', 'new_dwg_OC_menu_11', 'new_dwg_OC_menu_12','new_dwg_OC_menu_13', 'new_dwg_OC_menu_14' ],
+        newTitles: [ 'new_dwg_OC_title_1',  'new_dwg_OC_title_2',  'new_dwg_OC_title_3',  'new_dwg_OC_title_4', 'new_dwg_OC_title_5',  'new_dwg_OC_title_6',  'new_dwg_OC_title_7',  'new_dwg_OC_title_8', 'new_dwg_OC_title_9',  'new_dwg_OC_title_10', 'new_dwg_OC_title_11', 'new_dwg_OC_title_12', 'new_dwg_OC_title_13', 'new_dwg_OC_title_14'],
         images: [
             ['../img_DWG/Overhead_Crane with_Carrier-beam/Overhead_Crane with_Carrier-beam3.png', '../img_DWG/Overhead_Crane with_Carrier-beam/OC_table.png'],
             ['../img_DWG/Overhead_Crane with_Carrier-beam/Overhead_Crane with_Carrier-beam4.png', '../img_DWG/Overhead_Crane with_Carrier-beam/OC_table2.png'],
@@ -177,6 +164,45 @@ const productData = {
             ['../img_DWG/Overhead_Crane with_Carrier-beam/Overhead_Crane with_Carrier-beam15.png','../img_DWG/Overhead_Crane with_Carrier-beam/OC_table13.png'],
             ['../img_DWG/Overhead_Crane with_Carrier-beam/Overhead_Crane with_Carrier-beam16.png','../img_DWG/Overhead_Crane with_Carrier-beam/OC_table14.png'],           
         ]
+    },
+        10: {
+        title: 'info_OL_type',
+        specs: 'new_dwg_OL_specs_title',
+        newTitles: ['new_dwg_OL_title_1', 'new_dwg_OL_title_2'],
+        newModels: [
+            {
+                paragraphs: ['info_OL_p1', 'info_OL_p2', 'info_OL_p3'],
+                img: '../img_DWG/Over_length_electr_omagnetic_overhead_crane_with_carrier-beam/Over_length_electr_omagnetic_overhead_crane.png',
+                table: '../img_DWG/Over_length_electr_omagnetic_overhead_crane_with_carrier-beam/OL_table.png'
+            },
+            {
+                paragraphs: ['info_OL_p4', 'info_OL_p5', 'info_OL_p6'],
+                img: '../img_DWG/Over_length_electr_omagnetic_overhead_crane_with_carrier-beam/Over_length_electr_omagnetic_overhead_crane2.png',
+                table: '../img_DWG/Over_length_electr_omagnetic_overhead_crane_with_carrier-beam/OL_table2.png'
+            }
+        ]
+    },
+        11: {
+        title: 'info_Tongs_type',
+        specs: ['info_A5_specs', 'info_A6_specs'],
+        newTitles: ['new_dwg_Tongs_title_1'],
+        newModels: [
+            {
+                paragraphs: ['info_Tongs_p1', 'info_Tongs_p2', 'info_Tongs_p3'],
+                imgs: ['../img_DWG/Tongs bridge crane/Tongs_bridge_crane.png', '../img_DWG/Tongs bridge crane/Tongs_bridge_crane2.png'],
+                tables: [ '../img_DWG/Tongs bridge crane/Tongs_table.png', '../img_DWG/Tongs bridge crane/Tongs_table2.png']
+            }
+        ]
+    },
+        12: {
+            title: 'info_Garbage_type',
+            newModels: [
+                {
+                    paragraphs: ['info_Garbage_p'],
+                    imgs: ['../img_DWG/Garbage_grab_crane/Garbage_grab_crane.png'],
+                    tables: ['../img_DWG/Garbage_grab_crane/G_table.png']
+                }
+            ]
     },
 };
 
@@ -249,7 +275,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 html += `<div class="gray-bar-title" data-i18n="${titleKey}">Чертёж ${blockNumber}</div>`;
 
                 if (pair[0]) {
-                    html += `<div style="text-align: center; margin: 15px 0;">
+                    html += `<div style="text-align: center; margin: 20px 0;">
                                 <a href="${pair[0]}" target="_blank">
                                     <img src="${pair[0]}" alt="Drawing" class="table-image">
                                 </a>
@@ -270,112 +296,156 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }           
         else if (targetId === '2') {
-                html += `<div style="text-align: center; margin-bottom: 20px;">
-                            <div class="header-top-bar">
-                                <h2 class="section-title" data-i18n="${data.title}">Мостовой кран нового типа</h2>
-                            </div>
-                        </div>`;
+    html += `<div style="text-align: center; margin-bottom: 20px;">
+                <div class="header-top-bar">
+                    <h2 class="section-title" data-i18n="${data.title}">Мостовой кран нового типа</h2>
+                </div>
+            </div>`;
 
+    html += `<h4 class="section-title" style="font-size:20px; margin-top:26px; margin-bottom:35px;" data-i18n="info_subtitle">Краткое описание продукции:</h4>`;  
 
-                html += `<h4 class="section-title" style="font-size:20px; margin-top:26px; margin-bottom:35px;" data-i18n="info_subtitle">Краткое описание продукции:</h4>`;  
+    if (data.list && data.list.length > 0) {
+        data.list.forEach(item => {
+            html += `<p data-i18n="${item}" style="margin-bottom:15px; line-height:1.7; text-align:justify;">${item}</p>`;
+        });
+    }
 
-                if (data.list && data.list.length > 0) {
-                    data.list.forEach(item => {
-                        html += `<p data-i18n="${item}" style="margin-bottom:15px; line-height:1.7; text-align:justify;">${item}</p>`;
-                    });
-                }
+    if (data.specsTitle) {
+        html += `<h4 class="section-title" style="font-size:20px; margin-top:35px; margin-bottom:35px;" data-i18n="${data.specsTitle}">Основные характеристики продукции:</h4>`;
+    }
+    if (data.specsList && data.specsList.length > 0) {
+        html += '<ul class="features-list">';
+        data.specsList.forEach(item => {
+            html += `<li data-i18n="${item}" style="margin-bottom:10px; line-height:1.6;">${item}</li>`;
+        });
+        html += '</ul>';
+    }
+    const totalTitles = (data.newTitles && data.newTitles.length) ? data.newTitles.length : data.newModels.length;
+    const limitedModels = data.newModels.slice(0, totalTitles);
 
-                if (data.specsTitle) {
-                    html += `<h4 class="section-title" style="font-size:20px; margin-top:35px; margin-bottom:35px;" data-i18n="${data.specsTitle}">Основные характеристики продукции:</h4>`;
-                }
-                if (data.specsList && data.specsList.length > 0) {
-                    html += '<ul class="features-list">';
-                    data.specsList.forEach(item => {
-                        html += `<li data-i18n="${item}" style="margin-bottom:10px; line-height:1.6;">${item}</li>`;
-                    });
-                    html += '</ul>';
-                }
+    const isMobile2 = window.innerWidth <= 768;
 
-                const totalTitles = (data.newTitles && data.newTitles.length) ? data.newTitles.length : data.newModels.length;
-                const limitedModels = data.newModels.slice(0, totalTitles);
+    html += `
+    <div class="dwg-accordion">
+        <button class="dwg-accordion-toggle" onclick="toggleAccordion(this)">
+            <span data-i18n="${data.menuTitle}">Чертежи по моделям</span>
+            <span class="dwg-arrow">▼</span>
+        </button>
+        <div class="dwg-accordion-content">
+            <ul class="dwg-accordion-list">`;
 
-                html += `
-                <div class="dwg-accordion">
-                    <button class="dwg-accordion-toggle" onclick="toggleAccordion(this)">
-                        <span data-i18n="${data.menuTitle}">Чертежи по моделям</span>
-                        <span class="dwg-arrow">▼</span>
-                    </button>
-                    <div class="dwg-accordion-content">
-                        <ul class="dwg-accordion-list">`;
+    limitedModels.forEach((model, idx) => {
+        const titleKey = data.newTitles[idx];
+        html += `<li><a href="#new-dwg-${idx + 1}-${targetId}" data-i18n="${titleKey}">${titleKey}</a></li>`;
+    });
 
-                limitedModels.forEach((model, idx) => {
-                    const titleKey = data.newTitles[idx];
-                    html += `<li><a href="#new-dwg-${idx + 1}-${targetId}" data-i18n="${titleKey}">${titleKey}</a></li>`;
-                });
+    html += `</ul></div></div>`;
 
-                html += `</ul></div></div>`;
+    limitedModels.forEach((model, idx) => {
+        const titleKey = data.newTitles[idx];
+        const blockNumber = idx + 1;
 
-                limitedModels.forEach((model, idx) => {
-                    const titleKey = data.newTitles[idx];
-                    const blockNumber = idx + 1;
+        html += `<div id="new-dwg-${blockNumber}-${targetId}" class="dwg-block">`;
+        html += `<div class="gray-bar-title" data-i18n="${titleKey}">Чертёж ${blockNumber}</div>`;
 
-                    html += `<div id="new-dwg-${blockNumber}-${targetId}" class="dwg-block">`;
-                    html += `<div class="gray-bar-title" data-i18n="${titleKey}">Чертёж ${blockNumber}</div>`;
+        const imgs = model.imgs || [];
+        const tables = model.tables || [];
 
-                    // ----- ЧЕРТЕЖИ -----
-                    if (model.imgs && model.imgs.length > 0) {
-                        if (model.imgs.length === 2) {
-                            html += `<div style="display:flex; gap:12px; justify-content:center; align-items:flex-start; flex-wrap:nowrap; margin:15px 0;">`;
-                            model.imgs.forEach(imgSrc => {
-                                html += `<div style="flex:0 0 49%; max-width:49%; text-align:center;">
-                                            <a href="${imgSrc}" target="_blank">
-                                                <img src="${imgSrc}" alt="Drawing" style="width:100%; max-width:100%; height:auto; display:block; border:1px solid #ccc; border-radius:4px; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
-                                            </a>
-                                         </div>`;
-                            });
-                            html += `</div>`;
-                        } else {
-                            html += `<div style="text-align:center; margin:15px 0;">
-                                        <a href="${model.imgs[0]}" target="_blank">
-                                            <img src="${model.imgs[0]}" alt="Drawing" class="table-image">
-                                        </a>
-                                     </div>`;
-                        }
+        // ==================================================
+        // МОБИЛЬНАЯ ВЕРСИЯ
+        // ==================================================
+        if (isMobile2) {
+            if (imgs.length === 2 && tables.length === 1) {
+                html += `<div style="text-align:center; margin:15px 0;">
+                            <a href="${imgs[0]}" target="_blank">
+                                <img src="${imgs[0]}" alt="Drawing 1" class="table-image">
+                            </a>
+                         </div>`;
+                html += `<div style="text-align:center; margin:15px 0;">
+                            <a href="${imgs[1]}" target="_blank">
+                                <img src="${imgs[1]}" alt="Drawing 2" class="table-image">
+                            </a>
+                         </div>`;
+                const specKey = data.specs[0] || data.specs;
+                const label = ' (A5)';
+                html += `<h3 class="section-title specs-title" data-i18n="${specKey}">Технические параметры${label}</h3>`;
+                html += `<div style="text-align:center; margin:20px 0;">
+                            <a href="${tables[0]}" target="_blank">
+                                <img src="${tables[0]}" alt="Table" class="table-image">
+                            </a>
+                         </div>`;
+            }
+            else {
+                const pairsCount = Math.max(imgs.length, tables.length);
+                for (let i = 0; i < pairsCount; i++) {
+                    if (imgs[i]) {
+                        html += `<div style="text-align:center; margin:15px 0;">
+                                    <a href="${imgs[i]}" target="_blank">
+                                        <img src="${imgs[i]}" alt="Drawing" class="table-image">
+                                    </a>
+                                 </div>`;
                     }
-
-                    // ----- ТАБЛИЦЫ -----
-                    if (model.tables && model.tables.length > 0) {
-                        if (model.tables.length === 2) {
-                            html += `<div style="display:flex; gap:12px; justify-content:center; align-items:flex-start; flex-wrap:nowrap; margin:15px 0;">`;
-
-                            html += `<div style="flex:0 0 49%; max-width:49%; text-align:center;">
-                                        <h3 class="section-title specs-title" style="font-size:20px; margin-top:35px; margin-bottom:35px;" data-i18n="${data.specs[0]}">Технические параметры (A5)</h3>
-                                        <a href="${model.tables[0]}" target="_blank">
-                                            <img src="${model.tables[0]}" alt="Table A5" style="width:100%; max-width:100%; height:auto; display:block; border:1px solid #ccc; border-radius:4px; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
-                                        </a>
-                                     </div>`;
-
-                            html += `<div style="flex:0 0 49%; max-width:49%; text-align:center;">
-                                        <h3 class="section-title specs-title" style="font-size:20px; margin-top:35px; margin-bottom:35px;" data-i18n="${data.specs[1]}">Технические параметры (A6)</h3>
-                                        <a href="${model.tables[1]}" target="_blank">
-                                            <img src="${model.tables[1]}" alt="Table A6" style="width:100%; max-width:100%; height:auto; display:block; border:1px solid #ccc; border-radius:4px; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
-                                        </a>
-                                     </div>`;
-
-                            html += `</div>`;
-                            
-                        } else {
-                            html += `<h3 class="section-title specs-title" style="font-size:20px; margin-top:35px; margin-bottom:35px;" data-i18n="${data.specs[0]}">Технические параметры (A5)</h3>`;
-                            html += `<div style="text-align:center; margin:20px 0;">
-                                        <a href="${model.tables[0]}" target="_blank">
-                                            <img src="${model.tables[0]}" alt="Table A5" class="table-image">
-                                        </a>
-                                     </div>`;
-                        }
+                    if (tables[i]) {
+                        const specKey = data.specs[i] || data.specs[0];
+                        const label = (i === 0) ? ' (A5)' : ((i === 1) ? ' (A6)' : '');
+                        html += `<h3 class="section-title specs-title" data-i18n="${specKey}">Технические параметры${label}</h3>`;
+                        html += `<div style="text-align:center; margin:20px 0;">
+                                    <a href="${tables[i]}" target="_blank">
+                                        <img src="${tables[i]}" alt="Table" class="table-image">
+                                    </a>
+                                 </div>`;
                     }
-
-                    html += `</div>`;
+                }
+            }
+        }
+        else {
+            // ЧЕРТЕЖИ
+            if (imgs.length === 2) {
+                html += `<div style="display:flex; gap:12px; justify-content:center; align-items:flex-start; flex-wrap:nowrap; margin:15px 0;">`;
+                imgs.forEach(imgSrc => {
+                    html += `<div style="flex:0 0 49%; max-width:49%; text-align:center;">
+                                <a href="${imgSrc}" target="_blank">
+                                    <img src="${imgSrc}" alt="Drawing" style="width:100%; max-width:100%; height:auto; display:block; border:1px solid #ccc; border-radius:4px; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
+                                </a>
+                             </div>`;
                 });
+                html += `</div>`;
+            } else if (imgs.length === 1) {
+                html += `<div style="text-align:center; margin:15px 0;">
+                            <a href="${imgs[0]}" target="_blank">
+                                <img src="${imgs[0]}" alt="Drawing" class="table-image">
+                            </a>
+                         </div>`;
+            }
+            // ТАБЛИЦЫ
+            if (tables.length === 2) {
+                html += `<div style="display:flex; gap:12px; justify-content:center; align-items:flex-start; flex-wrap:nowrap; margin:15px 0;">`;
+
+                html += `<div style="flex:0 0 49%; max-width:49%; text-align:center;">
+                            <h3 class="section-title specs-title" style="font-size:20px; margin-top:35px; margin-bottom:35px;" data-i18n="${data.specs[0]}">Технические параметры (A5)</h3>
+                            <a href="${tables[0]}" target="_blank">
+                                <img src="${tables[0]}" alt="Table A5" style="width:100%; max-width:100%; height:auto; display:block; border:1px solid #ccc; border-radius:4px; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
+                            </a>
+                         </div>`;
+
+                html += `<div style="flex:0 0 49%; max-width:49%; text-align:center;">
+                            <h3 class="section-title specs-title" style="font-size:20px; margin-top:35px; margin-bottom:35px;" data-i18n="${data.specs[1]}">Технические параметры (A6)</h3>
+                            <a href="${tables[1]}" target="_blank">
+                                <img src="${tables[1]}" alt="Table A6" style="width:100%; max-width:100%; height:auto; display:block; border:1px solid #ccc; border-radius:4px; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
+                            </a>
+                         </div>`;
+                html += `</div>`;
+            } else if (tables.length === 1) {
+                html += `<h3 class="section-title specs-title" style="font-size:20px; margin-top:35px; margin-bottom:35px;" data-i18n="${data.specs[0]}">Технические параметры (A5)</h3>`;
+                html += `<div style="text-align:center; margin:20px 0;">
+                            <a href="${tables[0]}" target="_blank">
+                                <img src="${tables[0]}" alt="Table A5" class="table-image">
+                            </a>
+                         </div>`;
+            }
+        }
+        html += `</div>`;
+    });
         }
         else if (targetId === '3') {
                 // Заголовок
@@ -434,7 +504,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         // ЧЕРТЁЖ
                         if (model.imgs && model.imgs.length > 0) {
                             model.imgs.forEach(imgSrc => {
-                                html += `<div style="text-align: center; margin: 15px 0;">
+                                html += `<div style="text-align: center; margin: 45px 0;">
                                             <a href="${imgSrc}" target="_blank">
                                                 <img src="${imgSrc}" alt="Drawing" class="table-image">
                                             </a>
@@ -446,7 +516,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         if (model.tables && model.tables.length > 0) {
                             html += `<h3 class="section-title specs-title" style="font-size:20px; margin-top:35px; margin-bottom:35px;" data-i18n="info_specs">Технические характеристики</h3>`;
                             model.tables.forEach(tableSrc => {
-                                html += `<div style="text-align: center; margin: 20px 0;">
+                                html += `<div style="text-align: center; margin: 35px 0;">
                                             <a href="${tableSrc}" target="_blank">
                                                 <img src="${tableSrc}" alt="Table" class="table-image">
                                             </a>
@@ -495,7 +565,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     const firstModel = data.newModels[data.newModels.length - 1];  
                     if (firstModel.imgs && firstModel.imgs.length > 0) {
                         firstModel.imgs.forEach(imgSrc => {
-                            html += `<div style="text-align: center; margin: 15px 0;">
+                            html += `<div style="text-align: center; margin: 45px 0;">
                                         <a href="${imgSrc}" target="_blank">
                                             <img src="${imgSrc}" alt="Drawing" class="table-image">
                                         </a>
@@ -505,7 +575,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     if (firstModel.tables && firstModel.tables.length > 0) {
                         html += `<h3 class="section-title specs-title" style="font-size:20px; margin-top:35px; margin-bottom:35px;" data-i18n="info_specs">Технические характеристики</h3>`;
                         firstModel.tables.forEach(tableSrc => {
-                            html += `<div style="text-align: center; margin: 20px 0;">
+                            html += `<div style="text-align: center; margin: 35px 0;">
                                         <a href="${tableSrc}" target="_blank">
                                             <img src="${tableSrc}" alt="Table" class="table-image">
                                         </a>
@@ -527,7 +597,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                         if (model.imgs && model.imgs.length > 0) {
                             model.imgs.forEach(imgSrc => {
-                                html += `<div style="text-align: center; margin: 15px 0;">
+                                html += `<div style="text-align: center; margin: 45px 0;">
                                             <a href="${imgSrc}" target="_blank">
                                                 <img src="${imgSrc}" alt="Drawing" class="table-image">
                                             </a>
@@ -538,7 +608,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         if (model.tables && model.tables.length > 0) {
                             html += `<h3 class="section-title specs-title" style="font-size:20px; margin-top:35px; margin-bottom:35px;" data-i18n="info_specs">Технические характеристики</h3>`;
                             model.tables.forEach(tableSrc => {
-                                html += `<div style="text-align: center; margin: 20px 0;">
+                                html += `<div style="text-align: center; margin: 35px 0;">
                                             <a href="${tableSrc}" target="_blank">
                                                 <img src="${tableSrc}" alt="Table" class="table-image">
                                             </a>
@@ -603,7 +673,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         // ЧЕРТЁЖ
                         if (model.imgs && model.imgs.length > 0) {
                             model.imgs.forEach(imgSrc => {
-                                html += `<div style="text-align: center; margin: 15px 0;">
+                                html += `<div style="text-align: center; margin: 45px 0;">
                                             <a href="${imgSrc}" target="_blank">
                                                 <img src="${imgSrc}" alt="Drawing" class="table-image">
                                             </a>
@@ -615,7 +685,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         if (model.tables && model.tables.length > 0) {
                             html += `<h3 class="section-title specs-title" style="font-size:20px; margin-top:35px; margin-bottom:35px;" data-i18n="info_specs">Технические характеристики</h3>`;
                             model.tables.forEach(tableSrc => {
-                                html += `<div style="text-align: center; margin: 20px 0;">
+                                html += `<div style="text-align: center; margin: 35px 0;">
                                             <a href="${tableSrc}" target="_blank">
                                                 <img src="${tableSrc}" alt="Table" class="table-image">
                                             </a>
@@ -685,7 +755,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         // ЧЕРТЁЖ
                         if (model.imgs && model.imgs.length > 0) {
                             model.imgs.forEach(imgSrc => {
-                                html += `<div style="text-align: center; margin: 15px 0;">
+                                html += `<div style="text-align: center; margin: 45px 0;">
                                             <a href="${imgSrc}" target="_blank">
                                                 <img src="${imgSrc}" alt="Drawing" class="table-image">
                                             </a>
@@ -697,7 +767,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         if (model.tables && model.tables.length > 0) {
                             html += `<h3 class="section-title specs-title" style="font-size:20px; margin-top:35px; margin-bottom:35px;" data-i18n="info_specs">Технические характеристики</h3>`;
                             model.tables.forEach(tableSrc => {
-                                html += `<div style="text-align: center; margin: 20px 0;">
+                                html += `<div style="text-align: center; margin: 35px 0;">
                                             <a href="${tableSrc}" target="_blank">
                                                 <img src="${tableSrc}" alt="Table" class="table-image">
                                             </a>
@@ -757,7 +827,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     html += `<div class="gray-bar-title" data-i18n="${titleKey}">Чертёж ${blockNumber}</div>`;
 
                     if (pair[0]) {
-                        html += `<div style="text-align: center; margin: 15px 0;">
+                        html += `<div style="text-align: center; margin: 45px 0;">
                                     <a href="${pair[0]}" target="_blank">
                                         <img src="${pair[0]}" alt="Drawing" class="table-image">
                                     </a>
@@ -765,7 +835,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                     html += `<h3 class="section-title specs-title" style="font-size:20px; margin-top:35px; margin-bottom:35px;" data-i18n="info2_specs">Технические параметры</h3>`;
                     if (pair[1]) {
-                        html += `<div style="text-align: center; margin: 20px 0;">
+                        html += `<div style="text-align: center; margin: 35px 0;">
                                     <a href="${pair[1]}" target="_blank">
                                         <img src="${pair[1]}" alt="Table" class="table-image">
                                     </a>
@@ -827,7 +897,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     html += `<div class="gray-bar-title" data-i18n="${titleKey}">Чертёж ${blockNumber}</div>`;
 
                     if (pair[0]) {
-                        html += `<div style="text-align: center; margin: 15px 0;">
+                        html += `<div style="text-align: center; margin: 45px 0;">
                                     <a href="${pair[0]}" target="_blank">
                                         <img src="${pair[0]}" alt="Drawing" class="table-image">
                                     </a>
@@ -835,7 +905,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                     html += `<h3 class="section-title specs-title" style="font-size:20px; margin-top:35px; margin-bottom:35px;" data-i18n="info2_specs">Технические параметры</h3>`;
                     if (pair[1]) {
-                        html += `<div style="text-align: center; margin: 20px 0;">
+                        html += `<div style="text-align: center; margin: 35px 0;">
                                     <a href="${pair[1]}" target="_blank">
                                         <img src="${pair[1]}" alt="Table" class="table-image">
                                     </a>
@@ -908,7 +978,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     html += `<div class="gray-bar-title" data-i18n="${titleKey}">Чертёж ${blockNumber}</div>`;
 
                     if (pair[0]) {
-                        html += `<div style="text-align: center; margin: 15px 0;">
+                        html += `<div style="text-align: center; margin: 45px 0;">
                                     <a href="${pair[0]}" target="_blank">
                                         <img src="${pair[0]}" alt="Drawing" class="table-image">
                                     </a>`;
@@ -916,7 +986,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                     html += `<h3 class="section-title specs-title" style="font-size:20px; margin-top:35px; margin-bottom:35px;" data-i18n="info2_specs">Технические параметры</h3>`;
                     if (pair[1]) {
-                        html += `<div style="text-align: center; margin: 20px 0;">
+                        html += `<div style="text-align: center; margin: 35px 0;">
                                     <a href="${pair[1]}" target="_blank">
                                         <img src="${pair[1]}" alt="Table" class="table-image">
                                     </a>
@@ -925,6 +995,184 @@ document.addEventListener('DOMContentLoaded', function() {
 
                     html += `</div>`;
                 });
+        }
+        else if (targetId === '10') {
+
+                html += `<div style="text-align: center; margin-bottom: 10px;">
+                            <div class="header-top-bar">
+                                <h2 class="section-title" data-i18n="${data.title}">Сверхдлинный электромагнитный мостовой кран с грузовой балкой</h2>
+                            </div>
+                        </div>`;
+
+                if (data.newModels && data.newModels.length > 0) {
+                    const totalTitles = (data.newTitles && data.newTitles.length) ? data.newTitles.length : data.newModels.length;
+                    const limitedModels = data.newModels.slice(0, totalTitles);
+
+                    limitedModels.forEach((model, idx) => {
+                        const titleKey = data.newTitles[idx];
+                        const blockNumber = idx + 1;
+                      
+                        html += `<h4 class="section-title" style="font-size:20px; margin-top:26px; margin-bottom:35px;" data-i18n="info_subtitle">Краткое описание продукции:</h4>`;
+
+                        if (model.paragraphs && model.paragraphs.length > 0) {
+                            model.paragraphs.forEach(key => {
+                                html += `<p data-i18n="${key}" style="margin-bottom:15px; line-height:1.7; text-align:justify;">${key}</p>`;
+                            });
+                        }
+
+                        if (model.img) {
+                            html += `<div style="text-align: center; margin: 25px 0;">
+                                        <a href="${model.img}" target="_blank">
+                                            <img src="${model.img}" alt="Drawing" class="table-image">
+                                        </a>
+                                     </div>`;
+                        }
+
+                        html += `<h3 class="section-title specs-title" style="font-size:20px; margin-top:35px; margin-bottom:35px;" data-i18n="info2_specs">Технические параметры</h3>`;
+                        if (model.table) {
+                            html += `<div style="text-align: center; margin: 20px 0;">
+                                        <a href="${model.table}" target="_blank">
+                                            <img src="${model.table}" alt="Table" class="table-image">
+                                        </a>
+                                     </div>`;
+                        }
+                        html += `</div>`;
+                    });
+                }
+        } 
+        else if (targetId === '11') {
+                html += `<div style="text-align: center; margin-bottom: 10px;">
+                            <div class="header-top-bar">
+                                <h2 class="section-title" data-i18n="${data.title}">Клещевой мостовой кран 35~65 т.</h2>
+                            </div>
+                        </div>`;
+
+                if (data.newModels && data.newModels.length > 0) {
+                    const totalTitles = (data.newTitles && data.newTitles.length) ? data.newTitles.length : data.newModels.length;
+                    const limitedModels = data.newModels.slice(0, totalTitles);
+
+                    const isMobile = window.innerWidth <= 768;
+
+                    limitedModels.forEach((model, idx) => {
+                        if (model.paragraphs && model.paragraphs.length > 0) {
+                            html += `<h4 class="section-title" style="font-size:20px; margin-top:20px; margin-bottom:15px;" data-i18n="info_subtitle">Краткое описание продукции:</h4>`;
+                            model.paragraphs.forEach(key => {
+                                html += `<p data-i18n="${key}" style="margin-bottom:15px; line-height:1.7; text-align:justify;">${key}</p>`;
+                            });
+                        }
+
+                        const imgs = model.imgs || (model.img ? [model.img] : []);
+                        const tables = model.tables || (model.table ? [model.table] : []);
+
+                        if (isMobile) {
+                            for (let i = 0; i < Math.max(imgs.length, tables.length); i++) {
+                                if (imgs[i]) {
+                                    html += `<div style="text-align: center; margin: 45px 0;">
+                                                <a href="${imgs[i]}" target="_blank">
+                                                    <img src="${imgs[i]}" alt="Drawing" class="table-image">
+                                                </a>
+                                             </div>`;
+                                }
+                                if (tables[i]) {
+                                    html += `<h3 class="section-title specs-title" style="font-size:20px; margin-top:35px; margin-bottom:35px;" data-i18n="info2_specs">Технические параметры</h3>`;
+                                    html += `<div style="text-align: center; margin: 45px 0;">
+                                                <a href="${tables[i]}" target="_blank">
+                                                    <img src="${tables[i]}" alt="Table" class="table-image">
+                                                </a>
+                                             </div>`;
+                                }
+                            }
+                        }
+                        else {
+                            if (imgs.length === 2) {
+                                html += `<div style="display:flex; gap:12px; justify-content:center; align-items:flex-start; flex-wrap:nowrap; margin:15px 0;">`;
+                                imgs.forEach(imgSrc => {
+                                    html += `<div style="flex:0 0 49%; max-width:49%; text-align:center;">
+                                                <a href="${imgSrc}" target="_blank">
+                                                    <img src="${imgSrc}" alt="Drawing" style="width:100%; max-width:100%; height:auto; display:block; border:1px solid #ccc; border-radius:4px; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
+                                                </a>
+                                             </div>`;
+                                });
+                                html += `</div>`;
+                            } else if (imgs.length === 1) {
+                                html += `<div style="text-align: center; margin: 45px 0;">
+                                            <a href="${imgs[0]}" target="_blank">
+                                                <img src="${imgs[0]}" alt="Drawing" class="table-image">
+                                            </a>
+                                         </div>`;
+                            }
+
+                            if (tables.length === 2) {
+                                html += `<div style="display:flex; gap:12px; justify-content:center; align-items:flex-start; flex-wrap:nowrap; margin:15px 0;">`;
+
+                                html += `<div style="flex:0 0 49%; max-width:49%; text-align:center;">
+                                            <h3 class="section-title specs-title" style="font-size:20px; margin-top:35px; margin-bottom:35px;" data-i18n="info2_specs">Технические параметры</h3>
+                                            <a href="${tables[0]}" target="_blank">
+                                                <img src="${tables[0]}" alt="Table A5" style="width:100%; max-width:100%; height:auto; display:block; border:1px solid #ccc; border-radius:4px; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
+                                            </a>
+                                         </div>`;
+
+                                html += `<div style="flex:0 0 49%; max-width:49%; text-align:center;">
+                                            <h3 class="section-title specs-title" style="font-size:20px; margin-top:35px; margin-bottom:35px;" data-i18n="info2_specs">Технические параметры</h3>
+                                            <a href="${tables[1]}" target="_blank">
+                                                <img src="${tables[1]}" alt="Table A6" style="width:100%; max-width:100%; height:auto; display:block; border:1px solid #ccc; border-radius:4px; box-shadow:0 4px 15px rgba(0,0,0,0.1);">
+                                            </a>
+                                         </div>`;
+
+                                html += `</div>`;
+                            } else if (tables.length === 1) {
+                                html += `<h3 class="section-title specs-title" data-i18n="info2_specs">Технические параметры</h3>`;
+                                html += `<div style="text-align: center; margin: 35px 0;">
+                                            <a href="${tables[0]}" target="_blank">
+                                                <img src="${tables[0]}" alt="Table" class="table-image">
+                                            </a>
+                                         </div>`;
+                            }
+                        }
+                    });
+                }
+        }
+        else if (targetId === '12') {
+            html += `<div style="text-align: center; margin-bottom: 10px;">
+                        <div class="header-top-bar">
+                            <h2 class="section-title" data-i18n="${data.title}">Мостовой грейферный кран для мусора</h2>
+                        </div>
+                    </div>`;
+
+            if (data.newModels && data.newModels.length > 0) {
+                const limitedModels = data.newModels;
+
+                limitedModels.forEach((model) => {
+                    html += `<h4 class="section-title" style="font-size:20px; margin-top:26px; margin-bottom:35px;" data-i18n="info_subtitle">Краткое описание продукции:</h4>`;
+
+                    if (model.paragraphs && model.paragraphs.length > 0) {
+                        model.paragraphs.forEach(key => {
+                            html += `<p data-i18n="${key}" style="margin-bottom:15px; line-height:1.7; text-align:justify;">${key}</p>`;
+                        });
+                    }
+
+                    if (model.imgs && model.imgs.length > 0) {
+                        model.imgs.forEach(imgSrc => {
+                            html += `<div style="text-align: center; margin: 45px 0;">
+                                        <a href="${imgSrc}" target="_blank">
+                                            <img src="${imgSrc}" alt="Garbage Grab Crane" class="table-image">
+                                        </a>
+                                     </div>`;
+                        });
+                    }
+
+                    if (model.tables && model.tables.length > 0) {
+                        html += `<h3 class="section-title specs-title" style="font-size:20px; margin-top:35px; margin-bottom:35px;" data-i18n="info2_specs">Технические параметры</h3>`;
+                        model.tables.forEach(tableSrc => {
+                            html += `<div style="text-align: center; margin: 35px 0;">
+                                        <a href="${tableSrc}" target="_blank">
+                                            <img src="${tableSrc}" alt="Table" class="table-image">
+                                        </a>
+                                     </div>`;
+                        });
+                    }
+                });
+            }
         }
         else {
             return;
@@ -946,5 +1194,28 @@ function toggleAccordion(button) {
     const accordion = button.closest('.dwg-accordion');
     accordion.classList.toggle('open');
 }
+
+let resizeTimer;
+window.addEventListener('resize', function() {
+    const activePanel = document.querySelector('.info-panel.active');
+    if (!activePanel) return;
+
+    const content = activePanel.innerHTML;
+    let targetId = null;
+
+    if (content.includes('Клещевой мостовой кран')) {
+        targetId = '11';
+    } else if (content.includes('Мостовой кран нового типа')) {
+        targetId = '2';
+    }
+
+    if (!targetId) return;
+
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function() {
+        const card = document.querySelector('.product-card[data-target="' + targetId + '"]');
+        if (card) card.click();
+    }, 300);
+});
 
 window.toggleAccordion = toggleAccordion;

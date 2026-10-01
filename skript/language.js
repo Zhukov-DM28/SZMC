@@ -280,6 +280,23 @@ const translations = {
         'new_dwg_OC_title_12': 'Поворотный мостовой кран с несущей балкой на 32 т.',
         'new_dwg_OC_title_13': 'Поворотный мостовой кран с несущей балкой на 40 т.',
         'new_dwg_OC_title_14': 'Низкоуровневый поворотный телескопический электромагнитный мостовой кран с несущей балкой',
+        // ===== (Карточка 10)  =====
+        'info_OL_type': 'Сверхдлинный электромагнитный мостовой кран с грузовой балкой',
+        'info_OL_p1': 'Кран оснащён сверхдлинной электромагнитной грузовой балкой и применяется в фиксированном пролёте в помещениях или на открытом воздухе металлургических заводов, судостроительных верфей, портов и складов. Он используется для погрузки, разгрузки и транспортировки стальных плит и профильного проката.',
+        'info_OL_p2': 'Кран особенно подходит для подъёма стальных плит средней толщины: толщиной ≤3500 мм и длиной ≤43000 мм. Магнитная сила электромагнита регулируется в соответствии с характеристиками и весом поднимаемого материала.',
+        'info_OL_p3': 'По требованиям заказчика могут быть поставлены: грузовые балки различной длины, регулирование скорости механизмов (1:10 и более), защита от перегрузки и сигнализация, дистанционное управление, PLC-управление, система обнаружения неисправностей и отображения и т. д. (данные ниже приведены для помещений).',
+
+        'info_OL_p4': 'Кабина крана может быть передвижной. Кран оснащён сверхдлинной электромагнитной грузовой балкой и применяется в фиксированном пролёте в помещениях или на открытом воздухе металлургических заводов, судостроительных верфей, портов и складов. Он используется для погрузки, разгрузки и транспортировки стальных плит и профильного проката.',
+        'info_OL_p5': 'Кран особенно подходит для подъёма стальных плит средней толщины: толщиной ≤4200 мм и длиной ≤46000 мм. Магнитная сила электромагнита регулируется в соответствии с характеристиками и весом поднимаемого материала.',
+        'info_OL_p6': 'По требованиям заказчика могут быть поставлены: грузовые балки различной длины, регулирование скорости механизмов (1:10 и более), защита от перегрузки и сигнализация, дистанционное управление, PLC-управление, система обнаружения неисправностей и отображения и т. д. (данные ниже приведены для помещений).',
+        // ===== (Карточка 11)  =====
+        'info_Tongs_type': 'Клещевой мостовой кран 35~65 т.',
+        'info_Tongs_p1': 'Клещи данного клещевого крана параллельны главной балке. Кран применяется в фиксированном пролёте в помещениях или на открытом воздухе металлургических заводов, судостроительных верфей, портов, складов и хранилищ для погрузки, разгрузки и транспортировки стальных плит, слябов, профильного проката и других материалов.',
+        'info_Tongs_p2': 'Кран особенно подходит для подъёма слябов различных типоразмеров: в зависимости от типоразмера (разной толщины, длины, количества листов и т. д.) и веса поднимаемого материала могут быть установлены различные клещи для удовлетворения требований подъёма.',
+        'info_Tongs_p3': 'По требованиям заказчика могут быть поставлены: регулирование скорости механизмов (1:10 и более), защита от перегрузки и сигнализация, дистанционное управление, PLC-управление, система обнаружения неисправностей и отображения и т. д.',
+        // ===== (Карточка 12) =====
+        'info_Garbage_type': 'Мостовой грейферный кран для мусора',
+        'info_Garbage_p': 'Мостовой грейферный кран для мусора является ключевым оборудованием системы подачи мусора на различных мусоросжигательных электростанциях современного города. Он расположен над мусорной ямой и в основном выполняет операции по подаче, перемещению, перемешиванию, захвату и взвешиванию мусора. Мостовой грейферный кран для мусора, производимый нашей компанией, может строго выполнять подъёмно-транспортные операции, обеспечивая нормальную работу мусоросжигательной электростанции. Этот кран может управляться вручную, полуавтоматически или автоматически.',
     },
     en: {
         'menu_company': 'Company',
@@ -566,6 +583,24 @@ const translations = {
         'new_dwg_OC_title_12': '32t. Overhead turning Crane with Carrier-beam',
         'new_dwg_OC_title_13': '40t. Overhead turning Crane with Carrier-beam',
         'new_dwg_OC_title_14': 'Low level slewing telescopic electromagnetic Overhead Crane with Carrier-beam',
+        // ===== (Карточка 10)  =====
+        'info_OL_type': 'Over length electromagnetic overhead crane with carrier-beam',
+        'info_OL_p1': 'The crane has over length electromagnetic carrier-beam, and is used in the fixed span at indoors or outdoors of steel mill, shipyard, port and storage, etc. It is used for loading, unloading and carrying slab of steel plate and profile steel, etc.',
+        'info_OL_p2': 'It is especially applicable to lift steel slab of moderate thickness: thickness is ≤3500mm and length is ≤43000mm. The magnetic of electromagnet can be adjusted according to the specifications and weight of the lifted material.',
+        'info_OL_p3': 'The following can be supplied according to the user\'s requirements: different length of carrier-beam, speed governing (1:10 or larger) of the mechanisms, overload & warning, remote control, PL control, failure detection and display system, etc. (the data below is used for indoor).',
+
+        'info_OL_p4': 'Cab of the crane can be moved. The crane has over length electromagnetic carrier-beam, and is used in the fixed span at indoors or outdoors of steel mill, shipyard, port and storage, etc. It is used for loading, unloading and carrying slab of steel plate and profile steel, etc.',
+        'info_OL_p5': 'It is especially applicable to lift steel slab of moderate thickness: thickness is ≤4200mm and length is ≤46000mm. The magnetic of electromagnet can be adjusted according to the specifications and weight of the lifted material.',
+        'info_OL_p6': 'The following can be supplied according to the user\'s requirements: different length of carrier-beam, speed governing (1:10 or larger) of the mechanisms, overload & warning, remote control, PL control, failure detection and display system, etc. (the data below is used for indoor).',
+        // ===== (Карточка 11)  =====
+        'info_Tongs_type': '35~65t. Tongs bridge crane',
+        'info_Tongs_p1': 'The tongs of the tongs bridge crane is perpendicular to the girder; is used in the fixed span at indoors or outdoors of steel mill, shipyard, port and storage, etc. It is used for loading, unloading and carrying slab of steel plate, slab, profile steel, etc.',
+        'info_Tongs_p2': 'It is especially applicable to lift slab of different specification; different kinds of tongs can be equipped in it to meet the requirements of lifting according to the specification (different thickness, length and pieces, etc.) and weight of the lifted materials.',
+        'info_Tongs_p3': 'The followings can be supplied according to the user\'s requirements: speed governing (1:10 or larger) of the mechanisms, overload & warning, remote control, PLC control, failure detection and display system, etc.',
+        // ===== (Карточка 12) =====
+        'info_Garbage_type': 'Garbage Grab Bridge Crane',
+        'info_Garbage_p1': 'Garbage grab crane is the key device used in the garbage feed system of different kinds of Garbage-Cremation Power Plant in modern city. It is located at the top of garbage storing pit, and is mainly used for operation of feeding, conveying, mixing, fetching and weighing of the garbage.',
+        'info_Garbage_p2': 'The garbage grab crane manufactured by our company can implement lifting and conveying strictly to ensure normal work of Garbage-Cremation Power plant. This crane can be controlled by hand, semi-automatically or automatically.',
     },
     zh: {
         'menu_company': '公司',
@@ -853,6 +888,24 @@ const translations = {
         'new_dwg_OC_title_12': '32吨下旋挂梁桥式起重机',
         'new_dwg_OC_title_13': '40吨下旋挂梁桥式起重机',
         'new_dwg_OC_title_14': '下旋转伸缩挂梁电磁桥式起重机',
+        // ===== (Карточка 10)  =====
+        'info_OL_type': '超长电磁挂梁桥式起重机',
+        'info_OL_p1': '本起重机带有超长电磁挂梁，用于钢厂、船厂港口、堆场和仓储等室内或露天的固定跨间，装卸及搬运钢板等物料。',
+        'info_OL_p2': '特别适用于吊运宽度≤3500mm、长度≤43000mm的中厚钢板的搬运场合，能够根据所吊物料的规格和重量，调节电磁铁磁力。',
+        'info_OL_p3': '可根据用户要求提供：不同的挂梁长度，各机构的调速（1:10或更大）、超载及报警、遥控、PLC控制及故障检测、显示系统等。（一下参数为室内用）',
+
+        'info_OL_p4': '本起重机司机室可以移动，带有超长电磁挂梁，用于钢厂、船厂港口、堆场和仓储等室内或露天的固定跨间，装卸及搬运钢板等物料。',
+        'info_OL_p5': '特别适用于吊运宽度≤4200mm、长度≤46000mm的中厚钢板的搬运场合，能够根据所吊物料的规格和重量，调节电磁铁磁力。',
+        'info_OL_p6': '可根据用户要求提供：不同的挂梁长度，各机构的调速（1:10或更大）、超载及报警、遥控、PLC控制及故障检测、显示系统等。（一下参数为室内用）',
+        // ===== (Карточка 11)  =====
+        'info_Tongs_type': '35~65吨夹钳桥式起重机',
+        'info_Tongs_p1': '本夹钳起重机夹钳平行于主梁，用于钢厂、船厂、港口、堆场和仓储等室内或露天的固定跨间，装卸及搬运钢板板坯、型材等物料。',
+        'info_Tongs_p2': '特别适用于吊运不同规格的板坯场合，能够根据所吊运物料的规格（不同厚度、长度张数等）和重量，配备不同的夹钳满足吊运的要求。',
+        'info_Tongs_p3': '根据客户要求可提供：各机构的调速（1:10或更大）、超载及报警、遥控、PLC控制及故障检测、显示系统等。',
+         // ===== (Карточка 12) =====
+        'info_Garbage_type': '垃圾抓斗起重机',
+        'info_Garbage_p1': '垃圾抓斗起重机是现代城市各种垃圾焚烧发电厂垃圾供料系统的核心设备，位于垃圾储存坑的上方，主要承担对垃圾的投料、搬运、搅拌、取物和称重的作业。',
+        'info_Garbage_p2': '我公司生产的垃圾抓斗起重机能执行严格的提升机输送作业，确保垃圾焚烧发电厂的正常作业，本起重机能实现手动、半自动、全自动控制。',
     }    
 };
 
@@ -905,7 +958,7 @@ function translatePage(lang) {
 
         updateButtonStates(lang);
         document.documentElement.lang = lang;
-    }, 100); // уменьшил задержку с 800 до 100 мс
+    }, 100); 
 }
 
 document.addEventListener('DOMContentLoaded', function() {
