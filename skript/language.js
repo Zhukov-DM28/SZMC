@@ -66,7 +66,8 @@ const translations = {
 
         // ===== ОБЩИЕ (для всех карточек) =====
         'info_subtitle': 'Краткое описание продукции:',
-        'info2_subtitle': 'Описание продукции:',      
+        'info2_subtitle': 'Описание продукции:',
+        'info3_subtitle': 'Обзор продукта:',         
         'info_specs': 'Технические характеристики',
         'info2_specs': 'Технические параметры',
         'info_specs_title': 'Основные характеристики продукции:',
@@ -74,6 +75,7 @@ const translations = {
         'info_A6_specs': 'Технические параметры (A6)',
         'info_OC_label_1': 'Грузовая балка параллельна главной балке',
         'info_OC_label_2': 'Грузовая балка перпендикулярна главной балке',
+        'info_sketch': 'Эскиз',
 
          // ===== ЧЕРТЕЖИ (Краткие названия для меню) =====
         'menu_title': 'Чертежи по моделям:',
@@ -148,6 +150,25 @@ const translations = {
         'new_dwg_OC_menu_12': '32 т. (нижний поворот)',
         'new_dwg_OC_menu_13': '40 т. (нижний поворот)',
         'new_dwg_OC_menu_14': 'Телескопический электромагнитный',
+
+        'new_dwg_MDG_menu_1': 'MDG 5~10/3.2 т.',
+        'new_dwg_MDG_menu_2': 'MDG 16/3.2~20/5 т.',
+        'new_dwg_MDG_menu_3': 'MDG 32/5~50/10 т.',
+
+        'new_dwg_MG_menu_1':  'MG 5~10 т.',
+        'new_dwg_MG_menu_2':  'MG 20/5~32/5 т.',
+        'new_dwg_MG_menu_3':  'MG 50/10~75/20 т.',
+        'new_dwg_MG_menu_4':  'MG 100/20 т.',
+        'new_dwg_MG_menu_5':  'MG 160/50~200/50 т.',
+        'new_dwg_MG_menu_6':  'MG 320/50 т.',
+        'new_dwg_MG_menu_7':  'MG 400/30~500/80 т.',
+
+        'new_dwg_U_menu_1': 'U 10~16/3.2 т.',
+        'new_dwg_U_menu_2': 'U 20/5~32/5 т.',
+        'new_dwg_U_menu_3': 'U 40/10~50/10 т.',      
+
+        'new_dwg_Gantry_Project_menu_1': '40~60 т.',
+        'new_dwg_Gantry_Project_menu_2': '80~100 т.',
         /* ==========================================================================
                                     Мостовой кран
         ========================================================================== */
@@ -297,6 +318,60 @@ const translations = {
         // ===== (Карточка 12) =====
         'info_Garbage_type': 'Мостовой грейферный кран для мусора',
         'info_Garbage_p': 'Мостовой грейферный кран для мусора является ключевым оборудованием системы подачи мусора на различных мусоросжигательных электростанциях современного города. Он расположен над мусорной ямой и в основном выполняет операции по подаче, перемещению, перемешиванию, захвату и взвешиванию мусора. Мостовой грейферный кран для мусора, производимый нашей компанией, может строго выполнять подъёмно-транспортные операции, обеспечивая нормальную работу мусоросжигательной электростанции. Этот кран может управляться вручную, полуавтоматически или автоматически.',
+        /* ==========================================================================
+                                    Козловой кран
+        ========================================================================== */
+        // ===== (Карточка 1) =====
+        'info_MDG_type': 'Козловой кран MDG с крюком и однобалочной главной балкой грузоподъёмностью 5~50/10 т.',
+
+        'info_L_p1': 'Козловой кран L-типа с крюком и однобалочной главной балкой применяется на открытых складах и вдоль железнодорожных путей для обычных погрузочно-разгрузочных, монтажных и транспортных работ.',
+        'info_L_p2': 'Благодаря особенностям конструкции L-образного портала при заданной высоте подъёма общая высота крана снижается, что позволяет сэкономить затраты.',
+        'info_L_p3': 'Малый собственный вес, низкое давление на колёса, надёжная работа.',
+
+        'new_dwg_MDG_title_1': 'MDG 5~10/3.2 т. однобалочный козловой кран с крюком',
+        'new_dwg_MDG_title_2': 'MDG 16/3.2~20/5 т. однобалочный козловой кран с крюком',
+        'new_dwg_MDG_title_3': 'MDG 32/5~50/10 т. однобалочный козловой кран с крюком',
+        // ===== (Карточка 2) =====
+        'info_MG_type': 'Козловой кран типа MG грузоподъемностью 5-500 т. с двойной балкой',
+
+        'info_MG_p1': 'Двухбалочный козловой кран с крюком грузоподъёмностью 5~500 т. применяется на открытых складах для обычных погрузочно-разгрузочных, монтажных и транспортных работ.',
+        'info_MG_p2': 'Механизм передвижения крана оснащён редуктором «три в одном», что упрощает техническое обслуживание.',
+        'info_MG_p3': 'Предусмотрены все необходимые меры безопасности: сигнализация сильного ветра, защита от обрыва вала, защита от опрокидывания и другие.',
+
+        'new_dwg_MG_title_1': 'MG 5~10 т. двухбалочный козловой кран с крюком',
+        'new_dwg_MG_title_2': 'MG 20/5~32/5 т. двухбалочный козловой кран с крюком',
+        'new_dwg_MG_title_3': 'MG 50/10~75/20 т. двухбалочный козловой кран с крюком',
+        'new_dwg_MG_title_4': 'MG 100/20 т. двухбалочный козловой кран с крюком',
+        'new_dwg_MG_title_5': 'MG 160/50~200/50 т. двухбалочный козловой кран с крюком',
+        'new_dwg_MG_title_6': 'MG 320/50 т. двухбалочный козловой кран с крюком',
+        'new_dwg_MG_title_7': 'MG 400/30~500/80 т. двухбалочный козловой кран с крюком',
+        // ===== (Карточка 3) =====
+        'info_U_type': 'Козловой кран U-образной конструкции с двумя балками и крюком, грузоподъемностью 10~50/10 т.',
+
+        'info_U_p1': 'Козловой кран U-типа с двумя главными балками и крюком применяется на открытых складах и вдоль железнодорожных путей для обычных погрузочно-разгрузочных, монтажных и транспортных работ.',
+        'info_U_p2': 'Благодаря большому пространству под порталом кран U-типа подходит для перемещения крупногабаритных грузов.',
+        'info_U_p3': 'Из-за особенностей конструкции в кране U-типа отсутствует седловая опора, что при заданной высоте подъёма позволяет снизить общую высоту крана.',
+
+        'new_dwg_U_title_1': 'U 10~16/3.2 т. двухбалочный козловой кран с крюком',
+        'new_dwg_U_title_2': 'U 20/5~32/5 т. двухбалочный козловой кран с крюком',
+        'new_dwg_U_title_3': 'U 40/10~50/10 т. двухбалочный козловой кран с крюком',
+        // ===== (Карточка 4) =====
+        'info_Gantry_Project_type': 'Портальный кран с крюком для проекта',
+
+        'info_Gantry_Project_p1': 'Однобалочный козловой кран с крюком для строительных проектов применяется на автомобильных дорогах, мостах, электростанциях и других строительных площадках для обычных погрузочно-разгрузочных и монтажных работ.',
+        'info_Gantry_Project_p2': 'Вся машина имеет решётчатую (ферменную) конструкцию: малый собственный вес, низкое давление на колёса, надёжная работа.',
+        'info_Gantry_Project_p3': 'Вся машина использует одну главную балку; тележка подвешена на канатах по обе стороны от главной балки, что позволяет поднимать крупногабаритные грузы.',
+
+        'new_dwg_Gantry_Project_title_1': '40~60 т. двухбалочный козловой кран с крюком для проекта',
+        'new_dwg_Gantry_Project_title_2': '80~100 т. двухбалочный козловой кран с крюком для проекта',     
+        // ===== (Карточка 5) =====
+        'info_Lnstitute_Girder_crane': 'Портальный кран с крюком для проекта на 450+450 т.',
+        // ===== (Карточка 6) =====
+        'info_Track_Cont_Gantry': 'Гусеничный контейнерный козловой кран',
+        // ===== (Карточка 7) =====
+        'info_Electric cart': 'Электрическая тележка',
+        'info_Electric_Flat_p': 'Данная серия электрических платформ имеет 6 типоразмеров. Каждый типоразмер по способу питания делится на три вида: с кабельным барабаном (буксирный кабель), с троллейной линией в траншее и с кабельным барабаном. По типу настила платформы делятся на два вида: с плитным настилом и с рельсовым настилом. По требованию заказчика также могут быть поставлены другие размеры настила, ширина колеи и скорость — по договорённости.',
+   
     },
     en: {
         'menu_company': 'Company',
@@ -367,13 +442,15 @@ const translations = {
         // ===== ОБЩИЕ (для всех карточек) =====
         'info_subtitle':    'Products summary:',
         'info2_subtitle':   'Product description:',
-        'info_specs':       'Technical Specifications',
+        'info3_subtitle': 'Product overview:',   
+        'info_specs':  'Technical Specifications',
         'info2_specs': 'Technological parameter',
         'info_specs_title': 'Main Product Features:',
         'info_A5_specs':    'Technical parameters (A5)',
         'info_A6_specs':    'Technical parameters (A6)',
         'info_OC_label_1': 'Carrier-beam parallel to the main girder',
         'info_OC_label_2': 'Carrier-beam perpendicular to the main girder',
+        'info_sketch': 'Sketch',
 
         // ===== МЕНЮ ЧЕРТЕЖЕЙ =====
         'menu_title': 'Drawings by Model:',
@@ -458,6 +535,25 @@ const translations = {
         'new_dwg_OC_menu_12': '32 t. (low level slewing)',
         'new_dwg_OC_menu_13': '40 t. (low level slewing)',
         'new_dwg_OC_menu_14': 'Telescopic electromagnetic',
+
+        'new_dwg_MDG_menu_1': 'MDG 5~10/3.2 t.',
+        'new_dwg_MDG_menu_2': 'MDG 16/3.2~20/5 t.',
+        'new_dwg_MDG_menu_3': 'MDG 32/5~50/10 t.',
+
+        'new_dwg_MG_menu_1':  'MG 5~10 t.',
+        'new_dwg_MG_menu_2':  'MG 20/5~32/5 t.',
+        'new_dwg_MG_menu_3':  'MG 50/10~75/20 t.',
+        'new_dwg_MG_menu_4':  'MG 100/20 t.',
+        'new_dwg_MG_menu_5':  'MG 160/50~200/50 t.',
+        'new_dwg_MG_menu_6':  'MG 320/50 t.',
+        'new_dwg_MG_menu_7':  'MG 400/30~500/80 t.',
+
+        'new_dwg_U_menu_1': 'U 10~16/3.2 t.',
+        'new_dwg_U_menu_2': 'U 20/5~32/5 t.',
+        'new_dwg_U_menu_3': 'U 40/10~50/10 t.',    
+        
+        'new_dwg_Gantry_Project_menu_1': '40~60 t.',
+        'new_dwg_Gantry_Project_menu_2': '80~100 t.',     
         /* ==========================================================================
                                     Мостовой кран
         ========================================================================== */
@@ -600,6 +696,59 @@ const translations = {
         // ===== (Карточка 12) =====
         'info_Garbage_type': 'Garbage Grab Bridge Crane',
         'info_Garbage_p': 'Garbage grab crane is the key device used in the garbage feed system of different kinds of Garbage-Cremation Power Plant in modern city. It is located at the top of garbage storing pit, and is mainly used for operation of feeding, conveying, mixing, fetching and weighing of the garbage. The garbage grab crane manufactured by our company can implement lifting and conveying strictly to ensure normal work of Garbage-Cremation Power plant. This crane can be controlled by hand, semi-automatically or automatically.',
+        /* ==========================================================================
+                                    Козловой кран
+        ========================================================================== */
+        // ===== (Карточка 1) =====
+        'info_MDG_type': 'MDG type 5~50/10 t. single beam hook gantry crane',
+
+        'info_L_p1': 'L type single main beam hook door crane is suitable for ordinary loading and unloading lifting and lifting in open yard and railway line.',
+        'info_L_p2': 'Because of the structural characteristics of L-type door machine, the height of the whole machine has been reduced and the cost has been saved.',
+        'info_L_p3': 'Light weight, small wheel pressure, reliable performance.',
+
+        'new_dwg_MDG_title_1': 'MDG 5~10/3.2 t. single beam gantry crane with hook',
+        'new_dwg_MDG_title_2': 'MDG 16/3.2~20/5 t. single beam gantry crane with hook',
+        'new_dwg_MDG_title_3': 'MDG 32/5~50/10 t. single beam gantry crane with hook',
+        // ===== (Карточка 2) =====
+       'info_MG_type': 'MG type 5~500 ton double beam hook gantry crane',
+
+        'info_MG_p1': '5t~500t double beam crane gantry crane is suitable for general loading and unloading lifting and lifting work in open yard.',
+        'info_MG_p2': 'Three-in-one reducer is adopted for large car running mechanism, which is convenient for maintenance.',
+        'info_MG_p3': 'All kinds of safety measures including high wind alarm, anti-break shaft and anti-tipping, etc.',               
+
+        'new_dwg_MG_title_1': 'MG 5~10 t. double beam gantry crane with hook',
+        'new_dwg_MG_title_2': 'MG 20/5~32/5 t. double beam gantry crane with hook',
+        'new_dwg_MG_title_3': 'MG 50/10~75/20 t. double beam gantry crane with hook',
+        'new_dwg_MG_title_4': 'MG 100/20 t. double beam gantry crane with hook',
+        'new_dwg_MG_title_5': 'MG 160/50~200/50 t. double beam gantry crane with hook',
+        'new_dwg_MG_title_6': 'MG 320/50 t. double beam gantry crane with hook',
+        'new_dwg_MG_title_7': 'MG 400/30~500/80 t. double beam gantry crane with hook',  
+        // ===== (Карточка 3) =====
+        'info_U_type': '10~50/10t U-type Double Girder Gantry Crane with Hook',
+
+        'info_U_p1': 'U Type Double Girder Crane is applied to general materials handling service in outdoor freightyard or along railway lines, such as loading, unloading, lifting and transferring work.',
+        'info_U_p2': 'As there is more space under legs of gantry crane, it\'s fit for conveying larger products.',
+        'info_U_p3': 'Saddle support isn\'t needed for U Type Gantry Crane. So overall height of crane is reduced given certain lift height.',
+
+        'new_dwg_U_title_1': 'U 10~16/3.2 t. double girder gantry crane with hook',
+        'new_dwg_U_title_2': 'U 20/5~32/5 t. double girder gantry crane with hook',
+        'new_dwg_U_title_3': 'U 40/10~50/10 t. double girder gantry crane with hook',      
+        // ===== (Карточка 4) =====
+        'info_Gantry_Project_type': 'Gantry vrane with hook for project',
+
+        'info_Gantry_Project_p1': 'Single girder construction gantry crane applicable to highway, bridges, power station and other construction workshops for general handling and lifting operations.',
+        'info_Gantry_Project_p2': 'The whole machine adopts truss structure, light weight, small wheel pressure and reliable performance.',
+        'info_Gantry_Project_p3': 'The whole machine uses a single main beam; the trolley on both sides of the main beam under the rope, could lifting larger items.',      
+
+        'new_dwg_Gantry_Project_title_1': '40~60 t. for project double girder gantry crane with hook',
+        'new_dwg_Gantry_Project_title_2': '80~100 t. for project double girder gantry crane with hook',     
+        // ===== (Карточка 5) =====
+        'info_Lnstitute_Girder_crane': '450+450t. Lnstitute Girder crane',
+        // ===== (Карточка 6) =====
+        'info_Track_Cont_Gantry': 'Track-type Ccontainer gantry crane',
+        // ===== (Карточка 7) =====
+        'info_Electric cart': 'Electric cart',
+        'info_Electric_Flat_p': 'The electric flat carriage series have 6 specifications. Each specification can be classified into towing line, sewer tunnel slide wire and cable roll as per the type of power supply, and into pallet surface and rail surface as per the surface type. If the clients have requirements, we can supply other pallet surface size, rail space and speed by negotiation.',
     },
     zh: {
         'menu_company': '公司',
@@ -670,6 +819,7 @@ const translations = {
         // ===== ОБЩИЕ (для всех карточек) =====
         'info_subtitle':    '产品概述：',
         'info2_subtitle':   '产品说明：',
+        'info3_subtitle': '产品概述:',
         'info_specs':       '技术规格',
         'info2_specs': '技术参数',
         'info_specs_title': '产品主要特点：',
@@ -677,6 +827,7 @@ const translations = {
         'info_A6_specs':    '技术参数 (A6)',
         'info_OC_label_1': '挂梁平行于主梁',
         'info_OC_label_2': '挂梁垂直于主梁',
+        'info_sketch': '简图',
 
         // ===== МЕНЮ ЧЕРТЕЖЕЙ =====
         'menu_title': '按型号分类的图纸：',
@@ -762,6 +913,25 @@ const translations = {
         'new_dwg_OC_menu_12': '32吨（下旋）',
         'new_dwg_OC_menu_13': '40吨（下旋）',
         'new_dwg_OC_menu_14': '下旋伸缩电磁',
+
+        'new_dwg_MDG_menu_1': 'MDG 5~10/3.2吨',
+        'new_dwg_MDG_menu_2': 'MDG 16/3.2~20/5吨',
+        'new_dwg_MDG_menu_3': 'MDG 32/5~50/10吨',
+
+        'new_dwg_MG_menu_1':  'MG 5~10吨',
+        'new_dwg_MG_menu_2':  'MG 20/5~32/5吨',
+        'new_dwg_MG_menu_3':  'MG 50/10~75/20吨',
+        'new_dwg_MG_menu_4':  'MG 100/20吨',
+        'new_dwg_MG_menu_5':  'MG 160/50~200/50吨',
+        'new_dwg_MG_menu_6':  'MG 320/50吨',
+        'new_dwg_MG_menu_7':  'MG 400/30~500/80吨', 
+        
+        'new_dwg_U_menu_1': 'U型 10~16/3.2吨',
+        'new_dwg_U_menu_2': 'U型 20/5~32/5吨',
+        'new_dwg_U_menu_3': 'U型 40/10~50/10吨',
+
+        'new_dwg_Gantry_Project_menu_1': '40~60吨',
+        'new_dwg_Gantry_Project_menu_2': '80~100吨',     
         /* ==========================================================================
                                     Мостовой кран
         ========================================================================== */
@@ -904,7 +1074,60 @@ const translations = {
          // ===== (Карточка 12) =====
         'info_Garbage_type': '垃圾抓斗起重机',
         'info_Garbage_p': '垃圾抓斗起重机是现代城市各种垃圾焚烧发电厂垃圾供料系统的核心设备，位于垃圾储存坑的上方，主要承担对垃圾的投料、搬运、搅拌、取物和称重的作业。我公司生产的垃圾抓斗起重机能执行严格的提升机输送作业，确保垃圾焚烧发电厂的正常作业，本起重机能实现手动、半自动、全自动控制。',
-    }    
+        /* ==========================================================================
+                                    Козловой кран
+        ========================================================================== */
+        // ===== (Карточка 1) =====
+        'info_MDG_type': 'MDG型5~50/10吨单梁吊钩门式起重机',
+
+        'info_L_p1': 'L型单主梁吊钩门式起重机适用于露天货场、铁路沿线进行一般的装卸吊装及起重搬运工作。',
+        'info_L_p2': 'L型门机因结构特点，在起升高度一定的情况下，整机的高度有所降低，节约了成本。',
+        'info_L_p3': '自重轻，轮压小，性能可靠。',
+
+        'new_dwg_MDG_title_1': 'MDG 5~10/3.2吨单梁吊钩门式起重机',
+        'new_dwg_MDG_title_2': 'MDG 16/3.2~20/5吨单梁吊钩门式起重机',
+        'new_dwg_MDG_title_3': 'MDG 32/5~50/10吨单梁吊钩门式起重机',
+        // ===== (Карточка 2) =====
+        'info_MG_type': 'MG型5~500吨双梁吊钩门式起重机',
+
+        'info_MG_p1': '5t~500t双梁吊钩门式起重机适用于露天货场进行一般的装卸吊装及起重搬运工作。',
+        'info_MG_p2': '大小车运行机构采用三合一减速机，方便维护。',
+        'info_MG_p3': '大风报警、防断轴、防倾翻等各种安全措施齐全。',       
+
+        'new_dwg_MG_title_1': 'MG 5~10吨双梁吊钩门式起重机',
+        'new_dwg_MG_title_2': 'MG 20/5~32/5吨双梁吊钩门式起重机',
+        'new_dwg_MG_title_3': 'MG 50/10~75/20吨双梁吊钩门式起重机',
+        'new_dwg_MG_title_4': 'MG 100/20吨双梁吊钩门式起重机',
+        'new_dwg_MG_title_5': 'MG 160/50~200/50吨双梁吊钩门式起重机',
+        'new_dwg_MG_title_6': 'MG 320/50吨双梁吊钩门式起重机',
+        'new_dwg_MG_title_7': 'MG 400/30~500/80吨双梁吊钩门式起重机',
+        // ===== (Карточка 3) =====
+        'info_U_type': 'U型10~50/10吨双梁吊钩门式起重机',
+
+        'info_U_p1': 'U型双主梁吊钩门式起重机适用于露天货场、铁路沿线作业进行一般的装卸吊装及起重搬运工作。',
+        'info_U_p2': 'U型门机因过腿空间较大，适用于体积较大的物品的搬运工作。',
+        'info_U_p3': 'U型门机因结构特点省去了马鞍架，在起升高度一定的情况下，整机的高度有所降低。',
+
+        'new_dwg_U_title_1': 'U型 10~16/3.2吨双梁吊钩门式起重机',
+        'new_dwg_U_title_2': 'U型 20/5~32/5吨双梁吊钩门式起重机',
+        'new_dwg_U_title_3': 'U型 40/10~50/10吨双梁吊钩门式起重机',  
+        // ===== (Карточка 4) ===== 
+        'info_Gantry_Project_type': '工程用吊钩门式起重机',
+
+        'info_Gantry_Project_p1': '吊钩单梁工程门式起重机适用公路、桥梁、电厂等建设工场进行一般的装卸及起重搬运作业。',
+        'info_Gantry_Project_p2': '整机采用桁架结构，自重轻，轮压小，性能可靠。',
+        'info_Gantry_Project_p3': '整机采用单根主梁，小车于主梁两侧下绳，可起吊外形较大物品。',
+
+        'new_dwg_Gantry_Project_title_1': '40~60吨工程用双梁吊钩门式起重机',
+        'new_dwg_Gantry_Project_title_2': '80~100吨工程用双梁吊钩门式起重机',    
+        // ===== (Карточка 5) ===== 
+        'info_Lnstitute_Girder_crane': '450吨+450吨提梁机',  
+        // ===== (Карточка 6) =====
+        'info_Track_Cont_Gantry': '轨道式集装箱门式起重机',
+        // ===== (Карточка 7) =====
+        'info_Electric cart': '电动平车',
+        'info_Electric_Flat_p': '本系列电动平车有6种规格，每种规格按供电方式分为拖缆、地沟滑线和电缆卷筒三种，按台面形式分为板台面和轨台面两种。如用户需要，其它台面尺寸、轨距和速度也可洽谈供货。',
+    },           
 };
 
 function updateButtonStates(activeLang) {
