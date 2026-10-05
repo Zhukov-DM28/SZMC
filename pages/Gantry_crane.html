@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SZMC</title>
     <script src="../skript/language.js"></script>
+    <script src="../skript/gantry_crane_inf.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
-<link rel="stylesheet" type="text/css" href="../css/style.css">
 <body>
     <header class="site-header">
         <div class="container header-container">
@@ -67,7 +68,28 @@
                 <h1 class="section-title" data-i18n="gantry_title">Козловой кран</h1>
 
                 <div class="product-grid-4">
-                    <div class="product-card">
+                     <div class="product-card" data-target="1">                  
+                        <h3 data-i18n="info_MDG_type">Однобалочный крюковой кран типа MDG 3~25/5т.</h3>
+                    </div>
+                    <div class="product-card" data-target="2">                  
+                        <h3 data-i18n="info_MG_type">Козловой кран типа MG грузоподъемностью 5-500 т. с двойной балкой</h3>
+                    </div>
+                    <div class="product-card" data-target="3">                  
+                        <h3 data-i18n="info_U_type">Козловой кран U-образной конструкции с двумя балками и крюком, грузоподъемностью 10~50/10 т.</h3>
+                    </div>
+                    <div class="product-card" data-target="4">                  
+                        <h3 data-i18n="info_Gantry_Project_type">Портальный кран с крюком для проекта</h3>
+                    </div>
+                    <div class="product-card" data-target="5">                  
+                        <h3 data-i18n="info_Lnstitute_Girder_crane">Портальный кран с крюком для проекта на 450+450 т.</h3>
+                    </div>
+                    <div class="product-card" data-target="6">                  
+                        <h3 data-i18n="info_Track_Cont_Gantry">Гусеничный контейнерный козловой кран</h3>
+                    </div>
+                    <div class="product-card" data-target="7">                  
+                        <h3 data-i18n="info_Electric cart">Электрическая тележка</h3>
+                    </div>
+                    <div class="product-card" data-target="8">
                         <div class="double-image">
                             <img src="../img/Gantry_crane2.jpg" alt="Козловой кран с электрической талью">
                             <img src="../img/Gantry_crane.jpg" alt="Козловой кран с электрической талью 2">
@@ -75,7 +97,7 @@
                         <h3 data-i18n="gantry_card1">Козловой кран с электрической талью</h3>
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card" data-target="9">
                         <div class="double-image">
                             <img src="../img/Gantry_crane3.jpg" alt="Двухбалочный козловой кран с электрической талью">
                             <img src="../img/Gantry_crane4.jpg" alt="Двухбалочный козловой кран с электрической талью 2">
@@ -83,7 +105,7 @@
                         <h3 data-i18n="gantry_card2">Двухбалочный козловой кран с электрической талью</h3>
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card" data-target="10">
                         <div class="double-image">
                             <img src="../img/Gantry_crane5.jpg" alt="Полукозловой кран">
                             <img src="../img/Gantry_crane6.jpg" alt="Полукозловой кран 2">
@@ -91,7 +113,7 @@
                         <h3 data-i18n="gantry_card3">Полукозловой кран</h3>
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card" data-target="11">
                         <div class="double-image">
                             <img src="../img/Gantry_crane7.jpg" alt="Двухбалочный козловой кран">
                             <img src="../img/Gantry_crane8.png" alt="Двухбалочный козловой кран 2">
@@ -99,6 +121,7 @@
                         <h3 data-i18n="gantry_card4">Двухбалочный козловой кран</h3>
                     </div>
                 </div>
+                <div id="unique-info-panel" class="info-panel"></div>
             </article>
         </div>
     </main>
