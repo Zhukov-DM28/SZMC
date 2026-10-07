@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SZMC</title>
     <script src="../skript/language.js"></script>
+    <script src="../skript/special_purpose_crane_inf.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
-<link rel="stylesheet" type="text/css" href="../css/style.css">
 <body>
     <header class="site-header">
         <div class="container header-container">
@@ -65,20 +66,28 @@
         <div class="page-layout">
             <article class="text-article">
                 <h1 class="section-title" data-i18n="special_title">Краны специального назначения</h1>
-                <div class="product-grid-4">
-                    <div class="product-card">
+                <div class="product-grid-4">    
+
+                     <div class="product-card" data-target="1">                  
+                        <h3 data-i18n="info_boom_crane_type">Стреловой кран</h3>
+                    </div>
+
+                   
+            
+                    <div class="product-card" data-target="2">
                         <img src="../img/spec.jpg" alt="Металлургический кран">
                         <h3 data-i18n="special_card1">Металлургический кран</h3>
                     </div>
-                    <div class="product-card">
+                    <div class="product-card" data-target="3">
                         <img src="../img/spec4.jpg" alt="Портальный кран">
                         <h3 data-i18n="special_card2">Портальный кран</h3>
                     </div>
-                    <div class="product-card">
+                    <div class="product-card" data-target="4">
                         <img src="../img/spec5.jpg" alt="Контейнерный козловой кран">
                         <h3 data-i18n="special_card3">Контейнерный козловой кран</h3>
                     </div>  
-                </div>               
+                </div>    
+                <div id="unique-info-panel" class="info-panel"></div>           
             </article>
         </div>
     </main>
