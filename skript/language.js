@@ -76,9 +76,12 @@ const translations = {
         'info_OC_label_1': 'Грузовая балка параллельна главной балке',
         'info_OC_label_2': 'Грузовая балка перпендикулярна главной балке',
         'info_sketch': 'Эскиз',
+        'info_env_title': 'Условия окружающей среды:',
+        'info_order_title': 'Инструкция по заказу:',
 
          // ===== ЧЕРТЕЖИ (Краткие названия для меню) =====
         'menu_title': 'Чертежи по моделям:',
+        'boom_menu_title': 'Виды моделей:',
 
         'dwg_1': 'QD 5 т.',
         'dwg_2': 'QD 10 т.',
@@ -169,6 +172,7 @@ const translations = {
 
         'new_dwg_Gantry_Project_menu_1': '40~60 т.',
         'new_dwg_Gantry_Project_menu_2': '80~100 т.',
+  
         /* ==========================================================================
                                     Мостовой кран
         ========================================================================== */
@@ -371,7 +375,47 @@ const translations = {
         // ===== (Карточка 7) =====
         'info_Electric cart': 'Электрическая тележка',
         'info_Electric_Flat_p': 'Данная серия электрических платформ имеет 6 типоразмеров. Каждый типоразмер по способу питания делится на три вида: с кабельным барабаном (буксирный кабель), с троллейной линией в траншее и с кабельным барабаном. По типу настила платформы делятся на два вида: с плитным настилом и с рельсовым настилом. По требованию заказчика также могут быть поставлены другие размеры настила, ширина колеи и скорость — по договорённости.',
-   
+        /* ==========================================================================
+                                Краны специального назначения
+        ========================================================================== */
+        // ===== (Карточка 1) =====
+        // ===== Модель BX =====
+        'info_boom_crane_type': 'Стреловой кран',
+        'new_dwg_BX_title': 'Поворотный кран типа BX для установки на стену',
+        // ===== Модель BZ =====
+        'new_dwg_BZ_title': 'Стреловой кран с фиксированной опорой типа BZ',
+        'info_BZ_p1': 'Поворотный кран типа BZ — это мало- и среднетоннажное грузоподъёмное оборудование, разработанное в последние годы. Отличается уникальной конструкцией. Безопасен и надёжен, обладает высокой эффективностью, энергосбережением, экономией времени и сил, гибкостью в работе. Может свободно оперировать в трёхмерном пространстве, особенно при коротких и интенсивных перемещениях грузов проявляет преимущества перед другим обычным грузоподъёмным оборудованием. Широко применяется в цехах, на складах, на причалах и других стационарных площадках.',
+        'info_BZ_env_1': 'Питание крана — трёхфазный переменный ток, номинальное напряжение 380 В, номинальная частота 50 Гц;',
+        'info_BZ_env_2': 'В рабочей среде крана не допускается наличие горючих, взрывоопасных и коррозионно-активных газов;',
+        'info_BZ_env_3': 'Кран не допускается к подъёму расплавленного металла, токсичных веществ и горюче-взрывоопасных грузов.',
+        'info_BZ_order_text': 'При заказе или подписании договора заказчик должен чётко указать основные параметры машины (номинальная грузоподъёмность, высота подъёма, эффективный радиус и т. д.), а также предоставить установочные размеры базовой части, чтобы мы могли поставить продукт, удовлетворяющий требованиям рабочего режима и условиям эксплуатации.',
+        // ===== Модель BB =====
+        'new_dwg_BB_title': 'Настенный консольный кран типа BB',
+        'info_BB_p1': 'Настенный консольный кран (сокращённо «настенный кран») — это специальное оборудование для механических и сборочных цехов. Он использует рельсы, уложенные на стенах многоэтажных сборочных цехов, и передвигается по стене, что позволяет максимально использовать пространственную структуру цеха, экономит производственные площади и делает работу более гибкой. По конструкции главной балки настенный кран делится на два типа: однобалочный (см. рис. 1, 2) и двухбалочный (рис. 3). В однобалочной конструкции используется электрическая таль, в двухбалочной — либо тяговая тележка (рис. 3), либо стандартная тележка. Размеры ходовых рельсов могут быть спроектированы по требованию заказчика.',      
+        'info_BB_note_full': '<strong>Примечание:</strong><br>1. Данное изделие может быть спроектировано и изготовлено в соответствии с требованиями к рельсам цеха заказчика.<br>2. Показанная конструкция — однобалочная решётчатая (ферменная), также может быть изготовлена в виде коробчатой балки.',
+        'info_BB_note_short': '<strong>Примечание:</strong><br>1. Данное изделие может быть спроектировано и изготовлено в соответствии с требованиями к рельсам цеха заказчика.<br>2. Показанная конструкция — однобалочная решётчатая (ферменная).',
+        'info_BB_env_title': 'Условия окружающей среды:',
+        'info_BB_env_1': 'Питание крана — трёхфазный переменный ток; номинальная частота 50 Гц; номинальное напряжение 380 В;',
+        'info_BB_env_2': 'Рабочая температура окружающей среды: от −20 до +45 °C; максимальная относительная влажность не более 85%;',
+        'info_BB_env_3': 'Класс работы крана — A3~A5;',
+        'info_BB_env_4': 'Кран предназначен для работы в помещении;',
+        'info_BB_env_5': 'Для кранов со специальными требованиями к условиям окружающей среды — условия выполняются в соответствии с договором поставки.',
+        'info_BB_order_title': 'Инструкция по заказу:',
+        'info_BB_order_text': 'При заказе или подписании договора заказчик должен чётко указать основные параметры машины (номинальная грузоподъёмность, высота подъёма, пролёт и т. д.), чтобы мы могли поставить продукт, удовлетворяющий требованиям рабочего режима и условиям эксплуатации.',
+         // ===== Модель (Лёгкий консольный кран с гибкой балкой) =====
+        'new_dwg_Light_title': 'Лёгкий консольный кран с гибкой балкой на колонне 0.25~0.5 т.',
+        'info_Light_p1': '<strong>Обзор продукта:</strong>',
+        'info_Light_p2': 'Лёгкий консольный кран с гибкой балкой на колонне может быть установлен в любом месте, он полностью независим, является идеальным краном для рабочего места и подходит для открытых площадок и погрузочно-разгрузочных платформ.',
+        'info_Light_p3': 'Главная балка — типа KBK, лёгкая по весу, занимает малую площадь, может крепиться тяжёлыми анкерными болтами или закладными анкерами.',
+        'info_Light_p4': 'Используется совместно с цепной талью. Поворот крана и передвижение тележки — ручные, подъёмный механизм — с электрическим приводом.',
+        'info_Light_p5': 'Консольная часть может быть взаимозаменяема с настенным краном.',
+        // ===== Модель 5 (Лёгкий консольный кран с гибкой балкой) =====
+        'new_dwg_Flex_Wall_title': 'Лёгкий консольный кран с гибкой балкой настенный 0.5 т.',
+        'info_Flex_Wall_p1': '<strong>Обзор продукта:</strong>',
+        'info_Flex_Wall_p2': 'Лёгкий консольный кран с гибкой балкой настенный может быть установлен на стене или на колонне, а также на оборудовании — не занимает никакого места на полу.',
+        'info_Flex_Wall_p3': 'Главная балка — типа KBK, лёгкая по весу, груз легко и удобно перемещается, можно быстро и оперативно поднимать материалы на рабочем месте.',
+        'info_Flex_Wall_p4': 'Используется совместно с цепной талью. Поворот крана и передвижение тележки — ручные, подъёмный механизм — с электрическим приводом.',
+        'info_Flex_Wall_p5': 'Простота монтажа, готовые опоры экономят много сложной работы по выравниванию. (Крепёжные материалы — болты, гайки, закладные детали и т. п. — поставляются заказчиком самостоятельно.)',
     },
     en: {
         'menu_company': 'Company',
@@ -398,7 +442,6 @@ const translations = {
         'card3_text': 'Electric hoist cranes, double-girder gantry cranes for open warehouses and container terminals.',
         'card4_title': 'Special-Purpose Cranes',
         'card4_text': 'Metallurgical cranes for extreme temperature conditions, as well as powerful port and portal crane systems.',
-        'footer_chinese': '质量第一、诚信为本',
         'prod_title': 'Manufacturing and Processing Equipment',
         'prod_card1': 'Crane Production Line',
         'prod_card2': 'CNC Uncoiling and Straightening Line',
@@ -454,6 +497,7 @@ const translations = {
 
         // ===== МЕНЮ ЧЕРТЕЖЕЙ =====
         'menu_title': 'Drawings by Model:',
+        'boom_menu_title': 'Model types:',
 
         'dwg_1':  'QD 5 t.',
         'dwg_2':  'QD 10 t.',
@@ -749,6 +793,49 @@ const translations = {
         // ===== (Карточка 7) =====
         'info_Electric cart': 'Electric cart',
         'info_Electric_Flat_p': 'The electric flat carriage series have 6 specifications. Each specification can be classified into towing line, sewer tunnel slide wire and cable roll as per the type of power supply, and into pallet surface and rail surface as per the surface type. If the clients have requirements, we can supply other pallet surface size, rail space and speed by negotiation.',
+        /* ==========================================================================
+                                Краны специального назначения
+        ========================================================================== */
+        // ===== Модель BX =====
+        'info_boom_crane_type': 'Boom crane',
+        'new_dwg_BX_title': 'BX type wall slewing crane',
+        // ===== Модель BZ =====
+        'new_dwg_BZ_title': 'BZ type fixed pillar jib crane',
+        'info_BZ_p1': 'BZ-type swinging boom crane is a small- and medium-sized crane developed in recent years. Its structure is unique. It is reliable, efficient, energy-saving, time-saving, labor-saving and flexible, and can operate freely in 3D space. Especially in short-distance, dense lifting situations, it shows unique advantages over other conventional lifting equipment. It is widely used in workshops, warehouses, wharves and other fixed places.',
+        'info_BZ_env_1': 'The crane power supply is three-phase AC, the rated voltage is 380V and the rated frequency is 50Hz;',
+        'info_BZ_env_2': 'Flammable, explosive and corrosive gases are not allowed in the working environment of the crane;',
+        'info_BZ_env_3': 'The crane is not allowed to carry molten metal, toxic substances or inflammable and explosive goods.',
+        'info_BZ_order_text': 'When ordering or signing a contract, the user must describe the basic parameters of the machine (rated weight, lifting height, effective radius, etc.) clearly, and provide the base installation dimensions, so that a product meeting the working condition requirements and working conditions can be supplied.',
+        // ===== Модель BB =====
+        'new_dwg_BB_title': 'BB type wall-mounted cantilever crane',
+        'info_BB_p1': 'Wall-mounted cantilever crane (abbreviated as "wall crane") is a special machine for mechanical manufacturing and assembly workshops. It uses rails laid on the walls of multi-storey assembly workshops and travels along the wall, which makes full use of the workshop space structure, saves production area and makes operation more flexible. According to the main girder structure, the wall crane is divided into two types: single-girder (see Fig. 1, 2) and double-girder (Fig. 3). In the single-girder structure, an electric hoist is used; in the double-girder structure, either a traction trolley (Fig. 3) or a standard trolley is used. The size of the running rails can be designed according to the customer\'s requirements.',
+        'info_BB_note_full': '<strong>Note:</strong><br>1. The product can be designed and produced according to the requirements of the user\'s workshop.<br>2. The schematic structure is single girder frame structure, and also can be made into box girder.',
+
+        'info_BB_note_short': '<strong>Note:</strong><br>1. The product can be designed and produced according to the requirements of the user\'s workshop.<br>2. The schematic structure is single girder frame structure.',
+
+        'info_BB_env_title': 'Environmental conditions:',
+        'info_BB_env_1': 'The crane power supply is three-phase AC; rated frequency is 50Hz; rated voltage is 380V;',
+        'info_BB_env_2': 'Working environment temperature: −20 ~ +45 °C; maximum relative humidity not more than 85%;',
+        'info_BB_env_3': 'Crane working class is A3~A5;',
+        'info_BB_env_4': 'The crane working environment is indoor;',
+        'info_BB_env_5': 'For cranes with special requirements for environmental conditions, the requirements in the purchase contract shall be followed.',
+
+        'info_BB_order_title': 'Instructions for ordering:',
+        'info_BB_order_text': 'When ordering or signing a contract, the user must describe the basic parameters of the machine (rated lifting weight, lifting height, span, etc.) clearly, so that a product meeting the working condition requirements and working conditions can be supplied.',
+        // ===== Модель на 0.25-0.5 т. (Лёгкий консольный кран с гибкой балкой) =====
+        'new_dwg_Light_title': '0.25~0.5t. light flexible beam pillar jib crane',
+        'info_Light_p1': '<strong>Product overview:</strong>',
+        'info_Light_p2': 'The light flexible beam column cantilever crane can be installed in any place, it is completely independent, it is an ideal job crane, and suitable for outdoor yard and loading and unloading platform.',
+        'info_Light_p3': 'The main beam is KBK type, which is light weight and occupies a small area. It can be fixed with heavy safety card bolts or embedded anchor bolts.',
+        'info_Light_p4': 'It is used with the chain hoist. The cart rotation and trolley travel are operated manually, and the lifting mechanism is electrically operated.',
+        'info_Light_p5': 'The cantilever part can be interchanged with the wall hanging.',
+        // ===== Модель на 0.5 т. (Лёгкий консольный кран с гибкой балкой) =====
+        'new_dwg_Flex_Wall_title': '0.5t. type Flexible light beam wall type cantilever crane',
+        'info_Flex_Wall_p1': '<strong>Product overview:</strong>',
+        'info_Flex_Wall_p2': 'The light flexible beam wall cantilever crane can be installed on the wall or column, or it can be installed on the machine equipment, without taking up any land surface space.',
+        'info_Flex_Wall_p3': 'The main beam is KBK type, which is light weight and easy to move. It can lift materials quickly and promptly at work.',
+        'info_Flex_Wall_p4': 'It is used with the chain hoist. The cart is operated by manual operation and the lifting mechanism is operated for electric operation.',
+        'info_Flex_Wall_p5': 'Easy installation, the ready-made supports save a lot of complicated correction work. (fixed materials, such as bolt nuts, embedded parts, etc. Provide).',
     },
     zh: {
         'menu_company': '公司',
@@ -831,6 +918,7 @@ const translations = {
 
         // ===== МЕНЮ ЧЕРТЕЖЕЙ =====
         'menu_title': '按型号分类的图纸：',
+        'boom_menu_title': '型号分类：',
 
         'dwg_1':  'QD 5吨.',
         'dwg_2':  'QD 10吨.',
@@ -1127,6 +1215,48 @@ const translations = {
         // ===== (Карточка 7) =====
         'info_Electric cart': '电动平车',
         'info_Electric_Flat_p': '本系列电动平车有6种规格，每种规格按供电方式分为拖缆、地沟滑线和电缆卷筒三种，按台面形式分为板台面和轨台面两种。如用户需要，其它台面尺寸、轨距和速度也可洽谈供货。',
+        /* ==========================================================================
+                                Краны специального назначения
+        ========================================================================== */
+        // ===== (Модель BX) =====
+        'info_boom_crane_type': '悬臂吊起重机',
+        'new_dwg_BX_title': 'BX型壁式旋臂起重机',
+        // ===== (Модель BZ) =====
+        'new_dwg_BZ_title': 'BZ型定柱式旋臂起重机',
+        'info_BZ_p1': 'BZ型顶住旋臂起重机是近年来发展起来的中小型吊运设备。其结构独特，安全可靠，具有高效、节能、省时、省力、灵活的特点，且能在三维空间内随意操作，特别是在短距、密集性吊运的场合更能显示出比其他常规性吊运设备独有的优越性。广泛应用于车间、仓库、码头等固定场所。',
+        'info_BZ_env_1': '起重机电源为三相交流，额定电压为380V，额定频率为50Hz；',
+        'info_BZ_env_2': '起重机工作环境中不允许有易燃、易爆及腐蚀性气体；',
+        'info_BZ_env_3': '起重机不允许吊运熔融金属、有毒物品和易燃易爆物品。',
+        'info_BZ_order_text': '用户在订货或签订合同时，必须将本机的基本参数（额定起重量、起升高度、有效半径等）描述清楚，提供基础部分安装尺寸，以便提供满足工况要求和工作条件的产品。',
+        // ===== (Модель BB) =====
+        'new_dwg_BB_title': 'BB型壁行式悬臂起重机',
+        'info_BB_p1': '壁行式悬臂起重机（简称"壁行机"）是机械制造、装配车间的专用机械，它利用布置在多层装配车间墙壁上的轨道，在墙壁上行走，可以充分利用车间的空间结构，节约了生产场地，作业灵活。壁行机按主梁结构分单主梁（见图1、图2）和双主梁（图3）两种形式。单主梁结构小车使用电动葫芦，双主梁小车结构有牵引小车形式（见图3）和标准小车形式两种。运行轨道尺寸可以根据用户要求设计。',
+        'info_BB_note_full': '<strong>注：</strong><br>1. 该产品可根据用户厂房轨道要求进行设计、制作。<br>2. 图示结构为单主梁花架结构，也可制作成箱形梁。',
+        'info_BB_note_short': '<strong>注：</strong><br>1. 该产品可根据用户厂房轨道要求进行设计、制作。<br>2. 图示结构为单主梁花架结构。',
+
+        'info_BB_env_title': '环境条件：',
+        'info_BB_env_1': '起重机的电源为三相交流，额定频率为50Hz，额定电压为380V；',
+        'info_BB_env_2': '工作环境温度为-20~+45摄氏度，最大相对湿度不大于85%；',
+        'info_BB_env_3': '起重机工作级别为A3~A5；',
+        'info_BB_env_4': '起重机工作环境为室内；',
+        'info_BB_env_5': '对环境条件有特殊要求的起重机，按订货合同条款执行。',
+
+        'info_BB_order_title': '订货须知：',
+        'info_BB_order_text': '用户在订货或签订合同时，必须将本机的基本参数（额定起重量、起升高度、跨度等）描述清楚，以便提供满足工况要求和工作条件的产品。',    
+         // ===== Модель (Лёгкий консольный кран с гибкой балкой) =====
+        'new_dwg_Light_title': '0.25~0.5吨轻型柔性梁立柱式悬臂吊',
+        'info_Light_p1': '<strong>产品概述：</strong>',
+        'info_Light_p2': '轻型柔性梁立柱式悬臂吊可以被安装在任何地方，它完全独立，是一种理想的工作岗位起重机，并适用于室外的货场和装卸平台。',
+        'info_Light_p3': '主梁为KBK型，自重轻，占地面积小，可以用重型安卡螺栓或预埋地脚螺栓等方式固定。',
+        'info_Light_p4': '与环链葫芦配套使用，大车旋转与小车运行为手动操作，起升机构为电动操作。',
+        'info_Light_p5': '悬臂架部分可以与墙壁吊实现互换。',
+        // ===== Модель 5 (Лёгкий консольный кран с гибкой балкой) =====
+        'new_dwg_Flex_Wall_title': '0.5吨轻型柔性梁墙壁式悬臂吊',
+        'info_Flex_Wall_p1': '<strong>产品概述：</strong>',
+        'info_Flex_Wall_p2': '轻型柔性梁墙壁式悬臂吊可以安装在墙壁或立柱上，也可以安装在机器设备上，不需要占用任何地面空间。',
+        'info_Flex_Wall_p3': '主梁为KBK型，自重轻，载荷移动灵活方便，可以在工作岗位上迅速、敏捷地吊运物料。',
+        'info_Flex_Wall_p4': '与环链葫芦配套使用，大车旋转与小车运行为手动操作，起升机构为电动操作。',
+        'info_Flex_Wall_p5': '安装简单，现成的支架节省了大量复杂的矫正工作。（固定的材料，如螺栓螺母、预埋件等由客户自己提供）。',
     },           
 };
 

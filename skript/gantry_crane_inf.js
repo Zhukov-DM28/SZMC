@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         </div>
                     </div>`;
 
-            html += `<h4 class="section-title" style="font-size: 20px; margin-top: 26px; margin-bottom: 35px;" data-i18n="info3_subtitle">Обзор продукта:</h4>`;
+            html += `<h4 class="section-title" style="font-size: 20px; margin-top: 35px; margin-bottom: 25px;" data-i18n="info3_subtitle">Обзор продукта:</h4>`;
             // Список
             if (data.list && data.list.length > 0) {
                 html += '<ol class="features-list">';
@@ -114,17 +114,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
             const menuKeys = [ 'new_dwg_MDG_menu_1', 'new_dwg_MDG_menu_2', 'new_dwg_MDG_menu_3'];
             const titleKeys = [ 'new_dwg_MDG_title_1', 'new_dwg_MDG_title_2', 'new_dwg_MDG_title_3'];
-
+         
             menuKeys.forEach((key, idx) => {
-                html += `<li><a href="#dwg-${idx + 1}-${targetId}" data-i18n="${key}">${key}</a></li>`;
+                html += `<li><a href="javascript:void(0)" onclick="showModel(${idx + 1}, '${targetId}')" data-i18n="${key}">${key}</a></li>`;
             });
             html += `</ul></div></div>`;
 
             data.images.forEach((pair, idx) => {
                 const titleKey = titleKeys[idx];
                 const blockNumber = idx + 1;
-
-                html += `<div id="dwg-${blockNumber}-${targetId}" class="dwg-block">`;
+              
+                html += `<div id="dwg-${blockNumber}-${targetId}" class="dwg-block dwg-block-menu">`;
                 html += `<div class="gray-bar-title" data-i18n="${titleKey}">Чертёж ${blockNumber}</div>`;
 
                 if (pair[0]) {
@@ -149,13 +149,13 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }           
         else if (targetId === '2') {
-    html += `<div style="text-align: center; margin-bottom: 10px;">
+            html += `<div style="text-align: center; margin-bottom: 10px;">
                         <div class="header-top-bar">
                             <h2 class="section-title" data-i18n="${data.title}">Козловой кран типа MG грузоподъемностью 5-500 т. с двойной балкой</h2>
                         </div>
                     </div>`;
 
-            html += `<h4 class="section-title" style="font-size: 20px; margin-top: 26px; margin-bottom: 35px;" data-i18n="info3_subtitle">Обзор продукта:</h4>`;
+            html += `<h4 class="section-title" style="font-size: 20px; margin-top: 35px; margin-bottom: 25px;" data-i18n="info3_subtitle">Обзор продукта:</h4>`;
             // Список
             if (data.list && data.list.length > 0) {
                 html += '<ol class="features-list">';
@@ -178,8 +178,9 @@ document.addEventListener('DOMContentLoaded', function() {
             const menuKeys = [ 'new_dwg_MG_menu_1', 'new_dwg_MG_menu_2', 'new_dwg_MG_menu_3', 'new_dwg_MG_menu_4', 'new_dwg_MG_menu_5', 'new_dwg_MG_menu_6', 'new_dwg_MG_menu_7'];
             const titleKeys = [ 'new_dwg_MG_title_1', 'new_dwg_MG_title_2', 'new_dwg_MG_title_3' , 'new_dwg_MG_title_4', 'new_dwg_MG_title_5', 'new_dwg_MG_title_6', 'new_dwg_MG_title_7'];
 
+          
             menuKeys.forEach((key, idx) => {
-                html += `<li><a href="#dwg-${idx + 1}-${targetId}" data-i18n="${key}">${key}</a></li>`;
+                html += `<li><a href="javascript:void(0)" onclick="showModel(${idx + 1}, '${targetId}')" data-i18n="${key}">${key}</a></li>`;
             });
             html += `</ul></div></div>`;
 
@@ -187,7 +188,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 const titleKey = titleKeys[idx];
                 const blockNumber = idx + 1;
 
-                html += `<div id="dwg-${blockNumber}-${targetId}" class="dwg-block">`;
+               
+                html += `<div id="dwg-${blockNumber}-${targetId}" class="dwg-block dwg-block-menu">`;
                 html += `<div class="gray-bar-title" data-i18n="${titleKey}">Чертёж ${blockNumber}</div>`;
 
                 if (pair[0]) {
@@ -217,7 +219,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         </div>
                     </div>`;
 
-            html += `<h4 class="section-title" style="font-size: 20px; margin-top: 26px; margin-bottom: 35px;" data-i18n="info_subtitle">Краткое описание продукции:</h4>`;
+            html += `<h4 class="section-title" style="font-size: 20px; margin-top: 35px; margin-bottom: 25px;" data-i18n="info_subtitle">Краткое описание продукции:</h4>`;
             // Список
             if (data.list && data.list.length > 0) {
                 html += '<ol class="features-list">';
@@ -240,8 +242,9 @@ document.addEventListener('DOMContentLoaded', function() {
             const menuKeys = [ 'new_dwg_U_menu_1', 'new_dwg_U_menu_2', 'new_dwg_U_menu_3'];
             const titleKeys = [ 'new_dwg_U_title_1', 'new_dwg_U_title_2', 'new_dwg_U_title_3'];
 
+          
             menuKeys.forEach((key, idx) => {
-                html += `<li><a href="#dwg-${idx + 1}-${targetId}" data-i18n="${key}">${key}</a></li>`;
+                html += `<li><a href="javascript:void(0)" onclick="showModel(${idx + 1}, '${targetId}')" data-i18n="${key}">${key}</a></li>`;
             });
             html += `</ul></div></div>`;
 
@@ -249,7 +252,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 const titleKey = titleKeys[idx];
                 const blockNumber = idx + 1;
 
-                html += `<div id="dwg-${blockNumber}-${targetId}" class="dwg-block">`;
+               
+                html += `<div id="dwg-${blockNumber}-${targetId}" class="dwg-block dwg-block-menu">`;
                 html += `<div class="gray-bar-title" data-i18n="${titleKey}">Чертёж ${blockNumber}</div>`;
 
                 if (pair[0]) {
@@ -279,7 +283,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         </div>
                     </div>`;
 
-            html += `<h4 class="section-title" style="font-size: 20px; margin-top: 26px; margin-bottom: 35px;" data-i18n="info_subtitle">Краткое описание продукции:</h4>`;
+            html += `<h4 class="section-title" style="font-size: 20px; margin-top: 35px; margin-bottom: 25px;" data-i18n="info_subtitle">Краткое описание продукции:</h4>`;
             // Список
             if (data.list && data.list.length > 0) {
                 html += '<ol class="features-list">';
@@ -301,8 +305,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
             const menuKeys = [ 'new_dwg_Gantry_Project_menu_1', 'new_dwg_Gantry_Project_menu_2' ];
             const titleKeys = [ 'new_dwg_Gantry_Project_title_1', 'new_dwg_Gantry_Project_title_2' ];
+
+           
             menuKeys.forEach((key, idx) => {
-                html += `<li><a href="#dwg-${idx + 1}-${targetId}" data-i18n="${key}">${key}</a></li>`;
+                html += `<li><a href="javascript:void(0)" onclick="showModel(${idx + 1}, '${targetId}')" data-i18n="${key}">${key}</a></li>`;
             });
             html += `</ul></div></div>`;
 
@@ -310,7 +316,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 const titleKey = titleKeys[idx];
                 const blockNumber = idx + 1;
 
-                html += `<div id="dwg-${blockNumber}-${targetId}" class="dwg-block">`;
+              
+                html += `<div id="dwg-${blockNumber}-${targetId}" class="dwg-block dwg-block-menu">`;
                 html += `<div class="gray-bar-title" data-i18n="${titleKey}">Чертёж ${blockNumber}</div>`;
 
                 if (pair[0]) {
@@ -334,6 +341,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         }
         else if (targetId === '5') {
+          
             html += `<div style="text-align: center; margin-bottom: 10px;">
                         <div class="header-top-bar">
                             <h2 class="section-title" data-i18n="${data.title}">Вспомогательный балочный кран на 450+450 т.</h2>
@@ -361,6 +369,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });           
         }
         else if (targetId === '6') {
+       
             html += `<div style="text-align: center; margin-bottom: 10px;">
                         <div class="header-top-bar">
                             <h2 class="section-title" data-i18n="${data.title}">Гусеничный контейнерный козловой кран</h2>
@@ -386,13 +395,14 @@ document.addEventListener('DOMContentLoaded', function() {
             });           
         }
         else if (targetId === '7') {
+       
             html += `<div style="text-align: center; margin-bottom: 10px;">
                         <div class="header-top-bar">
                             <h2 class="section-title" data-i18n="${data.title}">Электрическая тележка</h2>
                         </div>
                     </div>`;
 
-            html += `<h4 class="section-title" style="font-size:20px; margin-top:26px; margin-bottom:25px;" data-i18n="info_subtitle">Краткое описание продукции:</h4>`;
+            html += `<h4 class="section-title" style="font-size:20px; margin-top: 35px; margin-bottom: 25px;" data-i18n="info_subtitle">Краткое описание продукции:</h4>`;
             html += `<p data-i18n="info_Electric_Flat_p" style="margin-bottom:25px; line-height:1.7; text-align:justify;">info_Electric_Flat_p</p>`;
 
             data.images.forEach((pair, idx) => {
@@ -400,7 +410,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     html += `<h3 class="section-title specs-title" style="font-size: 20px; margin-top: 35px; margin-bottom: 35px;" data-i18n="${data.specs}">${data.specs}</h3>`;
                     html += `<div style="text-align: center; margin: 40px 0;">
                                 <a href="${pair[0]}" target="_blank">
-                                
                                     <img src="${pair[0]}" alt="Drawing" class="table-image">
                                 </a>
                              </div>`;
@@ -451,4 +460,19 @@ window.addEventListener('resize', function() {
     }, 300);
 });
 
+function showModel(blockNumber, targetId) {
+  
+    document.querySelectorAll('.dwg-block-menu').forEach(block => {
+        block.classList.remove('active');
+    });
+
+    
+    const targetBlock = document.getElementById(`dwg-${blockNumber}-${targetId}`);
+    if (targetBlock) {
+        targetBlock.classList.add('active');
+        targetBlock.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+}
+
 window.toggleAccordion = toggleAccordion;
+window.showModel = showModel;
