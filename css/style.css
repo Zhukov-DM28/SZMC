@@ -1762,3 +1762,25 @@ h1, h2, h3, h4, h5, h6,
         margin-bottom: 10px !important;
     }
 }
+
+     /* Увеличенный отступ у заголовка "Эскиз" */
+    .dwg-block .section-title[data-i18n*="sketch"] {
+        margin-top: 35px !important;
+    }
+
+/* ==========================================================================
+   СКРЫТИЕ/ПОКАЗ БЛОКОВ МОДЕЛЕЙ — ТОЛЬКО ТАМ, ГДЕ ЕСТЬ МЕНЮ
+   ========================================================================== */
+
+    .dwg-block {
+        display: block;
+    }
+
+    .dwg-block.dwg-block-menu {
+        display: none;
+    }
+
+    .dwg-block.dwg-block-menu.active {
+        display: block;
+    }
+
