@@ -455,8 +455,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
 
                 html += `<div style="text-align: center; margin: 25px 0;">
-                        <a href="../img_DWG/QZ_type_overhead_crane/QZ_type_overhead_crane.png" target="_blank">
-                            <img src="../img_DWG/QZ_type_overhead_crane/QZ_type_overhead_crane.png" alt="QZ Grab Bridge Crane" class="table-image" style="max-width: 850px; width: 100%; height: auto;">
+                        <a href="../img_BC/QZ_type_overhead_crane/QZ_type_overhead_crane.png" target="_blank">
+                            <img src="../img_BC/QZ_type_overhead_crane/QZ_type_overhead_crane.png" alt="QZ Grab Bridge Crane" class="table-image" style="max-width: 850px; width: 100%; height: auto;">
                             </a>
                         </div>`;
                 if (data.newModels && data.newModels.length > 0) {
@@ -693,8 +693,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
 
                 html += `<div style="text-align: center; margin: 25px 0;">
-                            <a href="../img_DWG/QY_type_overhead_isolationcrane with_hook/QY_type_overhead_isolationcrane with_hook.png" target="_blank">
-                                <img src="../img_DWG/QY_type_overhead_isolationcrane with_hook/QY_type_overhead_isolationcrane with_hook.png" alt="QY Insulating Overhead Crane" class="table-image" style="max-width: 850px; width: 100%; height: auto;">
+                            <a href="../img_BC/QY_type_overhead_isolationcrane with_hook/QY_type_overhead_isolationcrane with_hook.png" target="_blank">
+                                <img src="../img_BC/QY_type_overhead_isolationcrane with_hook/QY_type_overhead_isolationcrane with_hook.png" alt="QY Insulating Overhead Crane" class="table-image" style="max-width: 850px; width: 100%; height: auto;">
                             </a>
                          </div>`;
 
