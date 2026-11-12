@@ -579,19 +579,19 @@
 
 
     /* ==========================================================================
-       ПОДВАЛ (FOOTER)
-       ========================================================================== */
+    ПОДВАЛ (FOOTER)
+    ========================================================================== */
     .site-footer {
         background-color: #004b84;
-        padding: 10px 0 150px 10;
-        border-top: 1px solid var(--border-color);
-        font-size: 8px;
+        padding: 46px 15px 45px 15px; 
         color: white;
         text-align: center;
+        width: 100%;
+        font-size: 8px; 
     }
-  
+
     .footer-copy:hover {
-    color: #cbd5e1;
+        color: #cbd5e1;
     }
 
 /* ===== КЛЮЧЕВЫЕ КАДРЫ ДЛЯ АНИМАЦИИ ===== */
@@ -1041,13 +1041,7 @@ body {
 }
 
 
-.site-footer {
-    background-color: #004b84;
-    padding: 25px 15px;
-    color: white;
-    text-align: center;
-    width: 100%;
-}
+
 
 /* ==========================================================================
    ИСПРАВЛЕНИЕ ПЕРЕНОСА ДЛИННЫХ СЛОВ
