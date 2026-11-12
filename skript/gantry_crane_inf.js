@@ -1,5 +1,5 @@
 const productData = {
-    1: {
+    5: {
         title: 'info_MDG_type',
         images: [
             ['../img_GC/MDG_SB_Door/MDG_SB_Door_DWG.png',  '../img_GC/MDG_SB_Door/MDG_SB_Door_Tab.png'],
@@ -9,7 +9,7 @@ const productData = {
         list: ['info_L_p1', 'info_L_p2', 'info_L_p3'],
         specs: 'info_specs'
     },
-    2: {
+    6: {
         title: 'info_MG_type',
         images: [
             ['../img_GC/MG_DB_Crane/MG_DB_Gantry_DWG.png',  '../img_GC/MG_DB_Crane/MG_DB_Gantry_Tab.png'],
@@ -23,7 +23,7 @@ const productData = {
         list: ['info_MG_p1', 'info_MG_p2', 'info_MG_p3'],
         specs: 'info_specs'
     },
-    3: {
+    7: {
         title: 'info_U_type',
         images: [
             ['','../img_GC/U_DG_Crane/U_DG_Tab.png'],
@@ -33,7 +33,7 @@ const productData = {
         list: ['info_U_p1', 'info_U_p2', 'info_U_p3'],
         specs: 'info_specs'
     }, 
-    4: {
+    8: {
         title: 'info_Gantry_Project_type',
         images: [
             ['../img_GC/Gantry_Crane_Project/Gantry_Project_DWG.png',  '../img_GC/Gantry_Crane_Project/Gantry_Project_Tab.png'],
@@ -42,21 +42,21 @@ const productData = {
         list: ['info_Gantry_Project_p1', 'info_Gantry_Project_p2',],
         specs: 'info_specs'
     },  
-    5: {
+    9: {
         title: 'info_Lnstitute_Girder_crane',
         images: [
             ['../img_GC/Institute_Girder_Crane/Institute_Girder_Crane_DWG.png', '../img_GC/Institute_Girder_Crane/Institute_Girder_Crane_Tab.png'],
         ],        
         specs: 'info_specs'
     }, 
-    6: {
+    10: {
         title: 'info_Track_Cont_Gantry',
         images: [
             ['../img_GC/Track-type_Ccontainer_gantry_crane/Track_Cont_Gantry_DWG.png', '../img_GC/Track-type_Ccontainer_gantry_crane/Track_Cont_Gantry_Tab.png'],
         ],        
         specs: 'info_specs'
     },  
-    7: {
+    11: {
         title: 'info_Electric cart',
         images: [
             ['../img_GC/Electric_cart/Electric cart_Tab.png'],
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
         panels.forEach(panel => panel.classList.remove('active'));
         let html = '';
 
-        if (targetId === '1') {
+        if (targetId === '5') {
             html += `<div style="text-align: center; margin-bottom: 10px;">
                         <div class="header-top-bar">
                             <h2 class="section-title" data-i18n="${data.title}">Козловой кран MDG с крюком и однобалочной главной балкой грузоподъёмностью 5~50/10 т.</h2>
@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 html += `</div>`;
             });
         }           
-        else if (targetId === '2') {
+        else if (targetId === '6') {
             html += `<div style="text-align: center; margin-bottom: 10px;">
                         <div class="header-top-bar">
                             <h2 class="section-title" data-i18n="${data.title}">Козловой кран типа MG грузоподъемностью 5-500 т. с двойной балкой</h2>
@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 html += `</div>`;
             });
         }
-        else if (targetId === '3') {
+        else if (targetId === '7') {
             html += `<div style="text-align: center; margin-bottom: 10px;">
                         <div class="header-top-bar">
                             <h2 class="section-title" data-i18n="${data.title}">Козловой кран U-образной конструкции с двумя балками и крюком, грузоподъемностью 10~50/10 т.</h2>
@@ -276,7 +276,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 html += `</div>`;
             });
         }  
-        else if (targetId === '4') {
+        else if (targetId === '8') {
             html += `<div style="text-align: center; margin-bottom: 10px;">
                         <div class="header-top-bar">
                             <h2 class="section-title" data-i18n="${data.title}">Портальный кран с крюком для проекта</h2>
@@ -340,7 +340,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 html += `</div>`;
         });
         }
-        else if (targetId === '5') {
+        else if (targetId === '9') {
           
             html += `<div style="text-align: center; margin-bottom: 10px;">
                         <div class="header-top-bar">
@@ -368,7 +368,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 html += `</div>`;
             });           
         }
-        else if (targetId === '6') {
+        else if (targetId === '10') {
        
             html += `<div style="text-align: center; margin-bottom: 10px;">
                         <div class="header-top-bar">
@@ -394,7 +394,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 html += `</div>`;
             });           
         }
-        else if (targetId === '7') {
+        else if (targetId === '11') {
        
             html += `<div style="text-align: center; margin-bottom: 10px;">
                         <div class="header-top-bar">

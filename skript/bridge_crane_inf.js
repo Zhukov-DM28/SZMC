@@ -74,7 +74,7 @@ const productData = {
             }
         ]
     },
-        5: {
+        8: {
         title: 'info_YZ_type',
         subtitle: 'info_YZ_subtitle',
         paragraphs: [  'info_YZ_p1', 'info_YZ_p2', 'info_YZ_p3', 'info_YZ_p4', 'info_YZ_p5',     'info_YZ_p6', 'info_YZ_p7', 'info_YZ_p8', 'info_YZ_p9', 'info_YZ_p10' ],
@@ -92,7 +92,7 @@ const productData = {
             { imgs: ['../img_BC/YZ type _tons casting_crane/YZ_type_crane9.png'], tables: ['../img_BC/YZ type _tons casting_crane/table_YZ9.png'] }
         ]
     },
-        6: {
+        9: {
         title: 'info_QY_type',
         subtitle: 'info_QY_subtitle',
         paragraphs: [ 'info_QY_p1', 'info_QY_p2', 'info_QY_p3', 'info_QY_p4', 'info_QY_p5' ],
@@ -107,7 +107,7 @@ const productData = {
             { imgs: ['../img_BC/QY_type_overhead_isolationcrane with_hook/QY_type_overhead_isolationcrane with_hook6.png'], tables: ['../img_BC/QY_type_overhead_isolationcrane with_hook/QY_table6.png'] }
         ]
     },
-        7: {
+        10: {
         title: 'info_QB_type',
         img: '../img_BC/QB_type_overhead_crane/QB_type_overhead_crane.png',
         list: ['info_QB_p1', 'info_QB_p2', 'info_QB_p3', 'info_QB_p4'],
@@ -122,7 +122,7 @@ const productData = {
             ['../img_BC/QB_type_overhead_crane/QB_type_overhead_crane5.png', '../img_BC/QB_type_overhead_crane/QB_table4.png']
         ]
     },
-        8: {
+        11: {
         title: 'info_QC_type',
         img: '../img_BC/QC_type_crane_with_magnt/QC_type_crane with_magnt.png',
         list: ['info_QC_p1', 'info_QC_p2', 'info_QC_p3', 'info_QC_p4'],
@@ -136,7 +136,7 @@ const productData = {
             ['../img_BC/QC_type_crane_with_magnt/QC_type_crane with_magnt4.png', '../img_BC/QC_type_crane_with_magnt/QC_table3.png']
         ]
     },
-        9: {
+        12: {
         title: 'info_OC_type',
         img: [ '../img_BC/Overhead_Crane with_Carrier-beam/Overhead_Crane with_Carrier-beam.png','../img_BC/Overhead_Crane with_Carrier-beam/Overhead_Crane with_Carrier-beam2.png' ],
         list: ['info_OC_p1', 'info_OC_p2'],
@@ -161,7 +161,7 @@ const productData = {
             ['../img_BC/Overhead_Crane with_Carrier-beam/Overhead_Crane with_Carrier-beam16.png','../img_BC/Overhead_Crane with_Carrier-beam/OC_table14.png'],           
         ]
     },
-        10: {
+        13: {
         title: 'info_OL_type',
         specs: 'new_dwg_OL_specs_title',
         newTitles: ['new_dwg_OL_title_1', 'new_dwg_OL_title_2'],
@@ -178,7 +178,7 @@ const productData = {
             }
         ]
     },
-        11: {
+        14: {
         title: 'info_Tongs_type',
         specs: ['info_A5_specs', 'info_A6_specs'],
         newTitles: ['new_dwg_Tongs_title_1'],
@@ -190,7 +190,7 @@ const productData = {
             }
         ]
     },
-        12: {
+        15: {
             title: 'info_Garbage_type',
             newModels: [
                 {
@@ -603,7 +603,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                 }
         }
-        else if (targetId === '5') {
+        else if (targetId === '8') {
                 html += `<div style="text-align: center; margin-bottom: 20px;">
                             <div class="header-top-bar">
                                 <h2 class="section-title" data-i18n="${data.title}">Литейный кран типа YZ</h2>
@@ -677,7 +677,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                 }
         }
-        else if (targetId === '6') {
+        else if (targetId === '9') {
                 html += `<div style="text-align: center; margin-bottom: 20px;">
                             <div class="header-top-bar">
                                 <h2 class="section-title" data-i18n="${data.title}">Мостовой изолирующий кран типа QY</h2>
@@ -754,7 +754,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                 }
         } 
-        else if (targetId === '7') {
+        else if (targetId === '10') {
                 html += `<div style="text-align: center; margin-bottom: 10px;">
                             <div class="header-top-bar">
                                 <h2 class="section-title" data-i18n="${data.title}">Мостовой взрывозащищённый кран типа QB</h2>
@@ -823,7 +823,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     html += `</div>`;
                 });
         }
-        else if (targetId === '8') {
+        else if (targetId === '11') {
                 html += `<div style="text-align: center; margin-bottom: 10px;">
                             <div class="header-top-bar">
                                 <h2 class="section-title" data-i18n="${data.title}">Мостовой кран типа QC с электромагнитным захватом и крюком</h2>
@@ -893,7 +893,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     html += `</div>`;
                 });
         }
-        else if (targetId === '9') {
+        else if (targetId === '12') {
                 html += `<div style="text-align: center; margin-bottom: 10px;">
                             <div class="header-top-bar">
                                 <h2 class="section-title" data-i18n="${data.title}">Мостовой кран с грузовой балкой</h2>
@@ -973,7 +973,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     html += `</div>`;
                 });
         }
-        else if (targetId === '10') {
+        else if (targetId === '13') {
                 html += `<div style="text-align: center; margin-bottom: 10px;">
                             <div class="header-top-bar">
                                 <h2 class="section-title" data-i18n="${data.title}">Сверхдлинный электромагнитный мостовой кран с грузовой балкой</h2>
@@ -1016,7 +1016,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                 }
         } 
-        else if (targetId === '11') {
+        else if (targetId === '14') {
                 html += `<div style="text-align: center; margin-bottom: 10px;">
                             <div class="header-top-bar">
                                 <h2 class="section-title" data-i18n="${data.title}">Клещевой мостовой кран 35~65 т.</h2>
@@ -1108,7 +1108,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                 }
         }
-        else if (targetId === '12') {
+        else if (targetId === '15') {
             html += `<div style="text-align: center; margin-bottom: 10px;">
                         <div class="header-top-bar">
                             <h2 class="section-title" data-i18n="${data.title}">Мостовой грейферный кран для мусора</h2>

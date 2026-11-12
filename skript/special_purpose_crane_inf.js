@@ -1,5 +1,5 @@
 const productData = {
-    1: {
+    4: {
         title: 'info_boom_crane_type',
         titleKeys: [
             'new_dwg_BX_title',
@@ -9,13 +9,11 @@ const productData = {
             'new_dwg_Flex_Wall_title'
         ],
         newModels: [
-            //  МОДЕЛЬ 1 — BX 
             {
                 imgs: ['../img_SPC/BX_Wall_Slewing_Crane/BX_Wall_Slewing_DWG.png'],
                 tables: ['../img_SPC/BX_Wall_Slewing_Crane/BX_Wall_Slewing_Tab.png'],
                 sketchTitle: 'info_sketch'
             },
-            //  МОДЕЛЬ 2 — BZ 
             {
                 imgs: ['../img_SPC/BZ_Fixed_Pillar_Crane/BZ_Fixed_Pillar_DWG.png'],
                 tables: ['../img_SPC/BZ_Fixed_Pillar_Crane/BZ_Fixed_Pillar_Tab.png'],
@@ -26,7 +24,6 @@ const productData = {
                 paragraphAfterOrder: 'info_BZ_order_text',
                 sketchTitle: 'info_sketch'
             },
-            //  МОДЕЛЬ 3 — BB 
             {
                 paragraphs: ['info_BB_p1'],
                 pairs: [
@@ -47,14 +44,12 @@ const productData = {
                 paragraphAfterOrder: 'info_BB_order_text',
                 sketchTitle: 'info_sketch'
             },
-            //  МОДЕЛЬ 4  
             {
                 paragraphs: ['info_Light_p1', 'info_Light_p2', 'info_Light_p3', 'info_Light_p4', 'info_Light_p5'],
                 sketchTitle: 'info_sketch',
                 imgs: ['../img_SPC/Light_Flex_Column_Crane/Light_Flex_Column_DWG.png'],
                 tables: ['../img_SPC/Light_Flex_Column_Crane/Light_Flex_Column_Tab.png']
             },
-            //  МОДЕЛЬ 5 
             {
                 paragraphs: ['info_Flex_Wall_p1', 'info_Flex_Wall_p2', 'info_Flex_Wall_p3', 'info_Flex_Wall_p4', 'info_Flex_Wall_p5'],
                 sketchTitle: 'info_sketch',
@@ -92,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
             let html = '';
 
             // СТРЕЛОВОЙ КРАН 
-            if (targetId === '1') {
+            if (targetId === '4') {
                 html += `<div style="text-align: center; margin-bottom: 10px;">
                             <div class="header-top-bar">
                                 <h2 class="section-title" data-i18n="${data.title}">Стреловой кран</h2>
