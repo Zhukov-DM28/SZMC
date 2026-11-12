@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SZMC</title>
-    <script src="../skript/language.js"></script>
-    <script src="../skript/gantry_crane_inf.js"></script> 
-</head>
+    <link rel="preload" href="../css/style.css" as="style">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="shortcut icon" href="../img/logo2.ico" type="image/x-icon">
+    <script src="../skript/language.js" defer></script>
+    <script src="../skript/gantry_crane_inf.js" defer></script> 
+</head>
 <body>
     <header class="site-header">
         <div class="container header-container">
@@ -45,24 +46,26 @@
             </ul>
         </div>
     </nav>
+    
     <div class="lang-panel-center" id="langPanelCenter">
-    <div class="lang-panel-inner">
-        <button class="lang-btn-center active" data-lang="ru">
-            <span class="lang-code">RU</span>
-            <span class="status-dot"></span>
-        </button>
-        <span class="lang-divider-center"></span>
-        <button class="lang-btn-center" data-lang="en">
-            <span class="lang-code">EN</span>
-            <span class="status-dot"></span>
-        </button>
-        <span class="lang-divider-center"></span>
-        <button class="lang-btn-center" data-lang="zh">
-            <span class="lang-code">CN</span>
-            <span class="status-dot"></span>
-        </button>
+        <div class="lang-panel-inner">
+            <button class="lang-btn-center active" data-lang="ru">
+                <span class="lang-code">RU</span>
+                <span class="status-dot"></span>
+            </button>
+            <span class="lang-divider-center"></span>
+            <button class="lang-btn-center" data-lang="en">
+                <span class="lang-code">EN</span>
+                <span class="status-dot"></span>
+            </button>
+            <span class="lang-divider-center"></span>
+            <button class="lang-btn-center" data-lang="zh">
+                <span class="lang-code">CN</span>
+                <span class="status-dot"></span>
+            </button>
+        </div>
     </div>
-    </div>
+    
     <main class="main-content container">
         <div class="page-layout">
             <article class="text-article">
@@ -92,31 +95,31 @@
                     </div>
                     <div class="product-card" data-target="8">
                         <div class="double-image">
-                            <img src="../img/Gantry_crane2.jpg" alt="Козловой кран с электрической талью">
-                            <img src="../img/Gantry_crane.jpg" alt="Козловой кран с электрической талью 2">
+                            <img src="../img/Gantry_crane2.jpg" alt="Козловой кран с электрической талью" loading="lazy">
+                            <img src="../img/Gantry_crane.jpg" alt="Козловой кран с электрической талью 2" loading="lazy">
                         </div>
                         <h3 data-i18n="gantry_card1">Козловой кран с электрической талью</h3>
                     </div>
 
                     <div class="product-card" data-target="9">
                         <div class="double-image">
-                            <img src="../img/Gantry_crane3.jpg" alt="Двухбалочный козловой кран с электрической талью">
-                            <img src="../img/Gantry_crane4.jpg" alt="Двухбалочный козловой кран с электрической талью 2">
+                            <img src="../img/Gantry_crane3.jpg" alt="Двухбалочный козловой кран с электрической талью" loading="lazy">
+                            <img src="../img/Gantry_crane4.jpg" alt="Двухбалочный козловой кран с электрической талью 2" loading="lazy">
                         </div>
                         <h3 data-i18n="gantry_card2">Двухбалочный козловой кран с электрической талью</h3>
                     </div>
 
                     <div class="product-card" data-target="10">
                         <div class="double-image">
-                            <img src="../img/Gantry_crane5.jpg" alt="Полукозловой кран">
-                            <img src="../img/Gantry_crane6.jpg" alt="Полукозловой кран 2">
+                            <img src="../img/Gantry_crane5.jpg" alt="Полукозловой кран" loading="lazy">
+                            <img src="../img/Gantry_crane6.jpg" alt="Полукозловой кран 2" loading="lazy">
                         </div>
                         <h3 data-i18n="gantry_card3">Полукозловой кран</h3>
                     </div>
                     <div class="product-card" data-target="11">
                         <div class="double-image">
-                            <img src="../img/Gantry_crane7.jpg" alt="Двухбалочный козловой кран">
-                            <img src="../img/Gantry_crane8.png" alt="Двухбалочный козловой кран 2">
+                            <img src="../img/Gantry_crane7.jpg" alt="Двухбалочный козловой кран" loading="lazy">
+                            <img src="../img/Gantry_crane8.png" alt="Двухбалочный козловой кран 2" loading="lazy">
                         </div>
                         <h3 data-i18n="gantry_card4">Двухбалочный козловой кран</h3>
                     </div>
@@ -128,7 +131,7 @@
 
     <footer class="site-footer">
         <div class="container">
-            <p><h1 data-i18n="footer_russian">Качество — прежде всего, честность — основа.</h1></p>
+            <h1 data-i18n="footer_russian">Качество — прежде всего, честность — основа.</h1>
         </div>
     </footer>
 </body>
